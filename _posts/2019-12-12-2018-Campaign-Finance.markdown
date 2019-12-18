@@ -19,7 +19,7 @@ categories:
 
 ![senate]({{ site.url }}/assets/FECpt1/senate_2018.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let's use a super simple predictive model that says that for any contest that is not an open[^4] seat, the incumbent will win for sure when s/he has the highest funding. Now let's see where that model either doesn't apply (meaning the incumbent was not the highest-funded) or is wrong (meaning a lesser-funded challenger won):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let's use a super simple predictive model that says that for any contest that is not an open seat[^4], the incumbent will win for sure when s/he has the highest funding. Now let's see where that model either doesn't apply (meaning the incumbent was not the highest-funded) or is wrong (meaning a lesser-funded challenger won):
 
 ![senate_unexpecteds]({{ site.url }}/assets/FECpt1/senate_2018_unexpecteds.png)
 
@@ -74,6 +74,6 @@ Footnotes
 [^1]: https://www.npr.org/2018/11/22/669591667/from-get-out-to-vote-to-text-out-to-vote-the-rise-of-peer-to-peer-texting
 [^2]: https://www.fec.gov/data/browse-data/?tab=bulk-data
 [^3]: https://ballotpedia.org/United_States_Congress_elections,_2018
-[^4]: "Open" means there was no incumbent on the ballot, which happens due to certain redistricting scenarios, retirement/resignation/death of the sitting elected official, etc.
+[^4]: "Open" means there was no incumbent on the ballot, which happens due to certain redistricting scenarios, retirement/resignation/death of the sitting elected official, etc.  You can see a plot of 2018 open contests &#8594;[here]({{ site.url }}/assets/FECpt1/open_seats_2018.png)&#8592;.
 [^5]: https://ballotpedia.org/United_States_Senate_special_election_in_Minnesota,_2018
 [^6]: https://ballotpedia.org/North_Carolina%27s_9th_Congressional_District_election,_2018
