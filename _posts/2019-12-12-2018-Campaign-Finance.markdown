@@ -40,15 +40,16 @@ categories:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So what happened? These are scenarios where...
 
 **Hypothesis &#35;1 is wrong:**
+* MO &#8212; Republican *challenger* raised *less* and won;
+* ND &#8212; Republican *challenger* raised *less* and won.
+
+**We can't use Hypothesis &#35;1:**
 * TX &#8212; Republican incumbent raised *less* and won;
 * NJ &#8212; Democratic incumbent raised *less* and won;
 * FL &#8212; Republican *challenger* raised more and won;
 * IN &#8212; Republican *challenger* raised more and won;
 * NV &#8212; Democratic *challenger* raised more and won.
 
-**We can't use Hypothesis &#35;1:**
-* MO &#8212; Republican *challenger* raised *less* and won;
-* ND &#8212; Republican *challenger* raised *less* and won.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The FEC provides a breakdown of funding sources for the campaign finance data it reports. In the next posts we're going to check whether additional funding data can help explain these outcomes; for now, let's see how Hypothesis &#35;1 works on the 2018 House of Representatives data.
 
