@@ -40,11 +40,11 @@ categories:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So what happened? These are scenarios where...
 
 **Hypothesis &#35;1 is wrong:**
-* NJ &#8212; Democratic incumbent raised *less* and won;
 * TX &#8212; Republican incumbent raised *less* and won;
+* NJ &#8212; Democratic incumbent raised *less* and won;
 * FL &#8212; Republican *challenger* raised more and won;
-* NV &#8212; Democratic *challenger* raised more and won;
-* IN &#8212; Republican *challenger* raised more and won.
+* IN &#8212; Republican *challenger* raised more and won;
+* NV &#8212; Democratic *challenger* raised more and won.
 
 **We can't use Hypothesis &#35;1:**
 * MO &#8212; Republican *challenger* raised *less* and won;
@@ -79,7 +79,7 @@ categories:
 * UT_04 &#8212; Democratic *challenger* raised *less* and won;
 * CA_21 &#8212; Democratic *challenger* raised *less* and won;
 * GA_06 &#8212; Democratic *challenger* raised *less* and won;
-* VA_11 &#8212; Republican *challenger* raised *less* and won (the only House Republican who won beyond the scope of Hypotheses &#35;1 & &#35;2).
+* VA_11 &#8212; Republican *challenger* raised *less* and won (the only Republican House candidate who won beyond the scope of Hypotheses &#35;1 & &#35;2).
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Again, future posts will discuss whether additional FEC data on funding sources can help improve our Congressional election predictive capacity beyond Hypotheses &#35;1 (that any incumbent will win when s/he is ahead in funding) and &#35;2 (that House Republican incumbents with less funding are more likely to win than House Republican incumbents with more funding, with a $3-5MM cutoff threshold).
