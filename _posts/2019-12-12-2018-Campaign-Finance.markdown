@@ -31,7 +31,7 @@ categories:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Which brings us to...
 
-**Hypothesis &#35;1: Any incumbent will win when s/he is ahead in funding.**
+**Hypothesis &#35;1: Any incumbent ahead in funding will win.**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as saying that any challenger who is behind in funding will lose. If this happens, our prediction is correct; otherwise, it failed. Since our hypothesis imposes two conditions on a candidate that do not always align &#8212; incumbency status and relative funding status &#8212; we need a new predictive model whenever those conditions are not satisfied (see MO and ND). &#8594;[Here]({{ site.url }}/assets/FECpt1/show_odds_senate_2018.png)&#8592; are the raw data of where Hypothesis &#35;1 is wrong or we can't use it, and the plot:
 
@@ -83,7 +83,7 @@ categories:
 * VA_11 &#8212; Republican *challenger* raised *less* and won (the only Republican House candidate who won beyond the scope of Hypotheses &#35;1 & &#35;2).
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Again, future posts will discuss whether additional FEC data on funding sources can help improve our Congressional election predictive capacity beyond Hypotheses &#35;1 (that any incumbent will win when s/he is ahead in funding) and &#35;2 (that House Republican incumbents with less funding are more likely to win than House Republican incumbents with more funding, with a $3-5MM cutoff threshold).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Again, future posts will discuss whether additional FEC data on funding sources can help improve our Congressional election predictive capacity beyond Hypotheses &#35;1 (that any incumbent ahead in funding will win) and &#35;2 (that House Republican incumbents with less funding are more likely to win than House Republican incumbents with more funding, with a $3-5MM cutoff threshold).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks for reading! We'd love to hear what you're thinking&#8212; please leave any thoughts & questions in the comments below. If you'd like a free plot of a particular state/U.S. territory, email us at contact@volsweep.com. &#8212;Rebecca
 
