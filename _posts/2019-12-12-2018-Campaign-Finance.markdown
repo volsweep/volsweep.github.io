@@ -15,38 +15,38 @@ categories:
 ## U.S. Senate
 ![senate]({{ site.url }}/assets/FECpt1/senate_2018.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see, most winners are incumbents ahead in funding (that is, you see a lot of solid circles to the right of any other symbol on the same horizontal line). Some notes before we hypothesize:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see, most winners are incumbents ahead in funding (that is, you see a lot of filled-in circles to the right of any other symbol on the same horizontal line). Some notes before we hypothesize:
 
 * _**Open seats:**_ The "+" symbol represents candidates for an open seat[^3]. Disregard for now.
 
-* _**Uncontested candidates:**_ An opponent-less candidate will always win; no model needed. Disregard.
+* _**Uncontested seats:**_ An opponent-less candidate will always win; no model needed. Disregard.
 
 * _**Multiple incumbents:**_ PA_17 actually had two incumbents in 2018 due to two districts merging [^4]. Scenarios like that are very exceptional, so we'll disregard for model building.
 
-* _**Multiple andidates per party:**_ States like Louisiana and California have rules allowing more than one candidate per party on the ballot. We're going to assume for the most part that a maximum of one candidate per party ends up on the ballot.
+* _**Multiple candidates per party:**_ States like Louisiana and California have rules allowing more than one candidate per party on the ballot. We're going to assume for the most part that a maximum of one candidate per party ends up on the ballot.
 
-* _**Timing assumption:**_ A big assumption we're making is that it's reasonable to make predictions using Q3 FEC filings. Incumbency status obviously doesn't change per candidate over the course of an election season, but funding obviously does. We're not (yet) taking into account changes in funding over time.
+* _**Timing assumption:**_ A big assumption we're making is that it's reasonable to make predictions using Q3 FEC filings. Incumbency status obviously doesn't change per candidate over the course of an election season, but funding almost certainly does (and possibly relative funding status). In this post we're not taking into account changes in funding over time.
 
 * _**Time machine issue:**_ Finally, the FEC is reporting some candidates' final 2018 filing after the election date. We're assuming that post-election funding changes over part of November and all of December are relatively small compared to the rest of the election season.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This brings us to...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Which brings us to...
 
 **Hypothesis &#35;1: Any incumbent will win when s/he is ahead in funding.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as saying that any challenger who is behind in funding will lose. If this happens, our prediction is correct; otherwise, it failed. Since our hypothesis imposes two conditions on a candidate that do not always align &#8212; incumbency status and relative funding status &#8212; we need a new predictive model whenever those conditions are not satisfied (see MO and ND). &#8594;[Here]({{ site.url }}/assets/FECpt1/show_odds_senate_2018.png)&#8592; are the raw data of where Hypothesis &#35;1 is wrong or can't be used, and the plot:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as saying that any challenger who is behind in funding will lose. If this happens, our prediction is correct; otherwise, it failed. Since our hypothesis imposes two conditions on a candidate that do not always align &#8212; incumbency status and relative funding status &#8212; we need a new predictive model whenever those conditions are not satisfied (see MO and ND). &#8594;[Here]({{ site.url }}/assets/FECpt1/show_odds_senate_2018.png)&#8592; are the raw data of where Hypothesis &#35;1 is wrong or we can't use it, and the plot:
 
 ![senate_unexpecteds]({{ site.url }}/assets/FECpt1/senate_2018_unexpecteds.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So what happened?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So what happened? These are scenarios where...
 
-**Hypothesis &#35;1 was wrong:**
+**Hypothesis &#35;1 is wrong:**
 * NJ &#8212; Democratic incumbent raised *less* and won;
 * TX &#8212; Republican incumbent raised *less* and won;
 * FL &#8212; Republican *challenger* raised more and won;
 * NV &#8212; Democratic *challenger* raised more and won;
 * IN &#8212; Republican *challenger* raised more and won.
 
-**Can't use Hypothesis &#35;1:**
+**We can't use Hypothesis &#35;1:**
 * MO &#8212; Republican *challenger* raised *less* and won;
 * ND &#8212; Republican *challenger* raised *less* and won.
 
@@ -56,13 +56,13 @@ categories:
 ## U.S. House of Representatives
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The full House of Representatives plot is a bit long to display, so head &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018.png)&#8592; to check it out & be prepared to zoom in.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like we did for the Senate, here is a plot of all House contests where Hypothesis &#35;1 is wrong or doesn't apply. There seems to be some amount of total funding between $3-5MM when Republican incumbents become more likely to lose to Democratic challengers:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like we did for the Senate, here is a plot of all House contests where Hypothesis &#35;1 is wrong or we can't use it. There seems to be some amount of total funding between $3-5MM when Republican incumbents become more likely to lose to Democratic challengers:
 
 ![house_unexpecteds]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This brings us to something like:
 
-**Hypothesis &#35;2: Any House Republican incumbent raising under ~$3MM will probably win; above ~$3MM a House Republican incumbent will probably lose.**
+**Hypothesis &#35;2: Any incumbent House Republican raising under ~$3MM will probably win; above ~$3MM an incumbent House Republican will probably lose.**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The next plot shows contests remaining after we remove the ones that match the $3-5MM threshold trend (raw data &#8594;[here]({{ site.url }}/assets/FECpt1/oddest_house_2018.png)&#8592;):
 
