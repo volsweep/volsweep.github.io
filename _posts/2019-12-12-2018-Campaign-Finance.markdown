@@ -5,9 +5,9 @@ date: 2019-12-12 16:00:00 -0400
 comments: true
 categories:
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which may help to predict the winner of future contests.*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% of incumbents won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which might help predict winners of future contests.*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Federal Election Commission (FEC) publishes U.S. federal election campaign finance data which we looked at to find potential VolSweep customers[^1]. Interesting patterns appeared in the 2020 filings so far, so we inspected the 2018 midterm filings to see how well they would have predicted the actual election outcomes[^2]. We are sharing our findings in a series of blog posts since they are of potential public interest.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Federal Election Commission (FEC) publishes U.S. federal election campaign finance data[^1]. We noticed interesting patterns in the 2020 filings so far, so we analyzed the 2018 midterm filings to see how well they would have predicted the actual election outcomes[^2]. We are sharing our findings in a series of blog posts since they are of potential public interest.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post is an overview of trends and exceptions in the 2018 data. The next posts will cover predictive model building and evaluation on 2018 data, and then 2020 predictions using those models. All relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repository. Let's look at the 2018 Senate plot and start hypothesizing.
 
@@ -33,17 +33,19 @@ categories:
 
 **Hypothesis &#35;1: Any incumbent ahead in funding will win.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as saying that any challenger who is behind in funding will lose. If this happens, our prediction is correct; otherwise, it failed. Since our hypothesis imposes two conditions on a candidate that do not always align &#8212; incumbency status and relative funding status &#8212; we need a new predictive model whenever those conditions are not satisfied (see MO and ND). &#8594;[Here]({{ site.url }}/assets/FECpt1/show_odds_senate_2018.png)&#8592; are the raw data of where Hypothesis &#35;1 is wrong or we can't use it, and the plot:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as saying that any challenger who is behind in funding will lose. If this happens, our prediction is correct; otherwise, it failed. Since our hypothesis imposes two conditions on a candidate that do not always align &#8212; incumbency status and relative funding status &#8212; we need a new predictive model whenever those conditions are not satisfied. &#8594;[Here]({{ site.url }}/assets/FECpt1/show_odds_senate_2018.png)&#8592; are the raw data for that subset of scenarios, and the plot:
 
 ![senate_unexpecteds]({{ site.url }}/assets/FECpt1/senate_2018_unexpecteds.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So what happened? These are scenarios where...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So what happened? These are scenarios where either...
 
-**Hypothesis &#35;1 is wrong:**
+**Hypothesis &#35;1 fails:**
 * MO &#8212; Republican *challenger* raised *less* and won;
 * ND &#8212; Republican *challenger* raised *less* and won.
 
-**We can't use Hypothesis &#35;1:**
+or
+
+**Hypothesis &#35;1 doesn't apply:**
 * TX &#8212; Republican incumbent raised *less* and won;
 * NJ &#8212; Democratic incumbent raised *less* and won;
 * FL &#8212; Republican *challenger* raised more and won;
@@ -57,11 +59,9 @@ categories:
 ## U.S. House of Representatives
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The full House of Representatives plot is a bit long to display, so head &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018.png)&#8592; to check it out & be prepared to zoom in.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like we did for the Senate, here is a plot of all House contests where Hypothesis &#35;1 is wrong or we can't use it. There seems to be some amount of total funding between $3-5MM when Republican incumbents become more likely to lose to Democratic challengers:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like we did for the Senate, &#8594;[Here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; is a plot of all House contests where Hypothesis &#35;1 is wrong or we can't use it. There seems to be some amount of total funding between $3-5MM when Republican incumbents become more likely to lose to Democratic challengers:
 
-![house_unexpecteds]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The sorting on the y-axis helps us see particular races; here's a scatterplot of Republican candidate total funds received versus Democratic candidate total funds received.  Note that the marker color shows the *winner's* party affiliation, not the *higher-funded candidate's* party affiliation:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To better visualize the relationship between candidates' funding for the House contests where Hypothesis &#35;1 is either wrong or doesn't apply, here is a scatterplot of Republican candidate total funds received versus Democratic candidate total funds received.  Note that the marker color shows the *winner's* party affiliation, not the *higher-funded candidate's* party affiliation:
 
 ![house_unexpecteds_scatter]({{ site.url }}/assets/FECpt1/scatter_RvD_House.png)
 
@@ -69,11 +69,7 @@ categories:
 
 **Hypothesis &#35;2: Any incumbent House Republican raising under ~$3MM will probably win; above ~$3MM an incumbent House Republican will probably lose.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The next plot shows contests remaining after we remove the ones that match the $3-5MM threshold trend (raw data &#8594;[here]({{ site.url }}/assets/FECpt1/oddest_house_2018.png)&#8592;):
-
-![house_most_unexpecteds]({{ site.url }}/assets/FECpt1/house_2018_most_unexpecteds.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And the scatterplot:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And, finally, &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_most_unexpecteds.png)&#8592; are those contests remaining after we remove ones satisfying the $3-5MM threshold trend (raw data &#8594;[here]({{ site.url }}/assets/FECpt1/oddest_house_2018.png)&#8592;), with the scatterplot:
 
 ![house_most_unexpecteds_scatter]({{ site.url }}/assets/FECpt1/scatter_RvD_House2.png)
 
