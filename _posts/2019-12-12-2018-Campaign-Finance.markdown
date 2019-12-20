@@ -61,6 +61,10 @@ categories:
 
 ![house_unexpecteds]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The sorting on the y-axis helps us see particular races; here's a scatterplot of Republican candidate total funds received versus Democratic candidate total funds received.  Note that the marker color shows the *winner's* party affiliation, not the *higher-funded candidate's* party affiliation:
+
+![house_unexpecteds_scatter]({{ site.url }}/assets/FECpt1/scatter_RvD_House.png)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This brings us to something like:
 
 **Hypothesis &#35;2: Any incumbent House Republican raising under ~$3MM will probably win; above ~$3MM an incumbent House Republican will probably lose.**
@@ -69,7 +73,11 @@ categories:
 
 ![house_most_unexpecteds]({{ site.url }}/assets/FECpt1/house_2018_most_unexpecteds.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So what happened in these?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And the scatterplot:
+
+![house_most_unexpecteds_scatter]({{ site.url }}/assets/FECpt1/scatter_RvD_House2.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So, what happened in these?
 
 * PA_08 &#8212; Democratic incumbent raised *less* and won;
 * MI_09 &#8212; Democratic incumbent raised *less* and won;
