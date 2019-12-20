@@ -59,9 +59,7 @@ or
 ## U.S. House of Representatives
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The full House of Representatives plot is a bit long to display, so head &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018.png)&#8592; to check it out & be prepared to zoom in.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like we did for the Senate, &#8594;[Here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; is a plot of all House contests where Hypothesis &#35;1 is wrong or we can't use it. There seems to be some amount of total funding between $3-5MM when Republican incumbents become more likely to lose to Democratic challengers:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To better visualize the relationship between candidates' funding for the House contests where Hypothesis &#35;1 is either wrong or doesn't apply, here is a scatterplot of Republican candidate total funds received versus Democratic candidate total funds received.  Note that the marker color shows the *winner's* party affiliation, not the *higher-funded candidate's* party affiliation:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like we did for the Senate, &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; is a plot of all House contests where Hypothesis &#35;1 is wrong or we can't use it. There seems to be some amount of total funding between $3-5MM when Republican incumbents become more likely to lose to Democratic challengers. To better visualize the relationship between candidates' funding in these scenarios, here is a scatterplot of Republican candidate total funds received versus Democratic candidate total funds received.  Note that the marker color shows the *winner's* party affiliation, not the *higher-funded candidate's* party affiliation:
 
 ![house_unexpecteds_scatter]({{ site.url }}/assets/FECpt1/scatter_RvD_House.png)
 
