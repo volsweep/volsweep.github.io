@@ -5,7 +5,7 @@ date: 2019-12-12 16:00:00 -0400
 comments: true
 categories:
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes.*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which may help to predict the winner of future contests.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Federal Election Commission (FEC) publishes U.S. federal election campaign finance data which we looked at to find potential VolSweep customers[^1]. Interesting patterns appeared in the 2020 filings so far, so we inspected the 2018 midterm filings to see how well they would have predicted the actual election outcomes[^2]. We are sharing our findings in a series of blog posts since they are of potential public interest.
 
