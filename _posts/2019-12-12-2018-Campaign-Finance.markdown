@@ -5,9 +5,9 @@ date: 2019-12-12 16:00:00 -0400
 comments: true
 categories:
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% of incumbents won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which might help predict winners of future contests.*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% of incumbents won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which could help predict winners of future contests.*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Federal Election Commission (FEC) publishes U.S. federal election campaign finance data[^1]. We noticed interesting patterns in the 2020 filings so far, so we analyzed the 2018 midterm filings to see how well they would have predicted the actual election outcomes[^2]. We are sharing our findings in a series of blog posts since they are of potential public interest.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Federal Election Commission (FEC) publishes U.S. federal election campaign finance data[^1]. We noticed interesting patterns in the 2020 filings so far, so we analyzed the 2018 midterm filings to see how well they would have predicted the actual election outcomes[^2]. We are sharing our findings in a series of blog posts since they are of general interest.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post is an overview of trends and exceptions in the 2018 data. The next posts will cover predictive model building and evaluation on 2018 data, and then 2020 predictions using those models. All relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repository. Let's look at the 2018 Senate plot and start hypothesizing.
 
@@ -17,11 +17,11 @@ categories:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see, most winners are incumbents ahead in funding (that is, you see a lot of solid circles to the right of any other symbol on the same horizontal line). Some notes before we hypothesize:
 
-* _**Open seats:**_ The "+" symbol represents candidates for an open seat[^3]. Disregard for now.
+* _**Open seats:**_ The "+" symbol represents candidates for an open seat[^3]. We're showing them for completeness, but will not address predicting their outcomes for now.
 
 * _**Uncontested seats:**_ An opponent-less candidate will always win; no model needed. Disregard.
 
-* _**Multiple incumbents:**_ PA_17 actually had two incumbents in 2018 due to two districts merging [^4]. Scenarios like that are very exceptional, so we'll disregard for model building.
+* _**Multiple incumbents:**_ PA_17 actually had two incumbents in 2018 due to two districts merging [^4]. Scenarios like that are *very* exceptional, so we'll disregard for model building.
 
 * _**Multiple candidates per party:**_ States like Louisiana[^5] and California[^6] have rules allowing more than one candidate per party on the ballot. We're going to assume for the most part that a maximum of one candidate per party ends up on the ballot.
 
@@ -33,7 +33,7 @@ categories:
 
 **Hypothesis &#35;1: Any incumbent ahead in funding will win.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as saying that any challenger who is behind in funding will lose. If this happens, our prediction is correct; otherwise, it failed. Since our hypothesis imposes two conditions on a candidate that do not always align &#8212; incumbency status and relative funding status &#8212; we need a new predictive model whenever those conditions are not satisfied. &#8594;[Here]({{ site.url }}/assets/FECpt1/show_odds_senate_2018.png)&#8592; are the raw data for those scenarios, and the plot:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as saying that any challenger behind in funding will lose. If this happens, our prediction is correct; otherwise, it's wrong. Since our first hypothesis imposes two conditions on a candidate that do not always align &#8212; incumbency status and relative funding status &#8212; we need a new predictive model whenever those conditions are not satisfied. &#8594;[Here]({{ site.url }}/assets/FECpt1/show_odds_senate_2018.png)&#8592; are the raw data for those scenarios, and the plot:
 
 ![senate_unexpecteds]({{ site.url }}/assets/FECpt1/senate_2018_unexpecteds.png)
 
@@ -67,7 +67,7 @@ or
 
 **Hypothesis &#35;2: Any incumbent House Republican raising under ~$3MM will probably win; above ~$3MM, an incumbent House Republican behind in fundraising will probably lose.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And, finally, &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_most_unexpecteds.png)&#8592; are the contests remaining after we remove the ones where a Republican incumbent was behind in fundraising (win or loss; raw data &#8594;[here]({{ site.url }}/assets/FECpt1/oddest_house_2018.png)&#8592;).  The scatterplot:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And, finally, &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_most_unexpecteds.png)&#8592; are the contests remaining after we remove the ones where a Republican incumbent was behind in fundraising (resulting in either a win or a loss; raw data &#8594;[here]({{ site.url }}/assets/FECpt1/oddest_house_2018.png)&#8592;), and the scatterplot:
 
 ![house_most_unexpecteds_scatter]({{ site.url }}/assets/FECpt1/scatter_RvD_House2.png)
 
