@@ -1,6 +1,8 @@
 instance/
 data/
 future/
+.jekyll-cache
+_site/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -5,7 +5,7 @@ date: 2019-12-12 16:00:00 -0400
 comments: true
 categories:
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% of incumbents won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which could help predict winners of future contests.*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% of incumbents ahead in funding won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which could help predict winners of future contests.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Federal Election Commission (FEC) publishes U.S. federal election campaign finance data[^1]. We noticed interesting patterns in the 2020 filings so far, so we analyzed the 2018 midterm filings to see how well they would have predicted the actual election outcomes[^2]. We are sharing our findings in a series of blog posts since they are of general interest.
 
@@ -65,7 +65,7 @@ or
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This brings us to something like:
 
-**Hypothesis &#35;2: Any incumbent House Republican raising under ~$3MM will probably win; above ~$3MM, an incumbent House Republican behind in fundraising will probably lose.**
+**Hypothesis &#35;2: Any incumbent House Republican raising under ~$3MM will probably win; above ~$3MM, an incumbent House Republican behind in fundraising will probably lose[^7].**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And, finally, &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_most_unexpecteds.png)&#8592; are the contests remaining after we remove the ones where a Republican incumbent was behind in fundraising (resulting in either a win or a loss; raw data &#8594;[here]({{ site.url }}/assets/FECpt1/oddest_house_2018.png)&#8592;), and the scatterplot:
 
@@ -94,26 +94,27 @@ Notes on data cleaning:
 
 * The FEC data do not include all candidates per election listed on Ballotpedia (exclusions possibly due to some candidates' not meeting the conditions requiring filing set by the Commission);
 * we aggregated candidates who are neither Republican nor Democrat but appeared on the final ballot into a single "Third party" category;
-* the FEC data appears to list Danny Tarkanian as a candidate for the Nevada U.S. Senate seat, which we changed to reflect his candidacy for Nevada's 3rd district U.S. House of Representatives seat;
+* the FEC data appear to list Danny Tarkanian as a candidate for the Nevada U.S. Senate seat, which we changed to reflect his candidacy for Nevada's 3rd district U.S. House of Representatives seat;
 * a contest name containing '00' &#8212; e.g., 'MT_00' &#8212; refers to an *at-large* U.S. House of Representatives seat;
 * entries pertaining to the Marshall Islands U.S. House of Representatives election were adjusted to reflect that it is an at-large seat, not a "1st district" seat;
 * we removed Liz Matory's entry pertaining to Maryland's 2nd district U.S. House of Representatives seat and kept her entry for Maryland's 8th district U.S. House of Representatives seat;
-* Minnesota had one regular and one special U.S. Senate election in 2018 ('MN_senate' and 'MN_senate_special', respectively)[^7];
+* Minnesota had one regular and one special U.S. Senate election in 2018 ('MN_senate' and 'MN_senate_special', respectively)[^8];
 * David Trone won Maryland's 6th district U.S. House of Representatives seat but the candidates listed in the FEC data appear incorrect so we excluded that election;
 * we excluded the 2017 Alabama U.S. Senate special election won by Doug Jones;
 * we excluded the 2016 Illinois U.S. Senate election won by Tammy Duckworth;
-* North Carolina's 9th district U.S. House of Representatives election results were declared invalid by the state's Board of Elections over concerns of ballot tampering[^8];
+* North Carolina's 9th district U.S. House of Representatives election results were declared invalid by the state's Board of Elections over concerns of ballot tampering[^9];
 * Susan Wild won Pennsylvania's 7th district U.S. House of Representatives election, not Pennsylvania's 15th district election;
 * ten candidates' party listings conflicted between FEC and Ballotpedia (we corrected by inspection and found Ballotpedia was correct).
 
 
 Footnotes
 
-[^1]: https://www.fec.gov/data/browse-data/?tab=bulk-data
+[^1]: fhttps://www.fec.gov/data/browse-data/?tab=bulk-data
 [^2]: https://ballotpedia.org/United_States_Congress_elections,_2018
 [^3]: "Open" means there was no incumbent on the ballot, which happens due to certain redistricting scenarios, retirement/resignation/death of the sitting elected official, etc. You can see a plot of 2018 open contests with more than one candidate &#8594;[here]({{ site.url }}/assets/FECpt1/open_seats_2018.png)&#8592;.
 [^4]: https://ballotpedia.org/Redistricting_in_Pennsylvania
 [^5]: https://ballotpedia.org/Primary_elections_in_Louisiana
 [^6]: https://ballotpedia.org/Primary_elections_in_California
-[^7]: https://ballotpedia.org/United_States_Senate_special_election_in_Minnesota,_2018
-[^8]: https://ballotpedia.org/North_Carolina%27s_9th_Congressional_District_election,_2018
+[^7]: Causality not implied.
+[^8]: https://ballotpedia.org/United_States_Senate_special_election_in_Minnesota,_2018
+[^9]: https://ballotpedia.org/North_Carolina%27s_9th_Congressional_District_election,_2018
