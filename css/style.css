@@ -85,13 +85,6 @@ h1 {
 	margin-top: 0.4em; /* default 0.67em */
 	font-weight: normal;
 	color: #21B2B2;
-
-}
-
-@media screen and (max-width: 600px) {
-	h1 {
-		font-size: 28pt;
-	}
 }
 
 
@@ -106,7 +99,6 @@ h2 {
 
 }
 
-
 h3 {
 	display: block; /* default block */
         font-family: "gt_pressura_monobold", courier;
@@ -118,6 +110,17 @@ h3 {
 	font-weight: normal;
 	padding: 10px 8px; /* MUST be 8px on left side */
 
+}
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 28pt;
+	}
+	h2 {
+		font-size: 20pt;
+	}
+	h3 {
+		font-size: 17pt;
+	}
 }
 
 
