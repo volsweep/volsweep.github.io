@@ -82,7 +82,7 @@ h1 {
 	font-size: 48pt;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0.4em; /* default 0.67em */
+	margin-top: 0.4em; /* default 0.67em */
 	font-weight: normal;
 	color: #21B2B2;
 
