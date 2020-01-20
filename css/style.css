@@ -88,6 +88,12 @@ h1 {
 
 }
 
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 32pt;
+	}
+}
+
 
 h2 {
 	display: block; /* default block */
