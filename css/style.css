@@ -698,11 +698,6 @@ textarea::placeholder {
 
 
 @media (max-width: 533px) {
-
-  h1 {
-    width: 100%;
-  }
-
   .tabordion {
     width: 100%;
   }
@@ -733,10 +728,6 @@ textarea::placeholder {
 
 
 @media (max-width: 768px) {
-  h1 {
-    width: 100%;
-  }
-
   .tabordion {
     width: 96%;
   }
@@ -744,10 +735,6 @@ textarea::placeholder {
 
 
 @media (min-width: 1366px) {
-  h1 {
-    width: 100%;
-  }
-
   .tabordion {
     width: 70%;
   }
