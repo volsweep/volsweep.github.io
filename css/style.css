@@ -231,14 +231,14 @@ header {
 
 .body-div {
         margin: 0 80px;
-	padding-bottom:350px
+	padding-bottom:390px
 
 }
 
 @media only screen and (max-width: 600px) {
   .body-div {
         margin: 20px;
-
+	padding-bottom: 600px;
    }
 }
 
@@ -803,8 +803,14 @@ tr:nth-child(even) {
    position:absolute;
    bottom:0;
    width:100%;
-   height:350px; 
+   height:380px; 
 
+}
+
+@media only screen and (max-width: 600px) {
+  .page-footer {
+	height:590px; 
+   }
 }
 
 
