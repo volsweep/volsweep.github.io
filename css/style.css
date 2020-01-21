@@ -872,6 +872,13 @@ tr:nth-child(even) {
 }
 
 
+@media (max-width: 600px) {
+  .logo-header h3 {
+    background-size: auto 25px;
+  }
+}
+
+
 #footer-button {
         border: 1.5px solid transparent;
         border-radius: 50px;
