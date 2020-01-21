@@ -252,6 +252,11 @@ header {
         background-color: #263c4d;
 }
 
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
 
 .topnav a {
         float: right;
@@ -281,6 +286,18 @@ header {
 
 .topnav .icon {
         display: none;
+}
+
+.topnav a.icon {
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 
