@@ -73,6 +73,10 @@ body {
 	font-size: 14pt;
 	color: #263C4D;
 	background: #E6EFF2;
+	
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
 
 }
 
@@ -231,6 +235,7 @@ header {
 
 .body-div {
         margin: 0 80px;
+	flex: 1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -243,7 +248,7 @@ header {
 
 /* TOPNAV */
 .topnav {
-        overflow: hidden;
+       /* overflow: hidden;*/
         background-color: #263c4d;
 }
 
@@ -964,3 +969,4 @@ tr:nth-child(even) {
 	padding: 5px;
 
 }
+
