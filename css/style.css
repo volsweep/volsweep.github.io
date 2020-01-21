@@ -797,6 +797,10 @@ tr:nth-child(even) {
 
 .page-footer {
   background: #263C4D;
+	position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; 
 
 }
 
@@ -965,3 +969,9 @@ tr:nth-child(even) {
 	padding: 5px;
 
 }
+
+.notranslate {
+	min-height:100%;
+   	position:relative;
+}
+
