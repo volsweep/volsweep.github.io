@@ -810,6 +810,9 @@ tr:nth-child(even) {
   margin: 1em auto 2em;
   background: #263C4D;
   overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
 }
 
@@ -820,6 +823,7 @@ tr:nth-child(even) {
 	box-sizing: border-box;
 	background: transparent;
 	margin: 1em 0;
+	min-width: 200px;
 }
 
 
@@ -847,12 +851,6 @@ tr:nth-child(even) {
    display: block;
    height: 1em;
    clear: both;
-
-}
-
-
-.large-25 {
-  width: 25%;
 
 }
 
@@ -893,9 +891,6 @@ tr:nth-child(even) {
 
 
 @media (max-width: 550px) {
-  .small-50 {
-    width: 50%;
-  }
   .footer-col:nth-child(2) {
     border: none;
   }
