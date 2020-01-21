@@ -823,7 +823,7 @@ tr:nth-child(even) {
 	box-sizing: border-box;
 	background: transparent;
 	margin: 1em 0;
-	min-width: 200px;
+	min-width: 150px;
 }
 
 
