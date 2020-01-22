@@ -323,14 +323,7 @@ header {
         }
 }
 
-@media screen and (min-width: 601px) {
-	.topnav #myLinks {
-	  display: none;
-	}
-	#myLinks a {
-        	display: none;
-	}
-}
+
 
 /* END TOPNAV */
 
@@ -990,6 +983,18 @@ tr:nth-child(even) {
 
 }
 
+
+@media screen and (min-width: 601px) {
+	.topnav #myLinks {
+	  display: none;
+	}
+	#myLinks a {
+        	display: none;
+	}
+	body {
+	    background-color: lavender;
+	  }
+}
 
 .error-msg {
 	font-size: 12pt;
