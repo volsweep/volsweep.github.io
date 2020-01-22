@@ -272,7 +272,9 @@ header {
 }
 
 #myLinks a {
-	float: none;	
+	float: none;
+	clear: both;
+        text-align: right;
 }
 
 
