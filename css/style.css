@@ -327,6 +327,9 @@ header {
 	.topnav #myLinks {
 	  display: none;
 	}
+	#myLinks a {
+        	display: none;
+	}
 }
 
 /* END TOPNAV */
