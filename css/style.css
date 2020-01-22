@@ -991,9 +991,6 @@ tr:nth-child(even) {
 	#myLinks a {
         	display: none;
 	}
-	body {
-	    background-color: lavender;
-	  }
 }
 
 .error-msg {
