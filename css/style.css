@@ -973,6 +973,10 @@ tr:nth-child(even) {
 
 }
 
+.icon:hover {
+	border:0;
+}
+
 
 .upload-btn-wrapper input[type=file] {
 	font-size: 50px;
