@@ -973,8 +973,8 @@ tr:nth-child(even) {
 
 }
 
-.icon:hover {
-	border:0;
+.icon:hover {	
+	border: 1.5px solid transparent;
 }
 
 
