@@ -3,7 +3,8 @@ layout: post
 title: "FEC Campaign Finance, Part 1: A 2018 retrospective"
 date: 2019-12-12 16:00:00 -0400
 comments: true
-categories:
+category: blog
+tags: ["FEC", "campaign finance", "2018 elections", "data science", "data munging"]
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR Incumbents ahead in funding almost always win Congressional elections (see 2018 counts &#8594;[here]({{ site.url }}/assets/FECpt1/profile_breakdowns.png)&#8592;; excluding unopposed candidates, 97% of incumbents ahead in funding won in the House of Representatives (243/250) and 92% won in the Senate (24/26)). Even when there is not an incumbent ahead in funding, there are other patterns between campaign finance filings and election outcomes which could help predict winners of future contests.*
 

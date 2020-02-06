@@ -259,10 +259,11 @@ def show_lineups(
     plt.title(title, fontsize = 16, fontname = 'DM Sans Medium', color='#263C4D')
     plt.ylim(-2, len(contests)*2)
     plt.ylabel(ylabel, fontsize = 16, fontname = 'DM Sans Medium')
-    if len(this_dataframe) > 10:
-        x_factor = 1.1
-    else:
-        x_factor = 1.5
+#     if len(this_dataframe) > 10:
+#         x_factor = 1.1
+#     else:
+#         x_factor = 1.5
+    x_factor = 1.5
     plt.xlim(
         [
             -0.1*this_dataframe['ttl_receipts'].max(), 
@@ -302,7 +303,7 @@ def show_lineups(
             plt.axhline(i, lw=1.5, ls=':', color=vol_dark, alpha=0.2)
             
     switch = False
-    poss_vert = [10, 5, 2, 1, 0.5, 0.25, 0.1, 0.05, 0.01]
+    poss_vert = [10, 5, 2, 1, 0.5, 0.25, 0.1, 0.05, 0.01, 0.005, 0.0025, 0.001, 0.0005]
     while switch == False:
         for i in poss_vert:
             v_count = int(x_factor*this_dataframe['ttl_receipts'].max()/i)
