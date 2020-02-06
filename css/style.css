@@ -66,11 +66,17 @@ html {
 
 body {
 	margin: 0;
+   	padding:0;
+   	height:100%;
         font-family: "dm_sansregular", helvetica;
         letter-spacing: 0px, 0.4px;
 	font-size: 14pt;
 	color: #263C4D;
 	background: #E6EFF2;
+	
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
 
 }
 
@@ -82,10 +88,10 @@ h1 {
 	font-size: 48pt;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0.4em; /* default 0.67em */
+	margin-top: 0.4em; /* default 0.67em */
 	font-weight: normal;
 	color: #21B2B2;
-
+	max-width: 1600px;
 }
 
 
@@ -97,9 +103,9 @@ h2 {
 	margin: 0.5em 0; /* default 0.83em */
 	font-weight: normal;
 	color: #263C4D;
+	max-width: 1600px;
 
 }
-
 
 h3 {
 	display: block; /* default block */
@@ -111,7 +117,19 @@ h3 {
 	margin: 0.5em 0;
 	font-weight: normal;
 	padding: 10px 8px; /* MUST be 8px on left side */
+	max-width: 1600px;
 
+}
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 28pt;
+	}
+	h2 {
+		font-size: 20pt;
+	}
+	h3 {
+		font-size: 17pt;
+	}
 }
 
 
@@ -149,6 +167,16 @@ p {
 	margin-top: 0.5em;
 	margin-bottom: 1em;
 	line-height: 1.8;
+	max-width: 1600px;
+	
+	/* all the word wrapping styling below */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
 
 }
 
@@ -211,14 +239,26 @@ header {
 
 .body-div {
         margin: 0 80px;
-
+	flex: 1;
 }
+
+@media only screen and (max-width: 600px) {
+  .body-div {
+        margin: 20px;
+   }
+}
+
 
 
 /* TOPNAV */
 .topnav {
-        overflow: hidden;
+       /* overflow: hidden;*/
         background-color: #263c4d;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
 
 
@@ -227,12 +267,18 @@ header {
         display: block;
         color: #e6eff2;
 	text-align: center;
-        padding: 8px;
+        padding: 12px;
         text-decoration: none;
         font-size: 14pt;
 	border: 1.5px solid transparent;
 	outline: none;
 
+}
+
+#myLinks a {
+	float: none;
+	clear: both;
+        text-align: right;
 }
 
 
@@ -250,6 +296,12 @@ header {
 
 .topnav .icon {
         display: none;
+}
+
+.topnav a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 
@@ -274,6 +326,9 @@ header {
                 text-align: left;
         }
 }
+
+
+
 /* END TOPNAV */
 
 /* Style inputs */
@@ -367,7 +422,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
+	max-width: 100%;
 }
 
 
@@ -683,11 +738,6 @@ textarea::placeholder {
 
 
 @media (max-width: 533px) {
-
-  h1 {
-    width: 100%;
-  }
-
   .tabordion {
     width: 100%;
   }
@@ -718,10 +768,6 @@ textarea::placeholder {
 
 
 @media (max-width: 768px) {
-  h1 {
-    width: 100%;
-  }
-
   .tabordion {
     width: 96%;
   }
@@ -729,10 +775,6 @@ textarea::placeholder {
 
 
 @media (min-width: 1366px) {
-  h1 {
-    width: 100%;
-  }
-
   .tabordion {
     width: 70%;
   }
@@ -784,7 +826,6 @@ tr:nth-child(even) {
 
 .page-footer {
   background: #263C4D;
-
 }
 
 
@@ -793,6 +834,9 @@ tr:nth-child(even) {
   margin: 1em auto 2em;
   background: #263C4D;
   overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
 }
 
@@ -803,6 +847,7 @@ tr:nth-child(even) {
 	box-sizing: border-box;
 	background: transparent;
 	margin: 1em 0;
+	min-width: 150px;
 }
 
 
@@ -834,12 +879,6 @@ tr:nth-child(even) {
 }
 
 
-.large-25 {
-  width: 25%;
-
-}
-
-
 .footer-col a {
 	display: inline-block;
 	margin: 0;
@@ -854,6 +893,13 @@ tr:nth-child(even) {
 	background-size: auto 30.67px;
 	background-position: left, center;
 	background-origin: content-box;
+}
+
+
+@media (max-width: 600px) {
+  .logo-header h3 {
+    background-size: auto 25px;
+  }
 }
 
 
@@ -876,9 +922,6 @@ tr:nth-child(even) {
 
 
 @media (max-width: 550px) {
-  .small-50 {
-    width: 50%;
-  }
   .footer-col:nth-child(2) {
     border: none;
   }
@@ -934,6 +977,10 @@ tr:nth-child(even) {
 
 }
 
+.icon:hover {	
+	border: 1.5px solid transparent;
+}
+
 
 .upload-btn-wrapper input[type=file] {
 	font-size: 50px;
@@ -944,6 +991,15 @@ tr:nth-child(even) {
 
 }
 
+
+@media screen and (min-width: 601px) {
+	.topnav #myLinks {
+	  display: none;
+	}
+	#myLinks a {
+        	display: none;
+	}
+}
 
 .error-msg {
 	font-size: 12pt;

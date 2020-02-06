@@ -47,18 +47,32 @@
                 <div class="topnav" id="myTopnav">
 
                         <!-- Left-aligned links (default) -->
-			<a style="float: left;" href="https://blog.volsweep.com/">
+			<a style="float: left; margin-left: 15px" href="https://blog.volsweep.com/">
 				<img id="logo" src="/css/logo/VOL_Logo_Color_Dark_Green.png" height="23" />
 	
 			</a>
 
 			<!-- Right-aligned links -->
-                        <a href="https://www.volsweep.com">To Main Site</a>
+                       
+			
+			<!-- Navigation links (hidden by default) -->
+			  <div id="myLinks">
+			    <a href="https://www.volsweep.com" style="border: 1.5px solid transparent;">To Main Site</a>
+			  </div>
+			  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+			  <a href="javascript:void(0);" class="icon" style="border: 1.5px solid transparent;" onclick="document.getElementById('myLinks').style.display = (document.getElementById('myLinks').style.display == 'block') ? 'none' : 'block'">
+			    <i class="fa fa-bars" style="border: 1.5px solid transparent;"></i>
+			  </a>
+			
+			 <a style="margin-right: 15px" href="https://www.volsweep.com">To Main Site</a>
                 
 		</div>
 
 		<div class="body-div">
+			<!-- breadcrumbs navigation bar -->
+			
 			{{ content }}
+			
 			<br />
 			{% if page.comments %}
 			<div id="disqus_thread"></div>
@@ -122,10 +136,9 @@
                         <div class="footer-clear" align="center">
 
                                 <a href="https://www.builtinnyc.com/company/volsweep" target="_blank">
-                                        <span style="color: #E6EFF2;font-size: 12pt;">Made with</span>
-                                        <span style="color: #78F2F2;font-size: 12pt;"> &#9829; </span>
+					<span style="color: #E6EFF2;font-size: 12pt;">Made with</span>
+                                        <span style="color: #78F2F2;font-size: 12pt;"> &#9829;&#xFE0E;</span>
                                         <span style="color: #E6EFF2;font-size: 12pt;">in NYC</span>
-
                                 </a>
 
                                 <a href="http://digital.nyc/startups/volsweep" target="_blank">

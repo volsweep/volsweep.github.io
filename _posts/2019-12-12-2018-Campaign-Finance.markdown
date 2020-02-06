@@ -110,7 +110,7 @@ Notes on data cleaning:
 
 Footnotes
 
-[^1]: fhttps://www.fec.gov/data/browse-data/?tab=bulk-data
+[^1]: https://www.fec.gov/data/browse-data/?tab=bulk-data
 [^2]: https://ballotpedia.org/United_States_Congress_elections,_2018
 [^3]: "Open" means there was no incumbent on the ballot, which happens due to certain redistricting scenarios, retirement/resignation/death of the sitting elected official, etc. You can see a plot of 2018 open contests with more than one candidate &#8594;[here]({{ site.url }}/assets/FECpt1/open_seats_2018.png)&#8592;.
 [^4]: https://ballotpedia.org/Redistricting_in_Pennsylvania
