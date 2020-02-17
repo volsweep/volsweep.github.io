@@ -67,6 +67,8 @@ def show_lineups(
             this_dataframe = this_dataframe[this_dataframe['contest'] != which]
             
     allcontests = this_dataframe.drop_duplicates(['contest'], keep = 'first')['contest'].values
+    all_icis = list(set(this_dataframe['cand_ici']))
+    parties = list(set(this_dataframe['cand_pty_affiliation']))
     
     try:
         contests = allcontests[:count][::-1]
@@ -113,8 +115,11 @@ def show_lineups(
         incumbents = [lil_dataframe.loc[lil_dataframe['contest'] == contest, 
                                     'cand_ici'].values for contest in contests]
         
-        winners = [lil_dataframe.loc[lil_dataframe['contest'] == contest, 
-                                    'winner_flag'].values for contest in contests]
+        if 'winner_flag' in lil_dataframe.columns:        
+            winners = [lil_dataframe.loc[lil_dataframe['contest'] == contest, 
+                                        'winner_flag'].values for contest in contests]
+        else:
+            winners = [[0]*len(contest) for contest in contests]
 
         for i in range(len(data)):
             x = data[i]
@@ -132,7 +137,8 @@ def show_lineups(
                         color=party_dict[party]['hex'],
                         marker=marker,
                         facecolors=facecolors,
-                        s=50,
+                        s=75,
+                        lw=2,
                         alpha=0.85,
 
                     ) 
@@ -148,23 +154,26 @@ def show_lineups(
                         color=party_dict[party]['hex'],
                         marker=marker,
                         facecolors=facecolors,
-                        s=50,
+                        s=75,
+                        lw=2,
                         alpha=0.85,
 
                     )
                 else:
                     marker = '+'
                     if winners[i][j] == 1:
-                        lw = 3
+                        lw = 4
+                        s=90
                     else:
-                        lw = None
+                        lw = 2
+                        s=75
                     plt.scatter(
                         x[j], 
                         y[j], 
                         color=party_dict[party]['hex'],
                         marker=marker,
                         lw=lw,
-                        s=50,
+                        s=s,
                         alpha=0.85,
 
                     )
@@ -197,59 +206,72 @@ def show_lineups(
             fontname = 'DM Sans Medium'
         )
         
-    legend_elements = [
-        mpatches.Patch(
-            [0], 
-            [0], 
-            color=party_dict['Republican']['hex'], 
-            label='Republican'
-        ), 
-        mpatches.Patch(
-            [0], 
-            [0], 
-            color=party_dict['Democrat']['hex'], 
-            label='Democrat', 
-        ), 
-        mpatches.Patch(
-            [0], 
-            [0], 
-            color=party_dict['Third party']['hex'], 
-            label='Third party', 
-        ),
-        Line2D(
-            [0], 
-            [0], 
-            marker='o', 
-            color=vol_light, 
-            label='Incumbent', 
-            markerfacecolor='#446d8c', 
-            markersize=9,
-        ),
-        Line2D(
-            [0], 
-            [0], 
-            marker='D', 
-            color=vol_light, 
-            label='Challenger', 
-            markerfacecolor='#446d8c', 
-            markersize=9,
-        ),        
-        Line2D(
-            [0], 
-            [0], 
-            marker='P', 
-            color=vol_light, 
-            label='Open seat', 
-            markerfacecolor='#446d8c', 
-            markersize=9,
-        ), 
-        Line2D(
-            [0], 
-            [0], 
-            color=vol_light, 
-            label='(winners bolded/\nfilled in)', 
-        ),
-    ]
+    legend_elements = []
+    
+    if 'Republican' in parties:
+        legend_elements.append(
+            mpatches.Patch(
+                [0], 
+                [0], 
+                color=party_dict['Republican']['hex'], 
+                label='Republican'
+            )
+        )
+    if 'Democrat' in parties:
+        legend_elements.append(
+            mpatches.Patch(
+                [0], 
+                [0], 
+                color=party_dict['Democrat']['hex'], 
+                label='Democrat', 
+            )
+        )
+    if 'Third party' in parties:
+        legend_elements.append(
+            mpatches.Patch(
+                [0], 
+                [0], 
+                color=party_dict['Third party']['hex'], 
+                label='Third party', 
+            )
+        )
+    if 'I' in all_icis:
+        legend_elements.append(
+            Line2D(
+                [0], 
+                [0], 
+                marker='o', 
+                color=vol_light, 
+                label='Incumbent', 
+                markerfacecolor='#446d8c', 
+                markersize=9,
+            )
+        )
+    if 'C' in all_icis:
+        legend_elements.append(
+            Line2D(
+                [0], 
+                [0], 
+                marker='D', 
+                color=vol_light, 
+                label='Challenger', 
+                markerfacecolor='#446d8c', 
+                markersize=9,
+            )
+        )
+    if 'O' in all_icis:
+        legend_elements.append(
+            Line2D(
+                [0], 
+                [0], 
+                marker='P', 
+                color=vol_light, 
+                label='Open seat', 
+                markerfacecolor='#446d8c', 
+                markersize=9,
+            )
+        )
+
     legend = plt.legend(
         loc='lower right', 
         fontsize=12, 
