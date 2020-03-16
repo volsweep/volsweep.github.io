@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Campaign Finance 2018, Part II: A closer look"
-date: 2020-03-016 16:00:00 -0400
+date: 2020-03-16 16:00:00 -0400
 comments: true
 category: blog
 tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
