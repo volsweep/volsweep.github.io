@@ -69,7 +69,7 @@ def show_lineups(
     allcontests = this_dataframe.drop_duplicates(['contest'], keep = 'first')['contest'].values
     all_icis = list(set(this_dataframe['cand_ici']))
     parties = list(set(this_dataframe['cand_pty_affiliation']))
-    
+
     try:
         contests = allcontests[:count][::-1]
     except:

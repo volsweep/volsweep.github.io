@@ -1,18 +1,21 @@
 ---
 layout: post
 title: "2018 Campaign Finance, Part II: Deep dive"
-date: 2020-02-16 16:00:00 -0400
+date: 2020-03-02 16:00:00 -0400
 comments: true
 category: blog
-tags: ["FEC", "campaign finance", "2018 elections", "data science", "data munging"]
+tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post is an overview of trends and exceptions in the 2018 data. The next posts will cover predictive model building and evaluation on 2018 data, and then 2020 predictions using those models. All relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repository. Let's look at the 2018 Senate plot and start hypothesizing.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first post in this Federal Election Commission (FEC) series was an overview of trends and exceptions in the 2018 midterm results with respect to party affiliation, incumbency status, and relative funding status. This post will be more of an in-depth examination of the 2018 data that the FEC makes available (see it all &#8594;[here](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592;).  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let's take a look at what we learn from each set, in the order we analyzed them.
 
 
-## U.S. Senate
-![senate]({{ site.url }}/assets/FECpt1/senate_2018.png)
+## Current candidates
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can see, most winners are incumbents ahead in funding (that is, you see a lot of solid circles to the right of any other symbol on the same horizontal line). Some notes before we hypothesize:
 
