@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2018 Campaign Finance, Part II: A closer look"
+title: "Campaign Finance 2018, Part II: A closer look"
 date: 2020-03-02 16:00:00 -0400
 comments: true
 category: blog
