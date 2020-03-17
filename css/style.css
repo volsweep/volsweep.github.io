@@ -1008,3 +1008,15 @@ tr:nth-child(even) {
 	padding: 5px;
 
 }
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
