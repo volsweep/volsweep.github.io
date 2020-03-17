@@ -41,7 +41,8 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 
 _Treasurers pertaining to over 50 committees_
-_format: Full name, Number of committees (Number of committees linked to a candidate)_
+
+_(format: Full name, Number of committees (Number of committees linked to a candidate))_
 
 * **Paul Kilgore**, 144 (27)
 * **Christopher Marston**, 122 (11)
@@ -54,7 +55,7 @@ _format: Full name, Number of committees (Number of committees linked to a candi
 
 _Addresses pertaining to more than 100 committees, treasurers listed_
 
-* **228 S Washington St, Alexandria, VA 22314**, 156 committees
+* **228 S Washington St, Alexandria, VA 22314** (156 committees)
 
   * David Satterfield
   * Francis Kirley
@@ -66,7 +67,7 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
   * Taylor Moose
 
 
-* **918 Pennsylvania Ave AE, Washington, D.C. 20003**, 112 committees
+* **918 Pennsylvania Ave AE, Washington, D.C. 20003** (112 committees)
 
   * Aaron Watson
   * Amy Eckert
@@ -80,7 +81,7 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
   * Michael Schrum
 
 
-* **824 S Milledge Ave, Athens, GA 30605**, 101 committees
+* **824 S Milledge Ave, Athens, GA 30605** (101 committees)
 
   * Greg Mosing
   * Megan Brown
@@ -106,7 +107,42 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 
 **Club for Growth**[^1]
 
-According to its website, "Club for Growth is a national network of over 250,000 pro-growth, limited government Americans who share in the belief that prosperity and opportunity come from economic freedom." We can see from the plot that it advocates for incumbent, challenger, and open seat Republicans, and opposes fewer of the same plus some Democrats, as well. The three symbols in the center area of the plot represent two open seat Republicans and one Demoratic challenger
+According to its website, "Club for Growth is a national network of over 250,000 pro-growth, limited government Americans who share in the belief that prosperity and opportunity come from economic freedom." We can see from the plot that it advocates for incumbent, challenger, and open seat Republicans, and opposes fewer of the same plus some Democrats, as well. The three symbols in the center area of the plot represent two open seat Republicans and one Democratic challenger, all of whom were both advocated and opposed by Club for Growth via independent expenditures.
+
+**Connection Strategy**[^2]
+
+There is no active trace of Connection Strategy online; it appears no longer to be in business. It advocated for Republicans only, except for one Democrat running for an open seat and the four more Democrats whom Connection Strategy also opposed.
+
+**Facebook**
+
+Facebook is interesting because it made the most independent expenditures _both_ advocating and opposing individual candidates. See how crowded the middle area of that plot is? No other plot looks like that for 2018. Additionally, we see that the majority of Facebook independent expenditure funds _advocating_ a candidate were made with respect to _Democratic_ candidates, whereas the majority of independent expenditure funds _opposing_ a candidate were made with respect to _Republican_ candidates.
+
+**Google**
+
+Google didn't spend nearly as much money on independent expenditures in 2018 as Facebook did. Two incumbents, one from each major party, had a combination of advocating and opposing funds spent by Google; most of the purely advocated candidates were Democrats but the ratio is closer to even than Facebook's.
+
+**I360**[^3]
+
+According to its website, "Our team of data scientists build and refine proven, sophisticated models that enable us to predict behaviors and actions, such as the likelihood to support or oppose an issue, redeem a coupon, subscribe to an email list, or even purchase a particular brand or product. This knowledge is powerful, informing messaging and enhancing your ability to target and reach the right customer to achieve success at scale." It is funded by Koch family money[^4]. It spend up to about $100,000 each advocating Republicans/opposing Democrats. It spent advocating and opposing funds with respect to one Republican incumbent.
+
+**Nebo Media**
+
+OpenSecrets had as much difficulty as we did finding an online presence for Nebo Media; there isn't one[^5]. Its independent expenditure dollar amounts are pretty high compared to others shown here; up to ~$1MM advocating individual Republican candidates and almost $10MM opposing some Democratic candidates. Interestingly, there is a lone Republican candidate whom Nebo Media opposed.
+
+**Prolist**[^6]
+
+Prolist has a similar spending profile to Connection Strategy but with a higher average dollar expenditure. It was founded in 1989, and according to its "About" page:
+
+> "...We also have expanded to focus on database management, fundraising efforts for nonprofits and other organizations, digital integration, political campaign marketing through our ProTarget service, and so much more ... From Intelligent Mail to integrated email marketing and digital fulfillment, ProList continues to make history as the model for direct marketing services companies of the twenty-first century."
+
+**SKDKnickerbocker**[^7]
+
+Before the 2018 midterms, SKDKnickerbocker was acquired by the Stagwell Group, which was founded by former Microsoft chief Steven A. Ballmer and is headed by Mark Penn[^8]. We see from the plot that it made independent expenditures purely advocating for Democrats only, and most of those were challengers. It made independent expenditures both advocating and opposing one Republican incumbent. In terms of independent expenditures purely opposing candidates, SKDKnickerbocker focused on Republicans (mostly incumbents) with the exception of a Democratic incumbent.
+
+**United States Postal Service (USPS)**
+
+Interestingly, USPS independent expenditures purely advocating for candidates are pretty mixed by party compared to other plots we've seen, but we definitely notice that the higher amounts went with respect to Republican incumbents. In terms of independent expenditures purely opposing candidates, again, the party split is relatively even but USPS appears to oppose several incumbent Democrats in particular. USPS: not a fan of incumbent Democrats?
+
 
 
 <div class="clearfix">
@@ -164,12 +200,36 @@ According to its website, "Club for Growth is a national network of over 250,000
 
 ### Contributions by individuals
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Any names containing "anonymous", "unitemized", and/or anything like "hat pass" we switched to simply "Anonymous". The FEC rules state: "An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution from an individual per row. We had to do a lot of cleaning in this set in particular. Any names containing "anonymous", "unitemized", and/or anything like "hat pass" we switched to simply "Anonymous." The FEC rules state:
+
+> "An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^9]
+
+This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In cleaning the state abbreviations column, we found some that do not match those of U.S. states or territories: AE, AP, FM, ZZ, MH, AA, PW, and null. A lot of the FM ones appear to be Florida cities; a lot of the ZZ ones appear to be cities in foreign countries; most of the null ones are U.S. cities and the state abbreviation is just missing. We left these as-is for now as they only constitute ~0.2% of total observations. The reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/independent expenditures and out of state ones.
 
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png">
+      <img alt="CA21_commitee" src="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_individual.png">
+      <img alt="CA21_individual" src="{{ site.url }}/assets/FECpt2/contributions_CA21_individual.png" style="width: 100%">
+    </a>
+  </div>
 
-Footnotes
+</div>
+
+**Footnotes**
 
 [^1]: https://www.clubforgrowth.org/
-[^1]: https://www.theguardian.com/technology/2018/oct/16/facebook-political-activism-pages-inauthentic-behavior-censorship
+[^2]: Dead link: http://www.connectionstrategy.com/
+[^3]: https://www.i-360.com/
+[^4]: https://www.politico.com/story/2014/12/koch-brothers-rnc-113359
+[^5]: https://www.opensecrets.org/news/2019/01/political-consultants-making-millions-to-influence-elections/
+[^6]: https://www.prolist.com/about-prolist/
+[^7]: https://www.skdknick.com/
+[^8]: https://www.nytimes.com/2015/10/09/business/dealbook/stagwell-group-will-acquire-skdknickerbocker.html
+[^9]: https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/
