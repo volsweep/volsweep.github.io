@@ -211,7 +211,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png">
-      <img alt="CA21_commitee" src="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png" style="width: 100%">
+      <img alt="CA21_committee" src="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -224,7 +224,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png">
-      <img alt="FL26_commitee" src="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png" style="width: 100%">
+      <img alt="FL26_committee" src="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -237,7 +237,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png">
-      <img alt="GA06_commitee" src="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png" style="width: 100%">
+      <img alt="GA06_committee" src="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -250,7 +250,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png">
-      <img alt="IL06_commitee" src="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png" style="width: 100%">
+      <img alt="IL06_committee" src="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -263,7 +263,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png">
-      <img alt="MI09_commitee" src="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png" style="width: 100%">
+      <img alt="MI09_committee" src="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -276,7 +276,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png">
-      <img alt="OK05_commitee" src="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png" style="width: 100%">
+      <img alt="OK05_committee" src="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -289,7 +289,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png">
-      <img alt="PA08_commitee" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
+      <img alt="PA08_committee" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -302,7 +302,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png">
-      <img alt="UT04_commitee" src="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png" style="width: 100%">
+      <img alt="UT04_committee" src="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -315,7 +315,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png">
-      <img alt="VA10_commitee" src="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png" style="width: 100%">
+      <img alt="VA10_committee" src="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -328,7 +328,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_VA11_committee.png">
-      <img alt="VA11_commitee" src="{{ site.url }}/assets/FECpt2/contributions_VA11_committee.png" style="width: 100%">
+      <img alt="VA11_committee" src="{{ site.url }}/assets/FECpt2/contributions_VA11_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
@@ -341,7 +341,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 <div class="clearfix">
   <div class="img-container2">
     <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png">
-      <img alt="WI01_commitee" src="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png" style="width: 100%">
+      <img alt="WI01_committee" src="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
