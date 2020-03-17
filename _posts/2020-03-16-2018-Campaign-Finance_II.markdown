@@ -90,7 +90,7 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 
 ### Contributions from committees to candidates & independent expenditures
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure per row. The different types are:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure per row. The different types of contributions/independent expenditures are:
 
 * "contribution made to nonaffiliated committee,"
 * "independent expenditure advocating election of candidate,"
@@ -104,26 +104,39 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following plots show independent expenditures from the same source **advocating** and **opposing** candidates in the 2018 midterms. For example, Club for Growth made independent expenditures around $100 advocating for the Democratic challenger shown as a blue diamond in the middle of the Club for Growth plot, and about $1000 opposing the same candidate. (The axes are a log scale base 10, so the 0 axis marker means 10<sup>0</sup> = $1, the 1 means 10<sup>1</sup> = $10, the 2 means 10<sup>2</sup> = 100, the 3 means 10<sup>3</sup> = $1,000, etc.)
 
-
-<img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="Planned Parenthood" src="{{ site.url }}/assets/FECpt2/contributions_committee_PlannedParenthood.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" height="400" width="400" style="float: left, padding: 35px">
-
-<img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" height="400" width="400" style="float: left, padding: 35px">
+<div class="clearfix">
+  <div class="img-container">
+    <img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" style="width: 100%">
+  </div>
+  <div class="img-container"
+    <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" style="width: 100%">
+  </div>
+  <div class="img-container">
+    <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" style="width: 100%">
+  </div>
+</div>
+<div class="clearfix">
+  <div class="img-container">
+    <img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" style="width: 100%">
+  </div>
+  <div class="img-container">
+    <img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" style="width: 100%">
+  </div>
+  <div class="img-container">
+    <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" style="width: 100%">
+  </div>
+</div>
+<div class="clearfix">
+  <div class="img-container">
+    <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" style="width: 100%">
+  </div>
+  <div class="img-container">
+    <img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" style="width: 100%">  
+  </div>  
+  <div class="img-container">
+    <img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" style="width: 100%">
+  </div>
+</div>
 
 
 ### Contributions by individuals
