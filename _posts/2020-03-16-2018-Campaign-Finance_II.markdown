@@ -41,17 +41,18 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 
 _Treasurers pertaining to over 50 committees_
+_format: <Full name>, <Number of committees> (<Number of committees linked to a candidate>)
 
-* *Paul Kilgore*, 144 committees (27 linked to candidates)
-* *Christopher Marston*, 122 committees (11 linked to candidates)
-* *Judith Zamore*, 109 committees (53 linked to candidates)
-* *Lisa Lisker*, 88 committees (14 linked to candidates)
-* *Jennifer May*, 62 committees (15 linked to candidates)
-* *Benjamin Ottenhoff*, 56 committees (4 linked to candidates)
-* *Jay Patterson*, 56 committees (20 linked to candidates)
+* Paul Kilgore, 144 (27)
+* Christopher Marston, 122 (11)
+* *Judith Zamore, 109 (53)
+* *Lisa Lisker, 88 (14)
+* *Jennifer May, 62 (15)
+* *Benjamin Ottenhoff*, 56 (4)
+* *Jay Patterson*, 56 (20)
 
 
-_Addresses pertaining to over 100 committees, treasurers listed_
+_Addresses pertaining to more than 100 committees, treasurers listed_
 
 * *228 S Washington St, Alexandria, VA 22314*, 156 committees
   * David Satterfield
@@ -96,25 +97,25 @@ _Addresses pertaining to over 100 committees, treasurers listed_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the cleaning process before plotting, we made some observations. First of all, Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 in contributions with no individuals' names given.
 
-<img width="400" alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png">
+<img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" height="42" width="42" style="float: left">
 
-<img width="400" alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png">
+<img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" height="42" width="42" style="float: left">
 
-<img width="400" alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png">
+<img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" height="42" width="42">
 
-<img width="400" alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png">
+<img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" height="42" width="42">
 
-<img width="400" alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png">
+<img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" height="42" width="42">
 
-<img width="400" alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png">
+<img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" height="42" width="42">
 
-<img width="400" alt="Planned Parenthood" src="{{ site.url }}/assets/FECpt2/contributions_committee_PlannedParenthood.png">
+<img alt="Planned Parenthood" src="{{ site.url }}/assets/FECpt2/contributions_committee_PlannedParenthood.png" height="42" width="42">
 
-<img width="400" alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png">
+<img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" height="42" width="42">
 
-<img width="400" alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png">
+<img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" height="42" width="42">
 
-<img width="400" alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png">
+<img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" height="42" width="42">
 
 
 ### Contributions by individuals
