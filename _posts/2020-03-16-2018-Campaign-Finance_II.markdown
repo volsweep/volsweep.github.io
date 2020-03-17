@@ -41,7 +41,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 
 _Treasurers pertaining to over 50 committees_
-_format: <Full name>, <Number of committees> (<Number of committees linked to a candidate>)_
+_format: Full name, Number of committees (Number of committees linked to a candidate)_
 
 * **Paul Kilgore**, 144 (27)
 * **Christopher Marston**, 122 (11)
@@ -102,25 +102,29 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the cleaning process before plotting, we made some observations. First of all, Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 in contributions with no individuals' names given.
 
-<img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" height="500" width="500" style="float: left, margin: 35px" style="float: left, margin: 35px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following plots show independent expenditures from the same source **advocating** and **opposing** candidates in the 2018 midterms. For example, Club for Growth made independent expenditures around $100 advocating for the Democratic challenger shown as a blue diamond in the middle of the Club for Growth plot, and about $1000 opposing the same candidate. (The axes are a log scale base 10, so the 0 axis marker means 10<sup>0</sup> = $1, the 1 means 10<sup>1</sup> = $10, the 2 means 10<sup>2</sup> = 100, the 3 means 10<sup>3</sup> = $1,000, etc.)
 
-<img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" height="500" width="500" style="float: left, margin: 35px" style="float: left">
+Note Facebook [^1].
 
-<img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" height="400" width="400" style="float: left, margin: 35px">
 
-<img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" height="400" width="400" style="float: left, margin: 35px">
 
-<img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" height="400" width="400" style="float: left, margin: 35px">
 
-<img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" height="400" width="400" style="float: left, margin: 35px">
 
-<img alt="Planned Parenthood" src="{{ site.url }}/assets/FECpt2/contributions_committee_PlannedParenthood.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" height="400" width="400" style="float: left, margin: 35px">
 
-<img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" height="400" width="400" style="float: left, margin: 35px">
 
-<img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="Planned Parenthood" src="{{ site.url }}/assets/FECpt2/contributions_committee_PlannedParenthood.png" height="400" width="400" style="float: left, margin: 35px">
 
-<img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" height="500" width="500" style="float: left, margin: 35px">
+<img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" height="400" width="400" style="float: left, margin: 35px">
+
+<img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" height="400" width="400" style="float: left, margin: 35px">
+
+<img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" height="400" width="400" style="float: left, margin: 35px">
 
 
 ### Contributions by individuals
@@ -128,3 +132,8 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Any names containing "anonymous", "unitemized", and/or anything like "hat pass" we switched to simply "Anonymous". The FEC rules state: "An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In cleaning the state abbreviations column, we found some that do not match those of U.S. states or territories: AE, AP, FM, ZZ, MH, AA, PW, and null. A lot of the FM ones appear to be Florida cities; a lot of the ZZ ones appear to be cities in foreign countries; most of the null ones are U.S. cities and the state abbreviation is just missing. We left these as-is for now as they only constitute ~0.2% of total observations. The reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/independent expenditures and out of state ones.
+
+
+Footnotes
+
+[^1]: https://www.theguardian.com/technology/2018/oct/16/facebook-political-activism-pages-inauthentic-behavior-censorship
