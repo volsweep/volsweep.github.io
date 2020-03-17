@@ -108,7 +108,7 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
   <div class="img-container">
     <img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" style="width: 100%">
   </div>
-  <div class="img-container"
+  <div class="img-container">
     <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" style="width: 100%">
   </div>
   <div class="img-container">
