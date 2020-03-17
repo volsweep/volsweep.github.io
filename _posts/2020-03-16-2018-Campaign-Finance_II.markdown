@@ -219,7 +219,136 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
       <img alt="CA21_individual" src="{{ site.url }}/assets/FECpt2/contributions_CA21_individual.png" style="width: 100%">
     </a>
   </div>
+</div>
 
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png">
+      <img alt="FL26_commitee" src="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_individual.png">
+      <img alt="FL26_individual" src="{{ site.url }}/assets/FECpt2/contributions_FL26_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png">
+      <img alt="GA06_commitee" src="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_individual.png">
+      <img alt="GA06_individual" src="{{ site.url }}/assets/FECpt2/contributions_GA06_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png">
+      <img alt="IL06_commitee" src="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_individual.png">
+      <img alt="IL06_individual" src="{{ site.url }}/assets/FECpt2/contributions_IL06_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png">
+      <img alt="MI09_commitee" src="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png">
+      <img alt="MI09_individual" src="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png">
+      <img alt="OK05_commitee" src="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_OK05_individual.png">
+      <img alt="OK05_individual" src="{{ site.url }}/assets/FECpt2/contributions_OK05_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png">
+      <img alt="PA08_commitee" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png">
+      <img alt="PA08_individual" src="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png">
+      <img alt="UT04_commitee" src="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_individual.png">
+      <img alt="UT04_individual" src="{{ site.url }}/assets/FECpt2/contributions_UT04_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png">
+      <img alt="VA10_commitee" src="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_individual.png">
+      <img alt="VA10_individual" src="{{ site.url }}/assets/FECpt2/contributions_VA10_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_VA11_committee.png">
+      <img alt="VA11_commitee" src="{{ site.url }}/assets/FECpt2/contributions_VA11_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_VA11_individual.png">
+      <img alt="VA11_individual" src="{{ site.url }}/assets/FECpt2/contributions_VA11_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png">
+      <img alt="WI01_commitee" src="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png">
+      <img alt="WI01_individual" src="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png" style="width: 100%">
+    </a>
+  </div>
 </div>
 
 **Footnotes**
