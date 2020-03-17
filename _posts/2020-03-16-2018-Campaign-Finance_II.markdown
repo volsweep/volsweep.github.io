@@ -32,7 +32,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 ### Candidate-committee linkages
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per committee-candidate pairing (NB it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on [this page]. The following candidates are linked to more than ten committees in this data set: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per candidate-committee pairing (NB it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on [this page]. The following candidates are linked to more than ten committees in this data set: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
 
 
 ### Committee master
@@ -41,20 +41,21 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 
 _Treasurers pertaining to over 50 committees_
-_format: <Full name>, <Number of committees> (<Number of committees linked to a candidate>)
+_format: <Full name>, <Number of committees> (<Number of committees linked to a candidate>)_
 
-* Paul Kilgore, 144 (27)
-* Christopher Marston, 122 (11)
-* *Judith Zamore, 109 (53)
-* *Lisa Lisker, 88 (14)
-* *Jennifer May, 62 (15)
-* *Benjamin Ottenhoff*, 56 (4)
-* *Jay Patterson*, 56 (20)
+* **Paul Kilgore**, 144 (27)
+* **Christopher Marston**, 122 (11)
+* **Judith Zamore**, 109 (53)
+* **Lisa Lisker**, 88 (14)
+* **Jennifer May**, 62 (15)
+* **Benjamin Ottenhoff**, 56 (4)
+* **Jay Patterson**, 56 (20)
 
 
 _Addresses pertaining to more than 100 committees, treasurers listed_
 
-* *228 S Washington St, Alexandria, VA 22314*, 156 committees
+* **228 S Washington St, Alexandria, VA 22314**, 156 committees
+
   * David Satterfield
   * Francis Kirley
   * Greg Laughlin
@@ -63,8 +64,10 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
   * Larry Steinberg
   * Lisa Lisker
   * Taylor Moose
-&nbsp;
-* *918 Pennsylvania Ave AE, Washington, D.C. 20003*, 112 committees
+
+
+* **918 Pennsylvania Ave AE, Washington, D.C. 20003**, 112 committees
+
   * Aaron Watson
   * Amy Eckert
   * Ellen Tauscher
@@ -75,8 +78,10 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
   * Megan Mielnik
   * Melissa Nissen
   * Michael Schrum
-&nbsp;
-* *824 S Milledge Ave, Athens, GA 30605*, 101 committees
+
+
+* **824 S Milledge Ave, Athens, GA 30605**, 101 committees
+
   * Greg Mosing
   * Megan Brown
   * Michael Goode
@@ -97,25 +102,25 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the cleaning process before plotting, we made some observations. First of all, Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 in contributions with no individuals' names given.
 
-<img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" height="42" width="42" style="float: left">
+<img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" height="500" width="500" style="float: left, margin: 35px" style="float: left, margin: 35px">
 
-<img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" height="42" width="42" style="float: left">
+<img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" height="500" width="500" style="float: left, margin: 35px" style="float: left">
 
-<img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" height="42" width="42">
+<img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" height="500" width="500" style="float: left, margin: 35px">
 
-<img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" height="42" width="42">
+<img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" height="500" width="500" style="float: left, margin: 35px">
 
-<img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" height="42" width="42">
+<img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" height="500" width="500" style="float: left, margin: 35px">
 
-<img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" height="42" width="42">
+<img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" height="500" width="500" style="float: left, margin: 35px">
 
-<img alt="Planned Parenthood" src="{{ site.url }}/assets/FECpt2/contributions_committee_PlannedParenthood.png" height="42" width="42">
+<img alt="Planned Parenthood" src="{{ site.url }}/assets/FECpt2/contributions_committee_PlannedParenthood.png" height="500" width="500" style="float: left, margin: 35px">
 
-<img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" height="42" width="42">
+<img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" height="500" width="500" style="float: left, margin: 35px">
 
-<img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" height="42" width="42">
+<img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" height="500" width="500" style="float: left, margin: 35px">
 
-<img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" height="42" width="42">
+<img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" height="500" width="500" style="float: left, margin: 35px">
 
 
 ### Contributions by individuals
