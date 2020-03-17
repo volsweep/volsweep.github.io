@@ -106,35 +106,35 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 
 <div class="clearfix">
   <div class="img-container">
-    <img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" style="width: 100%">
+    <img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png">
   </div>
   <div class="img-container">
-    <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" style="width: 100%">
+    <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png">
   </div>
   <div class="img-container">
-    <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" style="width: 100%">
-  </div>
-</div>
-<div class="clearfix">
-  <div class="img-container">
-    <img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" style="width: 100%">
-  </div>
-  <div class="img-container">
-    <img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" style="width: 100%">
-  </div>
-  <div class="img-container">
-    <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" style="width: 100%">
+    <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png">
   </div>
 </div>
 <div class="clearfix">
   <div class="img-container">
-    <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" style="width: 100%">
+    <img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png">
   </div>
   <div class="img-container">
-    <img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" style="width: 100%">  
+    <img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png">
+  </div>
+  <div class="img-container">
+    <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png">
+  </div>
+</div>
+<div class="clearfix">
+  <div class="img-container">
+    <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png">
+  </div>
+  <div class="img-container">
+    <img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png">  
   </div>  
   <div class="img-container">
-    <img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" style="width: 100%">
+    <img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png">
   </div>
 </div>
 
