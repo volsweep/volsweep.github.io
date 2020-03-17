@@ -102,39 +102,39 @@ _Addresses pertaining to more than 100 committees, treasurers listed_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the cleaning process before plotting, we made some observations. First of all, Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 in contributions with no individuals' names given.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each plot below shows, for one source each, independent expenditures **advocating** and **opposing** individual candidates. For example, Club for Growth made independent expenditures around $100 advocating for the Democratic challenger shown as a blue diamond in the middle of the Club for Growth plot, and about $1000 opposing the same candidate. (The axes are a log scale base 10, so the 0 axis marker means 10<sup>0</sup> = $1, the 1 means 10<sup>1</sup> = $10, the 2 means 10<sup>2</sup> = 100, the 3 means 10<sup>3</sup> = $1,000, etc.)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each plot below shows, for one source each, independent expenditures **advocating** and **opposing** individual candidates. For example, Club for Growth made independent expenditures around $100 advocating for the Democratic challenger shown as a blue diamond in the middle of the Club for Growth plot, and about $1000 opposing the same candidate. (The axes are a log scale base 10, so the 1 axis marker means 10<sup>1</sup> = $10, the 2 means 10<sup>2</sup> = 100, the 3 means 10<sup>3</sup> = $1,000, and so on.)
 
 <div class="clearfix">
   <div class="img-container">
-    <img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png">
+    <img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" style="width: 100%">
   </div>
   <div class="img-container">
-    <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png">
+    <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" style="width: 100%">
   </div>
   <div class="img-container">
-    <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png">
-  </div>
-</div>
-<div class="clearfix">
-  <div class="img-container">
-    <img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png">
-  </div>
-  <div class="img-container">
-    <img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png">
-  </div>
-  <div class="img-container">
-    <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png">
+    <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" style="width: 100%">
   </div>
 </div>
 <div class="clearfix">
   <div class="img-container">
-    <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png">
+    <img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" style="width: 100%">
   </div>
   <div class="img-container">
-    <img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png">  
+    <img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" style="width: 100%">
+  </div>
+  <div class="img-container">
+    <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" style="width: 100%">
+  </div>
+</div>
+<div class="clearfix">
+  <div class="img-container">
+    <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" style="width: 100%">
+  </div>
+  <div class="img-container">
+    <img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" style="width: 100%">  
   </div>  
   <div class="img-container">
-    <img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png">
+    <img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" style="width: 100%">
   </div>
 </div>
 
