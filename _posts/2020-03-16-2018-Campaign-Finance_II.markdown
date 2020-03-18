@@ -6,9 +6,7 @@ comments: true
 category: blog
 tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR*
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series on 2018 campaign finance filings with the Federal Election Commission (FEC) was an overview of trends and exceptions with respect to party affiliation, incumbency status, and relative funding status. To recap: incumbents are usually ahead in fundraising and win. For contests where the incumbent is not ahead in fundraising (excludes open seat contests), there is a threshold between $3-5MM above which challengers are more likely to win. In 2018's case, these were mostly Democratic-affiliated challengers; it remains to be seen how this pattern generalizes across midterm vs. general elections, for example.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series on 2018 campaign finance filings was an overview of trends and exceptions with respect to party affiliation, incumbency status, and relative funding status. To recap our observations: incumbents usually lead in fundraising and win. For contests where the incumbent does not lead in fundraising (excludes open seat contests), there is a threshold between $3-5MM above which challengers are more likely to win. In 2018's case, these were mostly Democratic-affiliated challengers; it remains to be seen how this pattern generalizes across midterm vs. general elections, for example.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be more of an in-depth examination of the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC makes available.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.
 
@@ -37,56 +35,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 ### Committee master
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. For example:
-
-
-_Treasurers pertaining to over 50 committees_
-
-_(format: Full name, Number of committees (Number of committees linked to a candidate))_
-
-* **Paul Kilgore**, 144 (27)
-* **Christopher Marston**, 122 (11)
-* **Judith Zamore**, 109 (53)
-* **Lisa Lisker**, 88 (14)
-* **Jennifer May**, 62 (15)
-* **Benjamin Ottenhoff**, 56 (4)
-* **Jay Patterson**, 56 (20)
-
-
-_Addresses pertaining to more than 100 committees, treasurers listed_
-
-* **228 S Washington St, Alexandria, VA 22314** (156 committees)
-
-  * David Satterfield
-  * Francis Kirley
-  * Greg Laughlin
-  * John Dwyer
-  * Keith Davis
-  * Larry Steinberg
-  * Lisa Lisker
-  * Taylor Moose
-
-
-* **918 Pennsylvania Ave AE, Washington, D.C. 20003** (112 committees)
-
-  * Aaron Watson
-  * Amy Eckert
-  * Ellen Tauscher
-  * Halle Mayes
-  * Judith Zamore
-  * Karen Mascott
-  * Kristin Solander
-  * Megan Mielnik
-  * Melissa Nissen
-  * Michael Schrum
-
-
-* **824 S Milledge Ave, Athens, GA 30605** (101 committees)
-
-  * Greg Mosing
-  * Megan Brown
-  * Michael Goode
-  * Paul Kilgore
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. Check &#8594;[here]({{ site.url }}/assets/FECpt2/committees_addresses.pdf)&#8592; for a breakdown by address then treasurer.
 
 
 ### Contributions from committees to candidates & independent expenditures
@@ -121,7 +70,7 @@ Facebook is interesting because it made the most independent expenditures _both_
 
 Google didn't spend nearly as much money on independent expenditures in 2018 as Facebook did. Two incumbents, one from each major party, had a combination of advocating and opposing funds spent by Google; most of the purely advocated candidates were Democrats but the ratio is closer to even than Facebook's.
 
-**I360**[^3]
+**i360**[^3]
 
 According to its website, "Our team of data scientists build and refine proven, sophisticated models that enable us to predict behaviors and actions, such as the likelihood to support or oppose an issue, redeem a coupon, subscribe to an email list, or even purchase a particular brand or product. This knowledge is powerful, informing messaging and enhancing your ability to target and reach the right customer to achieve success at scale." It is funded by Koch family money[^4]. It spend up to about $100,000 each advocating Republicans/opposing Democrats. It spent advocating and opposing funds with respect to one Republican incumbent.
 
@@ -141,7 +90,7 @@ Before the 2018 midterms, SKDKnickerbocker was acquired by the Stagwell Group, w
 
 **United States Postal Service (USPS)**
 
-Interestingly, USPS independent expenditures purely advocating for candidates are pretty mixed by party compared to other plots we've seen, but we definitely notice that the higher amounts went with respect to Republican incumbents. In terms of independent expenditures purely opposing candidates, again, the party split is relatively even but USPS appears to oppose several incumbent Democrats in particular. USPS: not a fan of incumbent Democrats?
+Interestingly, USPS independent expenditures purely advocating for candidates are pretty mixed by party compared to other plots we've seen, but we definitely notice that the higher amounts went to advocate Republican incumbents. In terms of independent expenditures purely opposing candidates, again, the party split is relatively even but USPS appears to oppose several incumbent Democrats in particular. USPS: not a fan of incumbent Democrats?
 
 
 
