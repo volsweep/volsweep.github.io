@@ -6,11 +6,11 @@ comments: true
 category: blog
 tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series on 2018 campaign finance filings was an overview of trends and exceptions with respect to party affiliation, incumbency status, and relative funding status. To recap our observations: incumbents usually lead in fundraising and win. For contests where the incumbent does not lead in fundraising (excludes open seat contests), there is a threshold between $3-5MM above which challengers are more likely to win. In 2018's case, these were mostly Democratic-affiliated challengers; it remains to be seen how this pattern generalizes across midterm vs. general elections, for example.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series on 2018 campaign finance filings was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. To recap our observations: incumbents usually lead in fundraising and win. For contests where the incumbent does not lead in fundraising (excludes open seat contests), there is a threshold between $3-5MM above which challengers are more likely to win. In 2018's case, these were mostly Democratic-affiliated challengers; it remains to be seen how this pattern generalizes across midterm vs. general elections, for example.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be more of an in-depth examination of the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC makes available.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, and 2) any candidate not affiliated with one of the two major parties has been categorized as, "third party." Now we'll go through the FEC data sets one by one in the order we processed them.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, and 2) any candidate not affiliated with one of the two major parties has been categorized as, "third party." Now we'll go through the FEC data sets one by one and share what we found. 
 
 
 ### House/Senate current campaigns
@@ -35,7 +35,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 ### Committee master
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. Check &#8594;[here]({{ site.url }}/assets/FECpt2/committees_addresses.pdf)&#8592; for a breakdown by address then treasurer.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for a breakdown by address and treasurer (e.g., Lisa Lisker, Keith Davis, and David Satterfield are the treasurers of a very large number of committees located at 228 S Washington St, Alexandria, VA 22314).
 
 
 ### Contributions from committees to candidates & independent expenditures
@@ -56,41 +56,41 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 **Club for Growth**[^1]
 
-According to its website, "Club for Growth is a national network of over 250,000 pro-growth, limited government Americans who share in the belief that prosperity and opportunity come from economic freedom." We can see from the plot that it advocates for incumbent, challenger, and open seat Republicans, and opposes fewer of the same plus some Democrats, as well. The three symbols in the center area of the plot represent two open seat Republicans and one Democratic challenger, all of whom were both advocated and opposed by Club for Growth via independent expenditures.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;According to its website, "Club for Growth is a national network of over 250,000 pro-growth, limited government Americans who share in the belief that prosperity and opportunity come from economic freedom." We can see from the plot that it advocates for incumbent, challenger, and open seat Republicans, and opposes fewer of the same plus some Democrats, as well. The three symbols in the center area of the plot represent two open seat Republicans and one Democratic challenger, all of whom were both advocated and opposed by Club for Growth via independent expenditures.
 
 **Connection Strategy**[^2]
 
-There is no active trace of Connection Strategy online; it appears no longer to be in business. It advocated for Republicans only, except for one Democrat running for an open seat and the four more Democrats whom Connection Strategy also opposed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is no active trace of Connection Strategy online; it appears no longer to be in business. It advocated for Republicans only, except for one Democrat running for an open seat and the four more Democrats whom Connection Strategy also opposed.
 
 **Facebook**
 
-Facebook is interesting because it made the most independent expenditures _both_ advocating and opposing individual candidates. See how crowded the middle area of that plot is? No other plot looks like that for 2018. Additionally, we see that the majority of Facebook independent expenditure funds _advocating_ a candidate were made with respect to _Democratic_ candidates, whereas the majority of independent expenditure funds _opposing_ a candidate were made with respect to _Republican_ candidates.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook is interesting because it made the most independent expenditures _both_ advocating and opposing individual candidates. See how crowded the middle area of that plot is? No other plot looks like that for 2018. Additionally, we see that the majority of Facebook independent expenditure funds _advocating_ a candidate were made with respect to _Democratic_ candidates, whereas the majority of independent expenditure funds _opposing_ a candidate were made with respect to _Republican_ candidates.
 
 **Google**
 
-Google didn't spend nearly as much money on independent expenditures in 2018 as Facebook did. Two incumbents, one from each major party, had a combination of advocating and opposing funds spent by Google; most of the purely advocated candidates were Democrats but the ratio is closer to even than Facebook's.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Google didn't spend nearly as much money on independent expenditures in 2018 as Facebook did. Two incumbents, one from each major party, had a combination of advocating and opposing funds spent by Google; most of the purely advocated candidates were Democrats but the ratio is closer to even than Facebook's.
 
 **i360**[^3]
 
-According to its website, "Our team of data scientists build and refine proven, sophisticated models that enable us to predict behaviors and actions, such as the likelihood to support or oppose an issue, redeem a coupon, subscribe to an email list, or even purchase a particular brand or product. This knowledge is powerful, informing messaging and enhancing your ability to target and reach the right customer to achieve success at scale." It is funded by Koch family money[^4]. It spend up to about $100,000 each advocating Republicans/opposing Democrats. It spent advocating and opposing funds with respect to one Republican incumbent.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;According to its website, "Our team of data scientists build and refine proven, sophisticated models that enable us to predict behaviors and actions, such as the likelihood to support or oppose an issue, redeem a coupon, subscribe to an email list, or even purchase a particular brand or product. This knowledge is powerful, informing messaging and enhancing your ability to target and reach the right customer to achieve success at scale." It is funded by Koch family money[^4]. It spend up to about $100,000 each advocating Republicans/opposing Democrats. It spent advocating and opposing funds with respect to one Republican incumbent.
 
 **Nebo Media**
 
-OpenSecrets had as much difficulty as we did finding an online presence for Nebo Media; there isn't one[^5]. Its independent expenditure dollar amounts are pretty high compared to others shown here; up to ~$1MM advocating individual Republican candidates and almost $10MM opposing some Democratic candidates. Interestingly, there is a lone Republican candidate whom Nebo Media opposed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenSecrets had as much difficulty as we did finding an online presence for Nebo Media; there isn't one[^5]. Its independent expenditure dollar amounts are pretty high compared to others shown here; up to ~$1MM advocating individual Republican candidates and almost $10MM opposing some Democratic candidates. Interestingly, there is a lone Republican candidate whom Nebo Media opposed.
 
 **Prolist**[^6]
 
-Prolist has a similar spending profile to Connection Strategy but with a higher average dollar expenditure. It was founded in 1989, and according to its "About" page:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prolist has a similar spending profile to Connection Strategy but with a higher average dollar expenditure. It was founded in 1989, and according to its "About" page:
 
 > "...We also have expanded to focus on database management, fundraising efforts for nonprofits and other organizations, digital integration, political campaign marketing through our ProTarget service, and so much more ... From Intelligent Mail to integrated email marketing and digital fulfillment, ProList continues to make history as the model for direct marketing services companies of the twenty-first century."
 
 **SKDKnickerbocker**[^7]
 
-Before the 2018 midterms, SKDKnickerbocker was acquired by the Stagwell Group, which was founded by former Microsoft chief Steven A. Ballmer and is headed by Mark Penn[^8]. We see from the plot that it made independent expenditures purely advocating for Democrats only, and most of those were challengers. It made independent expenditures both advocating and opposing one Republican incumbent. In terms of independent expenditures purely opposing candidates, SKDKnickerbocker focused on Republicans (mostly incumbents) with the exception of a Democratic incumbent.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before the 2018 midterms, SKDKnickerbocker was acquired by the Stagwell Group, which was founded by former Microsoft chief Steven A. Ballmer and is headed by Mark Penn[^8]. We see from the plot that it made independent expenditures purely advocating for Democrats only, and most of those were challengers. It made independent expenditures both advocating and opposing one Republican incumbent. SKDKnickerbocker's independent expenditures purely opposing candidates focused on Republicans (mostly incumbents) with the exception of a Democratic incumbent.
 
 **United States Postal Service (USPS)**
 
-Interestingly, USPS independent expenditures purely advocating for candidates are pretty mixed by party compared to other plots we've seen, but we definitely notice that the higher amounts went to advocate Republican incumbents. In terms of independent expenditures purely opposing candidates, again, the party split is relatively even but USPS appears to oppose several incumbent Democrats in particular. USPS: not a fan of incumbent Democrats?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interestingly, USPS independent expenditures purely advocating for candidates are pretty mixed by party compared to other plots we've seen, but we definitely notice that the higher amounts went to advocate Republican incumbents. In terms of independent expenditures purely opposing candidates, again, the party split is relatively even but USPS appears to oppose several incumbent Democrats in particular. USPS: not a fan of incumbent Democrats?
 
 
 
