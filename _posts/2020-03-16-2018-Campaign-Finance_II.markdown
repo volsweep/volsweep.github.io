@@ -6,14 +6,12 @@ comments: true
 category: blog
 tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series on 2018 campaign finance filings was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. To recap our observations: incumbents usually lead in fundraising and win. For contests where the incumbent does not lead in fundraising (excludes open seat contests), there is a threshold between $3-5MM above which challengers are more likely to win. In 2018's case, these were mostly Democratic-affiliated challengers; it remains to be seen how this pattern generalizes across midterm vs. general elections, for example.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series on 2018 campaign finance filings was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. To recap: incumbents usually lead fundraising and win.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be more of an in-depth examination of the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC makes available.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, and 2) any candidate not affiliated with one of the two major parties has been categorized as, "third party." Now we'll go through the FEC data sets one by one and share what we found. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be a more in-depth look at the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC publishes.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^1]
 
 
-### House/Senate current campaigns
+### FEC data set 1: House/Senate current campaigns
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one candidate ID per row. This is the one we used to construct the plots in the first post of this series, showing relative candidate fundraising status by contest. We know from this set the following breakdown of the top three contest "types" for each branch of Congress:
 
@@ -28,17 +26,17 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 * 14.6% had a Democratic incumbent running unopposed.
 
 
-### Candidate-committee linkages
+### FEC data set 2: Candidate-committee linkages
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per candidate-committee pairing (NB it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on [this page]. The following candidates are linked to more than ten committees in this data set: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
 
 
-### Committee master
+### FEC data set 3: Committee master
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for a breakdown by address and treasurer (e.g., Lisa Lisker, Keith Davis, and David Satterfield are the treasurers of a very large number of committees located at 228 S Washington St, Alexandria, VA 22314).
 
 
-### Contributions from committees to candidates & independent expenditures
+### FEC data set 4: Contributions from committees to candidates & independent expenditures
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure per row. The different types of contributions/independent expenditures are:
 
@@ -82,7 +80,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prolist has a similar spending profile to Connection Strategy but with a higher average dollar expenditure. It was founded in 1989, and according to its "About" page:
 
-> "...We also have expanded to focus on database management, fundraising efforts for nonprofits and other organizations, digital integration, political campaign marketing through our ProTarget service, and so much more ... From Intelligent Mail to integrated email marketing and digital fulfillment, ProList continues to make history as the model for direct marketing services companies of the twenty-first century."
+> *"...We also have expanded to focus on database management, fundraising efforts for nonprofits and other organizations, digital integration, political campaign marketing through our ProTarget service, and so much more ... From Intelligent Mail to integrated email marketing and digital fulfillment, ProList continues to make history as the model for direct marketing services companies of the twenty-first century."*
 
 **SKDKnickerbocker**[^7]
 
@@ -151,7 +149,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution from an individual per row. We had to do a lot of cleaning in this set in particular. Any names containing "anonymous", "unitemized", and/or anything like "hat pass" we switched to simply "Anonymous." The FEC rules state:
 
-> "An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^9]
+> *"An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^9]*
 
 This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
 
@@ -302,6 +300,7 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 
 **Footnotes**
 
+[^1]: Cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, and 2) any candidate not affiliated with one of the two major parties has been categorized as, "Third party."
 [^1]: https://www.clubforgrowth.org/
 [^2]: Dead link: http://www.connectionstrategy.com/
 [^3]: https://www.i-360.com/

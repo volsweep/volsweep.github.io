@@ -271,6 +271,15 @@ def show_lineups(
                 markersize=9,
             )
         )
+    if 'winner_flag' in list(dataframe.columns):
+        legend_elements.append(
+            mpatches.Patch(
+                [0], 
+                [0], 
+                color=party_dict['Third party']['hex'], 
+                label='Third party', 
+            )
+        )
 
     legend = plt.legend(
         loc='lower right', 
