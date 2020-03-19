@@ -11,7 +11,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be a more in-depth look at the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC publishes.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^1]
 
 
-### FEC data set 1: House/Senate current campaigns
+### "House/Senate current campaigns"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one candidate ID per row. This is the one we used to construct the plots in the first post of this series, showing relative candidate fundraising status by contest. We know from this set the following breakdown of the top three contest "types" for each branch of Congress:
 
@@ -26,17 +26,17 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 * 14.6% had a Democratic incumbent running unopposed.
 
 
-### FEC data set 2: Candidate-committee linkages
+### "Candidate-committee linkages"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per candidate-committee pairing (NB it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on [this page]. The following candidates are linked to more than ten committees in this data set: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
-
-
-### FEC data set 3: Committee master
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one line per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for a breakdown by address and treasurer (e.g., Lisa Lisker, Keith Davis, and David Satterfield are the treasurers of a very large number of committees located at 228 S Washington St, Alexandria, VA 22314).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per candidate-committee pairing (NB it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on [this page]. The following candidates are linked to more than ten committees in this data set: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
 
 
-### FEC data set 4: Contributions from committees to candidates & independent expenditures
+### "Committee master"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for a breakdown by address and treasurer (e.g., Lisa Lisker, Keith Davis, and David Satterfield are the treasurers of a very large number of committees located at 228 S Washington St, Alexandria, VA 22314).
+
+
+### "Contributions from committees to candidates & independent expenditures"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure per row. The different types of contributions/independent expenditures are:
 
