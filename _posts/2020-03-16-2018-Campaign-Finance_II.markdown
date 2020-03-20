@@ -6,7 +6,7 @@ comments: true
 category: blog
 tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series on 2018 campaign finance filings was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. To recap: incumbents usually lead fundraising and win.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. To recap: incumbents usually lead fundraising and win.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be a more in-depth look at the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC publishes.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^1]
 
@@ -48,33 +48,20 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 * "election recount disbursement,"
 * "communication cost against candidate (only for Form 7 filer)."
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the cleaning process before plotting, we made some observations. First of all, Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 in contributions with no individuals' names given.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the cleaning process before plotting, we made some observations. First of all, Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 total in contributions with no individuals' names given.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each plot below shows, for one source each, independent expenditures **advocating** and **opposing** individual candidates. For example, Club for Growth made independent expenditures around $100 advocating for the Democratic challenger shown as a blue diamond in the middle of the Club for Growth plot, and about $1000 opposing the same candidate. (The axes are a log scale base 10, so the 1 axis marker means 10<sup>1</sup> = $10, the 2 means 10<sup>2</sup> = $100, the 3 means 10<sup>3</sup> = $1,000, and so on.) Let's go through these one by one.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each plot below shows, for one source each, independent expenditures **advocating** and **opposing** individual candidates. Let's go through them one by one.
 
-**Club for Growth**[^1]
+**Bully Pulpit Interactive**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;According to its website, "Club for Growth is a national network of over 250,000 pro-growth, limited government Americans who share in the belief that prosperity and opportunity come from economic freedom." We can see from the plot that it advocates for incumbent, challenger, and open seat Republicans, and opposes fewer of the same plus some Democrats, as well. The three symbols in the center area of the plot represent two open seat Republicans and one Democratic challenger, all of whom were both advocated and opposed by Club for Growth via independent expenditures.
 
-**Connection Strategy**[^2]
+**Connection Strategy**[^1]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is no active trace of Connection Strategy online; it appears no longer to be in business. It advocated for Republicans only, except for one Democrat running for an open seat and the four more Democrats whom Connection Strategy also opposed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is no active trace of Connection Strategy online; it appears no longer to be in business. It advocated for Republicans only, except for one Democrat running for an open seat and four more Democrats whom Connection Strategy also opposed.
 
 **Facebook**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook is interesting because it made the most independent expenditures _both_ advocating and opposing individual candidates. See how crowded the middle area of that plot is? No other plot looks like that for 2018. Additionally, we see that the majority of Facebook independent expenditure funds _advocating_ a candidate were made with respect to _Democratic_ candidates, whereas the majority of independent expenditure funds _opposing_ a candidate were made with respect to _Republican_ candidates.
-
-**Google**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Google didn't spend nearly as much money on independent expenditures in 2018 as Facebook did. Two incumbents, one from each major party, had a combination of advocating and opposing funds spent by Google; most of the purely advocated candidates were Democrats but the ratio is closer to even than Facebook's.
-
-**i360**[^3]
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;According to its website, "Our team of data scientists build and refine proven, sophisticated models that enable us to predict behaviors and actions, such as the likelihood to support or oppose an issue, redeem a coupon, subscribe to an email list, or even purchase a particular brand or product. This knowledge is powerful, informing messaging and enhancing your ability to target and reach the right customer to achieve success at scale." It is funded by Koch family money[^4]. It spend up to about $100,000 each advocating Republicans/opposing Democrats. It spent advocating and opposing funds with respect to one Republican incumbent.
-
-**Nebo Media**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenSecrets had as much difficulty as we did finding an online presence for Nebo Media; there isn't one[^5]. Its independent expenditure dollar amounts are pretty high compared to others shown here; up to ~$1MM advocating individual Republican candidates and almost $10MM opposing some Democratic candidates. Interestingly, there is a lone Republican candidate whom Nebo Media opposed.
 
 **Prolist**[^6]
 
@@ -86,62 +73,50 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before the 2018 midterms, SKDKnickerbocker was acquired by the Stagwell Group, which was founded by former Microsoft chief Steven A. Ballmer and is headed by Mark Penn[^8]. We see from the plot that it made independent expenditures purely advocating for Democrats only, and most of those were challengers. It made independent expenditures both advocating and opposing one Republican incumbent. SKDKnickerbocker's independent expenditures purely opposing candidates focused on Republicans (mostly incumbents) with the exception of a Democratic incumbent.
 
-**United States Postal Service (USPS)**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interestingly, USPS independent expenditures purely advocating for candidates are pretty mixed by party compared to other plots we've seen, but we definitely notice that the higher amounts went to advocate Republican incumbents. In terms of independent expenditures purely opposing candidates, again, the party split is relatively even but USPS appears to oppose several incumbent Democrats in particular. USPS: not a fan of incumbent Democrats?
-
+**Waterfront Strategies**
 
 
 <div class="clearfix">
+
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png">
-      <img alt="Club For Growth" src="{{ site.url }}/assets/FECpt2/contributions_committee_ClubForGrowth.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png">
+      <img alt="Bully Pulpit Interactive" src="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png" style="width: 100%">
     </a>
   </div>
+
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png">
-      <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/contributions_committee_ConnectionStrategy.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_ConnectionStrategy.png">
+      <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/ie_ConnectionStrategy.png" style="width: 100%">
     </a>
   </div>
+
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png">
-      <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/contributions_committee_Facebook.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_Facebook.png">
+      <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/ie_Facebook.png" style="width: 100%">
     </a>
   </div>
 </div>
+
 <div class="clearfix">
+
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png">
-      <img alt="Google" src="{{ site.url }}/assets/FECpt2/contributions_committee_Google.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_Prolist.png">
+      <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/ie_Prolist.png" style="width: 100%">
     </a>
   </div>
+
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png">
-      <img alt="I360" src="{{ site.url }}/assets/FECpt2/contributions_committee_I360.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_SKDKnickerbocker.png">
+      <img alt="SKDK" src="{{ site.url }}/assets/FECpt2/ie_SKDKnickerbocker.png" style="width: 100%">
     </a>
   </div>
+
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png">
-      <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/contributions_committee_NeboMedia.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png">
+      <img alt="Waterfront Strategies" src="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png" style="width: 100%">
     </a>
   </div>
-</div>
-<div class="clearfix">
-  <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png">
-      <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/contributions_committee_Prolist.png" style="width: 100%">
-    </a>
-  </div>
-  <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png">
-      <img alt="SKDKnickerbocker" src="{{ site.url }}/assets/FECpt2/contributions_committee_SKDKnickerbocker.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png">
-      <img alt="USPS" src="{{ site.url }}/assets/FECpt2/contributions_committee_USPS.png" style="width: 100%">
-    </a>
-  </div>
+
 </div>
 
 
@@ -154,6 +129,112 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In cleaning the state abbreviations column, we found some that do not match those of U.S. states or territories: AE, AP, FM, ZZ, MH, AA, PW, and null. A lot of the FM ones appear to be Florida cities; a lot of the ZZ ones appear to be cities in foreign countries; most of the null ones are U.S. cities and the state abbreviation is just missing. We left these as-is for now as they only constitute ~0.2% of total observations. The reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/independent expenditures and out of state ones.
+
+
+**U.S. Senate, Florida**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png">
+      <img alt="FLsenate_committee" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png">
+      <img alt="FLsenate_individual" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. Senate, Indiana**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png">
+      <img alt="INsenate_committee" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png">
+      <img alt="INsenate_individual" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. Senate, Missouri**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png">
+      <img alt="MOsenate_committee" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png">
+      <img alt="MOsenate_individual" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. Senate, North Dakota**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png">
+      <img alt="NDsenate_committee" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png">
+      <img alt="NDsenate_individual" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. Senate, New Jersey**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png">
+      <img alt="NJsenate_committee" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png">
+      <img alt="NJsenate_individual" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. Senate, Nevada**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png">
+      <img alt="NVsenate_committee" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png">
+      <img alt="NVsenate_individual" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. Senate, Texas**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png">
+      <img alt="TXsenate_committee" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png">
+      <img alt="TXsenate_individual" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
 
 <div class="clearfix">
   <div class="img-container2">

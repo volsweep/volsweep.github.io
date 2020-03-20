@@ -276,8 +276,8 @@ def show_lineups(
             mpatches.Patch(
                 [0], 
                 [0], 
-                color=party_dict['Third party']['hex'], 
-                label='Third party', 
+                color=vol_light, 
+                label='(winner in bold)', 
             )
         )
 
