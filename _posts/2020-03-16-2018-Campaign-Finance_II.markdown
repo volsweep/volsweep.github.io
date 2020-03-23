@@ -100,7 +100,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 [**Bully Pulpit Interactive**](https://bpimedia.com/)[^2]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;According to [InfluenceWatch.org](https://www.influencewatch.org), Bully Pulpit Interactive (BPI) is a communications consultancy founded in 2009 by [Andrew Bleeker (@andrewbleeker)](https://twitter.com/andrewbleeker), who had served as lead digital marketing strategist on Barack Obama's 2008 Presidential campaign.[^3] Past and present clients include the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/)[^4], [Bloomberg Family Foundation (Bloomberg Philanthropies)](https://www.bloomberg.org/)[^5], [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/)[^6], [Clinton 2016 Presidential Campaign](https://www.hillaryclinton.com/)[^7], [EMILY's List](https://www.emilyslist.org/)[^8], [Independence USA PAC](https://www.independenceusapac.org/)[^9], [NextGen America](https://nextgenamerica.org/)[^10], [Priorities USA PAC](https://priorities.org/)[^11], and [Priorities USA Foundation](https://www.influencewatch.org/non-profit/priorities-usa-foundation/)[^12].
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;According to [InfluenceWatch.org](https://www.influencewatch.org), Bully Pulpit Interactive (BPI) is a communications consultancy founded in 2009 by [Andrew Bleeker (@andrewbleeker)](https://twitter.com/andrewbleeker), who had served as lead digital marketing strategist on Barack Obama's 2008 Presidential campaign.[^3] Past and present BPI clients include the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/)[^4], [Bloomberg Family Foundation (Bloomberg Philanthropies)](https://www.bloomberg.org/)[^5], [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/)[^6], [Clinton 2016 Presidential Campaign](https://www.hillaryclinton.com/)[^7], [EMILY's List](https://www.emilyslist.org/)[^8], [Independence USA PAC](https://www.independenceusapac.org/)[^9], [NextGen America](https://nextgenamerica.org/)[^10], [Priorities USA PAC](https://priorities.org/)[^11], and [Priorities USA Foundation](https://www.influencewatch.org/non-profit/priorities-usa-foundation/)[^12].
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can tell from the plot, all of BPI's opposing expenditures were made with respect to Republicans &#8212; many of them incumbents, with amounts ranging from a few thousand dollars to almost ten million dollars &#8212; while all advocating expenditures were made with respect to Democrats &#8212; many of them challengers, with amounts ranging from around ten thousand dollars to several million dollars.
 
@@ -412,22 +412,19 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 _**Footnotes**_
 
 [^1]: Cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, and 2) any candidate not affiliated with one of the two major parties has been categorized as, "Third party."
-[^2]: https://bpimedia.com/
-[^3]: https://www.influencewatch.org/for-profit/bully-pulpit-interactive/
-[^4]: https://www.gatesfoundation.org/
-[^5]: https://www.bloomberg.org/
-[^6]: https://chanzuckerberg.com/
-[^7]: Original campaign site down, main site here: https://www.hillaryclinton.com/
-[^8]: https://www.emilyslist.org/
-[^9]: https://www.independenceusapac.org/
-[^10]: https://nextgenamerica.org/
-[^11]: https://priorities.org/
-[^12]: Tara McGowan Digital Director: https://www.influencewatch.org/non-profit/priorities-usa-foundation/
+[^2]: Bully Pulpit Interactive: [https://bpimedia.com/](https://bpimedia.com/)
+[^3]: InfluenceWatch.org info on Bully Pulpit Interactive [https://www.influencewatch.org/for-profit/bully-pulpit-interactive/](https://www.influencewatch.org/for-profit/bully-pulpit-interactive/)
+[^4]: Gates Foundation: [https://www.gatesfoundation.org/](https://www.gatesfoundation.org/)
+[^5]: Bloomberg Philanthropies: [https://www.bloomberg.org/](https://www.bloomberg.org/)
+[^6]: Chan-Zuckerberg Initiative: [https://chanzuckerberg.com/](https://chanzuckerberg.com/)
+[^7]: Original Hillary Clinton 2016 campaign site down, main site here: [https://www.hillaryclinton.com/](https://www.hillaryclinton.com/)
+[^8]: EMILY's List: [https://www.emilyslist.org/](https://www.emilyslist.org/)
+[^9]: Independence USA PAC: [https://www.independenceusapac.org/](https://www.independenceusapac.org/)
+[^10]: NextGen America: [https://nextgenamerica.org/](https://nextgenamerica.org/)
+[^11]: Priorities USA Action: [https://priorities.org/](https://priorities.org/)
+[^12]: InfluenceWatch.org info on Priorities USA Foundation (Tara McGowan Digital Director): [https://www.influencewatch.org/non-profit/priorities-usa-foundation/](https://www.influencewatch.org/non-profit/priorities-usa-foundation/)
 
 [^2]: Dead link: http://www.connectionstrategy.com/
-[^3]: https://www.i-360.com/
-[^4]: https://www.politico.com/story/2014/12/koch-brothers-rnc-113359
-[^5]: https://www.opensecrets.org/news/2019/01/political-consultants-making-millions-to-influence-elections/
 [^6]: https://www.prolist.com/about-prolist/
 [^7]: https://www.skdknick.com/
 [^8]: https://www.nytimes.com/2015/10/09/business/dealbook/stagwell-group-will-acquire-skdknickerbocker.html
