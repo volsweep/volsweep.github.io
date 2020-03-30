@@ -6,61 +6,59 @@ comments: true
 category: blog
 tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR We continue our investigation of FEC campaign finance data. Observations & analyses in this post include:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR We continue our investigation of FEC campaign finance data. Observations & analyses in this post include:*
 
-* candidates linked to more committees than average,
-* treasurers associated very large numbers of committees,
-* committees making highest total independent expenditures,
-* who's receiving the independent expenditures and for what,
-* financial profile of opponents in individual contests, and more.
+* *candidates linked to more committees than average,*
+* *treasurers associated with very large numbers of committees,*
+* *committees making highest total independent expenditures,*
+* *who's receiving the independent expenditures and for what,*
+* *financial profile of opponents in individual contests, and more.*
 
-Do you have domain knowledge of campaign finance issues? I don't and would love to discuss. Please email contact@volsweep.com. General comments section at the bottom. More comprehensive/untruncated outputs available code notebooks if you want to comb through. Cheers, thanks for reading!*
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. (Recap: incumbents usually lead in fundraising and win.)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be a more in-depth look at the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC publishes.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^1]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Do you have domain knowledge of campaign finance issues? I don't and would love to discuss. Please email contact@volsweep.com. General comments section at the bottom. More comprehensive/untruncated outputs available code notebooks if you want to comb through. Cheers, thanks for reading!*
 
 
-### "House/Senate current campaigns"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. (Recap: incumbents usually lead in fundraising and win. There appear to be some patterns in the exceptions.) This post will be a more in-depth look at the full set of data that the FEC publishes.[^1]  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^2]
+
+
+### Data Set 1: "House/Senate current campaigns"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one candidate ID per row. This is the one we used to construct the plots in the first post of this series, showing relative candidate fundraising status by contest. We know from this set the following breakdown of the top three contest "types" for each branch of Congress:
 
-*2018 U.S. Senate contests*
+*Senate contests*
 * 58.8% had a Democratic incumbent ahead in fundraising,
 * 8.8% had a Republican incumbent ahead in fundraising,
 * 8.8% had a Republican challenger ahead in fundraising.
 
-*2018 U.S. House of Representatives contests*
+*House contests*
 * 30.8% had a Republican incumbent ahead in fundraising,
 * 24.0% had a Democratic incumbent ahead in fundraising,
 * 14.6% had a Democratic incumbent running unopposed.
 
 
-### "Candidate-committee linkages"
+### Data set 2: "Candidate-committee linkages"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per candidate-committee pairing (note that it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; page. The following candidates are linked to more than ten committees each: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
 
 
-### "Committee master"
+### Data set 3: "Committee master"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. (A reminder that this is the low end count because committees linked to candidates not appearing on final ballots were removed during cleaning.) Here are some examples (committee counts in parentheses):
 
-_Example #1_
-**Address:** 228 S Washington St, Alexandria, VA 22314 (156)
-**Treasurers:** Lisa Lisker (74), Keith Davis (37), and David Satterfield (36)
+_Example #1_<br/>
+**Address:** 228 S Washington St, Alexandria, VA 22314 (156)<br/>
+**Treasurers:** Lisa Lisker (74), Keith Davis (37), and David Satterfield (36)<br/>
 
-_Example #2_
-**Address:** 918 Pennsylvania Ave SE, Washington, DC 20003 (112)
-**Treasurers:** Judith Zamore (97), Kristin Solander (3), Ellen Tauscher (2), Megan Mielnik (2)
+_Example #2_<br/>
+**Address:** 918 Pennsylvania Ave SE, Washington, DC 20003 (112)<br/>
+**Treasurers:** Judith Zamore (97), Kristin Solander (3), Ellen Tauscher (2), Megan Mielnik (2)<br/>
 
-_Example #3_
-**Address:** 824 S Milledge Ave, Athens, GA 30605 (101)
-**Treasurers:** Paul Kilgore (96), Michael Goode (2), Megan Brown (2)
+_Example #3_<br/>
+**Address:** 824 S Milledge Ave, Athens, GA 30605 (101)<br/>
+**Treasurers:** Paul Kilgore (96), Michael Goode (2), Megan Brown (2)<br/>
 
-_Example #4_
-**Address:** PO Box 26141, Alexandria, VA 22313 (95)
-**Treasurers:** Christopher Marston (85), Brenda Hankins (4), (no treasurer listed) (2)
+_Example #4_<br/>
+**Address:** PO Box 26141, Alexandria, VA 22313 (95)<br/>
+**Treasurers:** Christopher Marston (85), Brenda Hankins (4), (no treasurer listed) (2)<br/>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for full lists of committee names by address and treasurer.
@@ -80,7 +78,7 @@ _Example #4_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some observations from the cleaning process: Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 total in contributions with no individuals' names given.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following plot shows one dot per committees (mostly political action committees (PACs)) which made IE(s).[^2] The following spent at least $10 million with respect to either Republican-affiliated candidates, Democratic-affiliated candidates, or both (total amount in parentheses, millions USD):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The next plot shows one dot per committee (mostly political action committees, or PACs) which made IE(s).[^2] The following spent at least $10 million with respect to either Republican-affiliated candidates, Democratic-affiliated candidates, or both (total amount in parentheses):
 
 * Congressional Leadership Fund ($125MM),
 * SMP ($108MM),
@@ -100,11 +98,13 @@ _Example #4_
 * LCV Victory Fund ($14MM),
 * End Citizens United ($11MM).
 
+
 ![senate]({{ site.url }}/assets/FECpt2/committees_log.png)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We see from the plot that most committees make IEs totaling from around $1,000 to $1,000,000. The committees seem to be spending with respect to candidates affiliated with both major parties, if not same order of magnitude then still significantly. We don't have any information about advocating vs opposing from this plot. We also see that committees represented by yellower dots made IEs with respect a large number of candidates (100 or more).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, let's look at where these IEs are going. Each plot below represents, per recipient, IEs advocating and/or opposing candidates (one candidate per plot symbol). They are sorted in decreasing order by total IE dollars received (some left out, go to notebook for full list & plots) and will be discussed below. Click to enlarge.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We see from the plot that most committees make IEs totaling from around $1,000 to $1,000,000. The committees seem to be spending with respect to candidates affiliated with both major parties, although not always on the same order of magnitude. (Note: This plot does not distinguish between IEs advocating vs opposing.) We also see that committees represented by yellower dots made IEs with respect a large number of candidates (100 or more).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, let's look at where these IEs are going. Each plot below represents, per recipient (the 'to' in the plot title), IEs advocating and/or opposing candidates. Each plot symbol represents one candidate. It's not immediately apparent, but they're sorted in decreasing order of total IE dollars received (we left some out, go to notebook for full list & plots). Discussion below.
 
 <div class="clearfix">
 
@@ -131,8 +131,8 @@ _Example #4_
 <div class="clearfix">
 
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/ie_BullyPulpit.png">
-      <img alt="Bully Pulpit" src="{{ site.url }}/assets/FECpt2/ie_BullyPulpit.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png">
+      <img alt="Bully Pulpit Interactive" src="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png" style="width: 100%">
     </a>
   </div>
 
@@ -178,19 +178,18 @@ _Example #4_
 
 [**Facebook**](https://www.facebook.com/gpa)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook received about $4.4MM in IEs, mostly from MoveOn.org Political Action ($2.7MM). Just over 80% of the total IE dollars to Facebook advocated candidates, while the rest opposed. As you can see from the plot, proportionately more candidates had IEs both advocating and opposing them than in other plots we've just seen.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook received about $4.4MM in IEs, mostly from MoveOn.org Political Action ($2.7MM). Just over 80% of the total IE dollars to Facebook advocated candidates, while the rest opposed. As you can see from the plot, proportionately more candidates had IEs both advocating and opposing them than in other plots we've just seen (i.e., the center of the plot is crowded).
 
 
 ### Contributions by individuals
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution from an individual per row. We had to do a lot of cleaning in this set in particular. Any names containing "anonymous", "unitemized", and/or anything like "hat pass" we switched to simply "Anonymous." The FEC rules state:
 
-> *"An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^3][^4]*
+> *"An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^4][^5]*
 
-This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In cleaning the state abbreviations column, we found some that do not match those of U.S. states or territories: AE, AP, FM, ZZ, MH, AA, PW, and null. A lot of the FM ones appear to be Florida cities; a lot of the ZZ ones appear to be cities in foreign countries; most of the null ones are U.S. cities and the state abbreviation is just missing. We left these as-is for now as they only constitute ~0.2% of total observations. The reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/independent expenditures and out of state ones.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **U.S. Senate, Florida**
 
@@ -464,7 +463,8 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 
 _**Footnotes**_
 
-[^1]: Cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, and 2) any candidate not affiliated with one of the two major parties has been categorized as, "Third party."
-[^2]: Read more about independent expenditures: https://ballotpedia.org/Independent_expenditure
-[^3]: https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/
-[^4]: PDF of FEC limits, 2017-18: https://transition.fec.gov/info/contriblimitschart1718.pdf
+[^1]: Data sets analyzed in this post found here: [https://www.fec.gov/data/browse-data/?tab=bulk-data](https://www.fec.gov/data/browse-data/?tab=bulk-data)
+[^2]: Cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, 2) any candidate not affiliated with one of the two major parties has been categorized as, "Third party," 3) some entries in the state abbreviation column do not match those of U.S. states or territories, but we left them for now as they only constitute ~0.2% of total observations. The reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/IEs and out of state ones.
+[^3]: Read more about independent expenditures: [https://ballotpedia.org/Independent_expenditure](https://ballotpedia.org/Independent_expenditure)
+[^4]: [https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/)
+[^5]: PDF of FEC limits (2017-18): [https://transition.fec.gov/info/contriblimitschart1718.pdf](https://transition.fec.gov/info/contriblimitschart1718.pdf)
