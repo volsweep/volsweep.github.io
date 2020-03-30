@@ -66,7 +66,7 @@ _Example #4_<br/>
 
 ### Data set 4: "Contributions from committees to candidates & independent expenditures"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure (IE from now on) per row. The different types of contributions/independent expenditures are:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure (IE from now on) per row.[^3] The different types of contributions/independent expenditures are:
 
 * "contribution made to nonaffiliated committee,"
 * "independent expenditure advocating election of candidate,"
@@ -78,7 +78,7 @@ _Example #4_<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some observations from the cleaning process: Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 total in contributions with no individuals' names given.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The next plot shows one dot per committee (mostly political action committees, or PACs) which made IE(s).[^2] The following spent at least $10 million with respect to either Republican-affiliated candidates, Democratic-affiliated candidates, or both (total amount in parentheses):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The next plot shows one dot per committee (mostly political action committees, or PACs) which made IE(s). The following spent at least $10 million with respect to either Republican-affiliated candidates, Democratic-affiliated candidates, or both (total amount in parentheses):
 
 * Congressional Leadership Fund ($125MM),
 * SMP ($108MM),
