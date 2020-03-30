@@ -64,7 +64,7 @@ _Example #4_<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for full lists of committee names by address and treasurer.
 
 
-### "Contributions from committees to candidates & independent expenditures"
+### Data set 4: "Contributions from committees to candidates & independent expenditures"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure (IE from now on) per row. The different types of contributions/independent expenditures are:
 
@@ -181,7 +181,7 @@ _Example #4_<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook received about $4.4MM in IEs, mostly from MoveOn.org Political Action ($2.7MM). Just over 80% of the total IE dollars to Facebook advocated candidates, while the rest opposed. As you can see from the plot, proportionately more candidates had IEs both advocating and opposing them than in other plots we've just seen (i.e., the center of the plot is crowded).
 
 
-### Contributions by individuals
+### Data set 5: Contributions by individuals
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution from an individual per row. We had to do a lot of cleaning in this set in particular. Any names containing "anonymous", "unitemized", and/or anything like "hat pass" we switched to simply "Anonymous." The FEC rules state:
 
