@@ -6,10 +6,18 @@ comments: true
 category: blog
 tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR The FEC publishes a LOT of data. We coded up storm to make sense of the bigger picture. This post gives an overview of content plus data analysis for each data set. Do you have domain knowledge of campaign finance regulations? Please contact me at rebecca@volsweep.com. Comments section at the bottom. Cheers!*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR We continue our investigation of FEC campaign finance data. Observations & analyses in this post include:
+
+* candidates linked to more committees than average,
+* treasurers associated very large numbers of committees,
+* committees making highest total independent expenditures,
+* who's receiving the independent expenditures and for what,
+* financial profile of opponents in individual contests, and more.
+
+Do you have domain knowledge of campaign finance issues? I don't and would love to discuss. Please email contact@volsweep.com. General comments section at the bottom. More comprehensive/untruncated outputs available code notebooks if you want to comb through. Cheers, thanks for reading!*
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. Recap: incumbents usually lead in fundraising and win.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. (Recap: incumbents usually lead in fundraising and win.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will be a more in-depth look at the &#8594;[full set of data](https://www.fec.gov/data/browse-data/?tab=bulk-data)&#8592; that the FEC publishes.  As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^1]
 
@@ -31,17 +39,36 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 ### "Candidate-committee linkages"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per candidate-committee pairing (note that it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; page. The following candidates are linked to more than ten committees in this data set: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per candidate-committee pairing (note that it does not contain committees that are not linked to candidates). You can see the ones linked to at least three candidates, including candidate info, by searching "list starts here" on &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; page. The following candidates are linked to more than ten committees each: Tammy Baldwin, Sherrod Brown, Joe Donnelly, Heidi Heitkamp, Amy Klobuchar, Claire McCaskill, Bill Nelson, Jacky Rosen, Debbie Stabenow, and Jon Tester.
 
 
 ### "Committee master"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for a breakdown by address and treasurer (e.g., Lisa Lisker, Keith Davis, and David Satterfield are treasurers of a _very_ large number of committees located at 228 S Washington St, Alexandria, VA 22314).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. (A reminder that this is the low end count because committees linked to candidates not appearing on final ballots were removed during cleaning.) Here are some examples (committee counts in parentheses):
+
+_Example #1_
+**Address:** 228 S Washington St, Alexandria, VA 22314 (156)
+**Treasurers:** Lisa Lisker (74), Keith Davis (37), and David Satterfield (36)
+
+_Example #2_
+**Address:** 918 Pennsylvania Ave SE, Washington, DC 20003 (112)
+**Treasurers:** Judith Zamore (97), Kristin Solander (3), Ellen Tauscher (2), Megan Mielnik (2)
+
+_Example #3_
+**Address:** 824 S Milledge Ave, Athens, GA 30605 (101)
+**Treasurers:** Paul Kilgore (96), Michael Goode (2), Megan Brown (2)
+
+_Example #4_
+**Address:** PO Box 26141, Alexandria, VA 22313 (95)
+**Treasurers:** Christopher Marston (85), Brenda Hankins (4), (no treasurer listed) (2)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search the phrase, "look here," in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592; notebook for full lists of committee names by address and treasurer.
 
 
 ### "Contributions from committees to candidates & independent expenditures"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure per row. The different types of contributions/independent expenditures are:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution/independent expenditure (IE from now on) per row. The different types of contributions/independent expenditures are:
 
 * "contribution made to nonaffiliated committee,"
 * "independent expenditure advocating election of candidate,"
@@ -51,36 +78,61 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 * "election recount disbursement,"
 * "communication cost against candidate (only for Form 7 filer)."
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the cleaning process pre-plotting, we made some observations. First of all, Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 total in contributions with no individuals' names given.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some observations from the cleaning process: Invenergy PAC made 691 contributions and/or independent expenditures with no date given (only 3 additional had a date). Embraer Aircraft Holding Inc PAC made 154 contributions and/or independent expenditures with no date given. The Democratic Senatorial Campaign Committee (DSCC) received $306,644 total in contributions with no individuals' names given. The National Republican Senatorial Committee (NRSC) received $294,519 total in contributions with no individuals' names given.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each plot represents, per contributor, independent expenditures *advocating* and independent expenditures *opposing* individual candidates (one candidate per plot symbol). Click to enlarge & note that axes scales are logarithmic base 10. Let's go through them one by one.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following plot shows one dot per committees (mostly political action committees (PACs)) which made IE(s).[^2] The following spent at least $10 million with respect to either Republican-affiliated candidates, Democratic-affiliated candidates, or both (total amount in parentheses, millions USD):
+
+* Congressional Leadership Fund ($125MM),
+* SMP ($108MM),
+* Senate Leadership Fund ($86MM),
+* DCCC ($79MM)
+* NRCC ($69MM),
+* House Majority PAC ($59MM),
+* NRSC ($42MM),
+* Majority Forward ($40MM),
+* DSCC ($40MM),
+* Independence USA PAC ($38MM),
+* New Republican PAC ($31MM),
+* Priorities USA Action ($27MM),
+* America First Action, Inc. ($26MM),
+* Women Vote! ($24MM),
+* DefendArizona ($16MM),
+* LCV Victory Fund ($14MM),
+* End Citizens United ($11MM).
+
+![senate]({{ site.url }}/assets/FECpt2/committees_log.png)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We see from the plot that most committees make IEs totaling from around $1,000 to $1,000,000. The committees seem to be spending with respect to candidates affiliated with both major parties, if not same order of magnitude then still significantly. We don't have any information about advocating vs opposing from this plot. We also see that committees represented by yellower dots made IEs with respect a large number of candidates (100 or more).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, let's look at where these IEs are going. Each plot below represents, per recipient, IEs advocating and/or opposing candidates (one candidate per plot symbol). They are sorted in decreasing order by total IE dollars received (some left out, go to notebook for full list & plots) and will be discussed below. Click to enlarge.
 
 <div class="clearfix">
 
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png">
-      <img alt="Bully Pulpit Interactive" src="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png">
+      <img alt="Waterfront Strategies" src="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png" style="width: 100%">
     </a>
   </div>
 
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/ie_ConnectionStrategy.png">
-      <img alt="Connection Strategy" src="{{ site.url }}/assets/FECpt2/ie_ConnectionStrategy.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_NeboMedia.png">
+      <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/ie_NeboMedia.png" style="width: 100%">
     </a>
   </div>
 
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/ie_Facebook.png">
-      <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/ie_Facebook.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_DelRay.png">
+      <img alt="Del Ray Media Group" src="{{ site.url }}/assets/FECpt2/ie_DelRay.png" style="width: 100%">
     </a>
   </div>
+
 </div>
 
 <div class="clearfix">
 
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/ie_Prolist.png">
-      <img alt="Prolist" src="{{ site.url }}/assets/FECpt2/ie_Prolist.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_BullyPulpit.png">
+      <img alt="Bully Pulpit" src="{{ site.url }}/assets/FECpt2/ie_BullyPulpit.png" style="width: 100%">
     </a>
   </div>
 
@@ -91,48 +143,49 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
   </div>
 
   <div class="img-container">
-    <a href="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png">
-      <img alt="Waterfront Strategies" src="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/ie_Facebook.png">
+      <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/ie_Facebook.png" style="width: 100%">
     </a>
   </div>
 
 </div>
 
-[**Bully Pulpit Interactive**](https://bpimedia.com/)[^2]
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;According to [InfluenceWatch.org](https://www.influencewatch.org), Bully Pulpit Interactive (BPI) is a communications consultancy founded in 2009 by [Andrew Bleeker (@andrewbleeker)](https://twitter.com/andrewbleeker), who had served as lead digital marketing strategist on Barack Obama's 2008 Presidential campaign.[^3] Past and present BPI clients include the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/)[^4], [Bloomberg Family Foundation (Bloomberg Philanthropies)](https://www.bloomberg.org/)[^5], [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/)[^6], [Clinton 2016 Presidential Campaign](https://www.hillaryclinton.com/)[^7], [EMILY's List](https://www.emilyslist.org/)[^8], [Independence USA PAC](https://www.independenceusapac.org/)[^9], [NextGen America](https://nextgenamerica.org/)[^10], [Priorities USA PAC](https://priorities.org/)[^11], and [Priorities USA Foundation](https://www.influencewatch.org/non-profit/priorities-usa-foundation/)[^12].
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you can tell from the plot, all of BPI's opposing expenditures received were made with respect to Republicans &#8212; many of them incumbents, with amounts ranging from a few thousand dollars to almost ten million dollars &#8212; while all advocating expenditures received were made with respect to Democrats &#8212; many of them challengers, with amounts ranging from around ten thousand dollars to several million dollars.
-
-**Connection Strategy**[^3]
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is no active trace of Connection Strategy online; it appears no longer to be in business. It advocated for Republicans only, except for one Democrat running for an open seat and four more Democrats whom Connection Strategy also opposed.
-
-**Facebook**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook is interesting because it made the most independent expenditures _both_ advocating and opposing individual candidates. See how crowded the middle area of that plot is? No other plot looks like that for 2018. Additionally, we see that the majority of Facebook independent expenditure funds _advocating_ a candidate were made with respect to _Democratic_ candidates, whereas the majority of independent expenditure funds _opposing_ a candidate were made with respect to _Republican_ candidates.
-
-**Prolist**[^6]
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prolist has a similar spending profile to Connection Strategy but with a higher-dollar average expenditure. It was founded in 1989, and according to its "About" page:
-
-> *"...We also have expanded to focus on database management, fundraising efforts for nonprofits and other organizations, digital integration, political campaign marketing through our ProTarget service, and so much more ... From Intelligent Mail to integrated email marketing and digital fulfillment, ProList continues to make history as the model for direct marketing services companies of the twenty-first century."*
-
-**SKDKnickerbocker**[^7]
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before the 2018 midterms, SKDKnickerbocker was acquired by the Stagwell Group, which was founded by former Microsoft chief Steven A. Ballmer and is headed by Mark Penn[^8]. We see from the plot that it made independent expenditures purely advocating for Democrats only, and most of those were challengers. It made independent expenditures both advocating and opposing one Republican incumbent. SKDKnickerbocker's independent expenditures purely opposing candidates focused on Republicans (mostly incumbents) with the exception of a Democratic incumbent.
 
 **Waterfront Strategies**
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Waterfront Strategies has no direct online presence. It received at least $246MM in IEs. As you can see in the plot, the advocating vs opposing split is highly partisan, with about 10% of IEs advocating Democratic-affiliated candidates (many of whom were challengers) and about 90% of IEs opposing Republican-affiliated candidates. Those three Democratic-affiliated incumbents standing out on the right (blue circles) are Bill Nelson ($7.1MM), Joe Manchin III ($4.6MM), and Joe Donnelly ($2.7MM). The largest total IEs to Waterfront Strategies came from SMP ($96.9MM), House Majority PAC ($49.7MM), Majority Forward ($39.5MM), and Women Vote! ($18.8MM).
 
 
+**Nebo Media**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nebo Media doesn't have a direct online presence, either. It received at least $112.7MM in IEs, the vast majority of it from the Congressional Leadership Fund (over $112MM). Almost 95% of the total IE dollar amount Nebo Media received went toward opposing candidates. Looking at the plot, the IEs _advocated_ Republican-affiliated candidates (mostly incumbents) and _opposed_ mostly Democratic-affiliated challengers.  Interestingly, some Republican-affiliated candidates were opposed; they are Young Kim, Rodney Davis, and Dana Rohrbacher, who were all opposed by the Congressional Leadership Fund.
+
+
+[**Del Ray Media**](http://delraymediabuying.com/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del Ray Media has a very minimal online presence (click name above). It received almost $54.4MM in IEs, 98% of which was in opposition to candidates. We see in the plot that there are three Republican-affiliated candidates advocated, whereas almost all the opposed candidates are Democratic-affiliated challengers. The IEs came from NRCC ($49.5MM) and NRSC ($4.8MM).
+
+
+[**Bully Pulpit Interactive**](https://bpimedia.com/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bully Pulpit Interactive (BPI) has a pretty strong online presence (click name above). It received $41.7MM in IEs, $26.7MM of which came from Priorities USA Action. Other big spenders included Independence USA PAC ($5.9MM), NextGen Climate Action Committee ($3.9MM), Human Rights Campaign Equality Votes ($1.7MM), and LCV Victory Fund ($1.4MM). About 35% of IE dollars BPI received advocated candidates, and the rest opposed. It received large IEs, mostly from Priorities USA Action, for the Florida U.S. Senate contest between incumbent Bill Nelson ($4.5MM total, advocating) and Rick Scott ($5.9MM total, opposing).
+
+
+[**SKDKnickerbocker**](https://www.skdknick.com/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SKDKnickerbocker received about $30.5MM in IEs, the overwhelming majority of which came from Independence USA PAC ($25.4MM). Others who made large IEs to SKDKnickerbocker are the Environmental Defense Action Fund ($1.5MM), LCV Victory Fund ($1.4MM), and Everytown for Gun Safety Victory Fund ($724K). Interestingly, Everytown for Gun Safety Victory Fund made a very large number of $851 IEs to SKDKnickerbocker in opposition of candidates. Looking at the plot, the Republican-affiliated incumbent in the middle stands out; this is Randy Hultgren, who had Independence USA PAC spend about $460K opposing him and $19K advocating him. Otherwise the plot is very partisan, with most advocating IEs made with respect to Democratic-affiliated challengers and most opposing IEs made with respect to Republican-affiliated incumbents.
+
+
+[**Facebook**](https://www.facebook.com/gpa)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook received about $4.4MM in IEs, mostly from MoveOn.org Political Action ($2.7MM). Just over 80% of the total IE dollars to Facebook advocated candidates, while the rest opposed. As you can see from the plot, proportionately more candidates had IEs both advocating and opposing them than in other plots we've just seen.
 
 
 ### Contributions by individuals
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one contribution from an individual per row. We had to do a lot of cleaning in this set in particular. Any names containing "anonymous", "unitemized", and/or anything like "hat pass" we switched to simply "Anonymous." The FEC rules state:
 
-> *"An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^9][^10]*
+> *"An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^3][^4]*
 
 This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
 
@@ -412,21 +465,6 @@ This doesn't seem to be the case, as $246,892 total across two contributions to 
 _**Footnotes**_
 
 [^1]: Cleaning notes to consider: 1) only data pertaining to candidates appearing on final ballots remain, and 2) any candidate not affiliated with one of the two major parties has been categorized as, "Third party."
-[^2]: Bully Pulpit Interactive: [https://bpimedia.com/](https://bpimedia.com/)
-[^3]: InfluenceWatch.org info on Bully Pulpit Interactive [https://www.influencewatch.org/for-profit/bully-pulpit-interactive/](https://www.influencewatch.org/for-profit/bully-pulpit-interactive/)
-[^4]: Gates Foundation: [https://www.gatesfoundation.org/](https://www.gatesfoundation.org/)
-[^5]: Bloomberg Philanthropies: [https://www.bloomberg.org/](https://www.bloomberg.org/)
-[^6]: Chan-Zuckerberg Initiative: [https://chanzuckerberg.com/](https://chanzuckerberg.com/)
-[^7]: Original Hillary Clinton 2016 campaign site down, main site here: [https://www.hillaryclinton.com/](https://www.hillaryclinton.com/)
-[^8]: EMILY's List: [https://www.emilyslist.org/](https://www.emilyslist.org/)
-[^9]: Independence USA PAC: [https://www.independenceusapac.org/](https://www.independenceusapac.org/)
-[^10]: NextGen America: [https://nextgenamerica.org/](https://nextgenamerica.org/)
-[^11]: Priorities USA Action: [https://priorities.org/](https://priorities.org/)
-[^12]: InfluenceWatch.org info on Priorities USA Foundation (Tara McGowan Digital Director): [https://www.influencewatch.org/non-profit/priorities-usa-foundation/](https://www.influencewatch.org/non-profit/priorities-usa-foundation/)
-
-[^2]: Dead link: http://www.connectionstrategy.com/
-[^6]: https://www.prolist.com/about-prolist/
-[^7]: https://www.skdknick.com/
-[^8]: https://www.nytimes.com/2015/10/09/business/dealbook/stagwell-group-will-acquire-skdknickerbocker.html
-[^9]: https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/
-[^10]: PDF of FEC limits, 2017-18: https://transition.fec.gov/info/contriblimitschart1718.pdf
+[^2]: Read more about independent expenditures: https://ballotpedia.org/Independent_expenditure
+[^3]: https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/
+[^4]: PDF of FEC limits, 2017-18: https://transition.fec.gov/info/contriblimitschart1718.pdf
