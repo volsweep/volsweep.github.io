@@ -186,7 +186,7 @@ _Example #4_<br/>
 
 [**Facebook**](https://www.facebook.com/gpa)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8594;[Facebook, Inc.](https://www.facebook.com/gpa)&#8592;, received about $4.4MM in IEs, mostly from MoveOn.org Political Action ($2.7MM). Just over 80% of the total IE dollars to Facebook advocated candidates, while the rest opposed. As you can see from the plot, proportionately more candidates had IEs both advocating and opposing them than in other plots we've just seen (i.e., the center of the plot is crowded).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8594;[Facebook, Inc.](https://www.facebook.com/gpa)&#8592;, received about $4.4MM in IEs, mostly from MoveOn.org Political Action ($2.7MM). Just over 80% of the total IE dollars to Facebook advocated candidates and the rest opposed. As you can see from the plot, proportionately more candidates had IEs both advocating and opposing them than in other plots we've just seen (i.e., the center of the plot is crowded).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The lefthand plots in the next section were constructed using this section's data set but are presented where they are in order to allow side-by-side comparisons.
 
@@ -202,7 +202,8 @@ _Example #4_<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With last post in mind, let's go through some contests' committee & individual contributions plots to see what the fundraising landscape was like leading up to election day. We'll keep an eye out for things like who has more attack ad money spent against them, who has a higher in-state to out-of-state individual contributions ratio, etc. The statistical modeling in a future post will help us quantify the significance of these observations; right now, we're exploring the scene. As a refresher, see the Senate contest fundraising overview plot &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; and the House one (without contests where incumbents ahead in fundraising won) &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592;. Remember, we're only looking at contests with an incumbent running (i.e., not an open seat).
 
-__Incumbent ahead in fundraising, won__ (most common scenario)
+
+## Incumbent ahead in fundraising, won (common, one example shown)
 
 **U.S. House, Alabama District 3**
 
@@ -230,7 +231,7 @@ __Incumbent ahead in fundraising, won__ (most common scenario)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That is a review of a typical contest where an incumbent ahead in fundraising defeated a challenger and not a lot of independent expenditures were made. If something isn't clear, leave a comment at the bottom and we'll clarify with an edit if needed. Now, we'll look at some of the contests that had unexpected outcomes.
 
 
-__Incumbent ahead in fundraising, lost__
+## Incumbent ahead in fundraising, lost
 
 **U.S. Senate, Missouri**
 
@@ -253,58 +254,16 @@ __Incumbent ahead in fundraising, lost__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 9 (R), we see that incumbent Claire McCaskill dominated in overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of specifics, McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit. (Note that many contributed $21,600, which in the code you can see is the sum of 8 one-time contributions, and that $2,700 x 8 = $21,600.) They include, but are not limited to:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of specifics, McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt1/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of 8 one-time contributions, and that $2,700 x 8 = $21,600.) 
 
-* Ellen Drew, Los Altos CA, homemaker, $37,800
-* John Drew, Los Altos CA, investor, $37,800
-* Deborah Simon, Carmel IN, retired, $31,2614
-* Thomas F Fay, Silver Spring MD, Fay Kaplan Law Partner, $29,125
-* James B Nutter, Kansas City MO, JB Nutter & Co President, $25,000
-* Jeannie Lavine, Lexington MA, homemaker, $24,300
-* Jonathan Lavine, Lexington MA, Bain Capital managing partner, $21,600
-* James J Ross, New York NY, investor, $24,300
-* Deborah Larkin, North Pownal VT, Women's Sports Foundation CEO, $24,100
-* Ward M Klein, Clayton MO, Energizer Holdings CEO, $23,700
-* Anne Gilchrist, New York NY, retired, $23,165
-* Robert R Dyson, Poughkeepsie NY, Patterson Planning and Services, Inc. executive, $22,600
-* Hong Sim, New York NY, Temasek International advisor, $21,800
-* Kathleen McGrath, Encino CA, Bad Robot CEO, $21,600
-* Thomas R Block, New York NY, Block Builders LLC President, $21,600
-* Jeffrey Abrams, Encino CA, Bad Robot Founder, $21,600
-* Marilyn Katzenberg, Los Angeles CA, homemaker, $21,600
-* Jeffrey Gural (written 'Jeffey'), New York NY, Newmark Family Properties, $21,600
-* Jeffrey Katzenberg, Los Angeles CA, Dreamworks SKG President/Founder, $21,600
-* Laura Ross, New York NY, Becker Ross Stoup attorney, $21,600
-* Kate Capshaw, Los Angeles CA, actress, $21,600
-* Steven Spielberg, Los Angeles CA, director, $21,600
-* Annabel Nutter, Kansas City MO, retired, $21,600
-* Gary C Robb, Kansas City MO, Robb & Robb attorney, $21,600
-* Sue Fischlowitz, Clayton MO, retired, $21,600
-* Grover Connell, Berkeley Heights NJ, The Connell Company CEO, $21,600
-* Anita C Robb, Kansas City MO, Robb & Robb attorney, $21,600
-* Thomas A McDonnell, Kansas City MO, retired, $21,600
-* Eric Schmidt, Mountain View CA, Alphabet Inc. exec chairman, $21,600
-* Jeffrey Weber, New York NY, York Capital Management president/COO, $21,600
-* Michael D Bills, Charlottesville VA, Bluestem Asset Management LLC founder/CEO, $21,600
-* Bernard Schwartz, New York NY, BLS Investments CEO, $21,600
-* Judith-Ann Corrente, New York NY, investor, $21,600
-* Frank Marshall, Santa Monica CA, Kennedy Marshall Company director, $21,600
-* Willem Kooyker, New York NY, Blenheim Capital Management LLC investor, $21,600
-* Peter J Werner, St Louis MO, non-profit consultant, $21,600
-* Mark Heising, San Francisco CA, Medley Partners managing director, $21,600
-* Martha S Samuelson, West Newton MA, Analyst Group president/CEO, $21,600
-* Reid G Hoffman, San Francisco CA, Greylock Partners partner, $21,600.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed nothing to his own principal campaign committee while ~6,000 individuals did in total amounts under the combined FEC limit. Individuals contributing total amounts over the limit include:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed nothing to his own principal campaign committee while ~6,000 individuals did amounts totaling under the combined FEC limit. Individuals contributing total amounts over the limit include:
 
 * Larry Potterfield, Columbia MO, Midway USA CEO, $10,800
 * Paul Atkins, Arlington VA, Patomak Global Partners LLC consultant, $10,800
 * William H Darr, Springfield MO, ADF exec VP, $10,800
 * Harry M Cornell, Carthage MO, retired, $10,400
-* Sharon J Herschend, Branson MO, Herschend Family Entertainment CEO, $10,000
-* Lenora Pusta, Payson AZ, retired, $9,100
-* Peter Weldon, Winter Park FL, retired, $8,100
-* Stephen Sherrill, New York NY, retired, $8,100.
+* Sharon J Herschend, Branson MO, Herschend Family Entertainment CEO, $10,000.
 
 
 **U.S. Senate, North Dakota**
@@ -324,6 +283,73 @@ __Incumbent ahead in fundraising, lost__
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+## Incumbent behind in fundraising, won
+
+**U.S. Senate, Texas**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png">
+      <img alt="Texas Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png">
+      <img alt="Texas Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. Senate, New Jersey**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png">
+      <img alt="New Jersey Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png">
+      <img alt="New Jersey Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Michigan District 9**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png">
+      <img alt="Michigan District 09 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png">
+      <img alt="Michigan District 09 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Pennsylvania District 8**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png">
+      <img alt="Pennsylvania District 08 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png">
+      <img alt="Pennsylvania District 08 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+
+## Incumbent behind in fundraising, lost
 
 **U.S. Senate, Florida**
 
@@ -359,22 +385,9 @@ __Incumbent ahead in fundraising, lost__
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-**U.S. Senate, New Jersey**
-
-<div class="clearfix">
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png">
-      <img alt="New Jersey Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png">
-      <img alt="New Jersey Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png" style="width: 100%">
-    </a>
-  </div>
-</div>
 
 **U.S. Senate, Nevada**
 
@@ -391,21 +404,7 @@ __Incumbent ahead in fundraising, lost__
   </div>
 </div>
 
-**U.S. Senate, Texas**
-
-<div class="clearfix">
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png">
-      <img alt="Texas Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png">
-      <img alt="Texas Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png" style="width: 100%">
-    </a>
-  </div>
-</div>
-
+_____________________________________________________________
 **U.S. House, California District 21**
 
 <div class="clearfix">
@@ -466,20 +465,6 @@ __Incumbent ahead in fundraising, lost__
   </div>
 </div>
 
-**U.S. House, Michigan District 9**
-
-<div class="clearfix">
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png">
-      <img alt="Michigan District 09 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png">
-      <img alt="Michigan District 09 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png" style="width: 100%">
-    </a>
-  </div>
-</div>
 
 **U.S. House, Oklahoma District 5**
 
@@ -496,20 +481,7 @@ __Incumbent ahead in fundraising, lost__
   </div>
 </div>
 
-**U.S. House, Pennsylvania District 8**
 
-<div class="clearfix">
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png">
-      <img alt="Pennsylvania District 08 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png">
-      <img alt="Pennsylvania District 08 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png" style="width: 100%">
-    </a>
-  </div>
-</div>
 
 **U.S. House, Utah District 4**
 
