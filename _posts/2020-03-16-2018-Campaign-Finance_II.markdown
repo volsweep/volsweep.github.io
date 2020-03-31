@@ -203,7 +203,7 @@ _Example #4_<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With last post in mind, let's go through some contests' committee & individual contributions plots to see what the fundraising landscape was like leading up to election day. We'll keep an eye out for things like who has more attack ad money spent against them, who has a higher in-state to out-of-state individual contributions ratio, etc. The statistical modeling in a future post will help us quantify the significance of these observations; right now, we're exploring the scene. As a refresher, see the Senate contest fundraising overview plot &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; and the House one (without contests where incumbents ahead in fundraising won) &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592;. Remember, we're only looking at contests with an incumbent running (i.e., not an open seat).
 
 
-## Incumbent ahead in fundraising, won (common, one example shown)
+_**Incumbent ahead in fundraising, won (common, one example shown)**_
 
 **U.S. House, Alabama District 3**
 
@@ -231,7 +231,7 @@ _Example #4_<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That is a review of a typical contest where an incumbent ahead in fundraising defeated a challenger and not a lot of independent expenditures were made. If something isn't clear, leave a comment at the bottom and we'll clarify with an edit if needed. Now, we'll look at some of the contests that had unexpected outcomes.
 
 
-## Incumbent ahead in fundraising, lost
+_**Incumbent ahead in fundraising, lost**_
 
 **U.S. Senate, Missouri**
 
@@ -254,10 +254,10 @@ _Example #4_<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 9 (R), we see that incumbent Claire McCaskill dominated in overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of specifics, McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt1/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of 8 one-time contributions, and that $2,700 x 8 = $21,600.) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of specifics, McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt2/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of 8 one-time contributions, and that $2,700 x 8 = $21,600.)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed nothing to his own principal campaign committee while ~6,000 individuals did amounts totaling under the combined FEC limit. Individuals contributing total amounts over the limit include:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed no money to his own principal campaign committee while ~6,000 individuals did amounts totaling under the combined FEC limit. Individuals contributing total amounts over the limit include:
 
 * Larry Potterfield, Columbia MO, Midway USA CEO, $10,800
 * Paul Atkins, Arlington VA, Patomak Global Partners LLC consultant, $10,800
@@ -286,7 +286,7 @@ _Example #4_<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-## Incumbent behind in fundraising, won
+_**Incumbent behind in fundraising, won**_
 
 **U.S. Senate, Texas**
 
@@ -349,7 +349,7 @@ _Example #4_<br/>
 </div>
 
 
-## Incumbent behind in fundraising, lost
+_**Incumbent behind in fundraising, lost**_
 
 **U.S. Senate, Florida**
 
