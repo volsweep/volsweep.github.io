@@ -14,7 +14,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 * *who's receiving the independent expenditures and for what,*
 * *graphically represented financial profiles of opposing candidates, and more.*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Do you have domain knowledge of campaign finance issues? I don't and would love to discuss. Please email rebecca@volsweep.com. General comments section at the bottom. More comprehensive/untruncated outputs available code notebooks if you want to comb through. Cheers, thanks for reading!*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Do you have domain knowledge of campaign finance regulations? I don't and would love to discuss, especially contribution limits to principal campaign committees because I see a lot that exceed the published limits. Please email rebecca@volsweep.com. General comments section at the bottom. More comprehensive/untruncated outputs available code notebooks if you want to comb through. Cheers, thanks for reading!*
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. (Recap: incumbents usually lead in fundraising and win. There appear to be some patterns in the exceptions.) This post will be a more in-depth look at the full set of data that the FEC publishes.[^1] As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^2]
@@ -45,7 +45,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ### Data set 3: "Committee master"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(notebook &#8594;[here](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592;)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplication of several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. (A reminder that this is the low end count because committees linked to candidates not appearing on final ballots were removed during cleaning.) Here are some examples (committee counts in parentheses, only treasurers with two or more associated committees shown):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplicating several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. (A reminder that this is the low end count because committees linked to candidates not appearing on final ballots were removed during cleaning.) Here are some examples (committee counts in parentheses, only treasurers with two or more associated committees shown):
 
 _Example #1_<br/>
 **Address:** 228 S Washington St, Alexandria, VA 22314 (156)<br/>
@@ -188,7 +188,7 @@ _Example #4_<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8594;[Facebook, Inc.](https://www.facebook.com/gpa)&#8592;, received about $4.4MM in IEs, mostly from MoveOn.org Political Action ($2.7MM). Just over 80% of the total IE dollars to Facebook advocated candidates, while the rest opposed. As you can see from the plot, proportionately more candidates had IEs both advocating and opposing them than in other plots we've just seen (i.e., the center of the plot is crowded).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8594;Lefthand plots in the next section were constructed using this section's data set but are presented where they are to allow for side-by-side comparison per contest.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lefthand plots in the next section were constructed using this section's data set but are presented where they are to allow for side-by-side comparison per contest.
 
 
 ### Data set 5: "Contributions by individuals"
@@ -200,18 +200,142 @@ _Example #4_<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With last post in mind, let's go through some contests' committee & individual contributions plots to see what the fundraising landscape was like leading up to election day. We'll keep an eye out for things like who has more attack ad money spent against them, who has a higher in-state to out-of-state individual contributions ratio, etc. The statistical modeling in a future post will help us quantify the significance of these observations; right now, we're exploring the scene. As a refresher, see the Senate contest fundraising overview plot &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; and the House one (without contests where incumbents ahead in fundraising won) &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592;. Remember, we're only looking at contests with an incumbent running (i.e., not an open seat).
+
+__Incumbent ahead in fundraising, won__ (most common scenario)
+
+**U.S. House, Alabama District 3**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <span>Fig. 8 (L)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png">
+      <img alt="Alabama district 3 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <span>Fig. 8 (R)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png">
+      <img alt="Alabama district 3 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As we see in the committee contributions plot (Fig. 8 (L)), the incumbent Mike Rogers's candidate committee Mike Rogers for Congress raised money consistently throughout the election season starting in January 2017. The highest contributors &#x2014; each giving the maximum allowable $10K &#x2014; included PACs for Blue Cross Blue Shield, Northrop Grumman, Raytheon, Bechtel Group, General Atomics, General Dynamics, PeanutPAC, Harris Corp, and others. An $851 IE opposing Rogers was made by Everytown For Gun Safety Action Fund to SKDKnickerbocker.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Challenger Mallory Hagan's fundraising started over a year later around March 2018. The campaign had an advocating IE from Vote Me Too PAC to Facebook for $39 and committee contributions (all under the maximum of $10K) from PACs for CWA-COPE, United Transportation Union, IBEW, End Citizens United, Seeking Justice, Brotherhood of Locomotive Engineers and Trainmen, and RWDSU COPE.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, looking at the individual contributions plot Fig. 8 (R), we see that the incumbent got a big boost shortly after presumable public announcement of candidacy, and then again after the presumable challenger announcement. The incumbent's proportion of in-state individual contribution dollars to total individual contribution dollars is very high (i.e., dashed red line closely mirrors solid red line). We can see that the out-of-state individual contributions raised by the incumbent are almost equal to in-state individual contributions raised by the challenger.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That is a review of a typical contest where an incumbent ahead in fundraising defeated a challenger and not a lot of independent expenditures were made. If something isn't clear, leave a comment at the bottom and we'll clarify with an edit if needed. Now, we'll look at some of the contests that had unexpected outcomes.
+
+
+__Incumbent ahead in fundraising, lost__
+
+**U.S. Senate, Missouri**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <span>Fig. 9 (L)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png">
+      <img alt="Missouri Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <span>Fig. 9 (R)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png">
+      <img alt="Missouri Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing we notice looking at the committee contributions in Fig. 9 (L) is that a _lot_ of IEs opposing candidates were made. IEs opposing challenger Joshua Hawley started around February 2018, while IEs opposing incumbent Claire McCaskill came in fast and strong around July 2018 and never let up. The largest IEs opposing Hawley were: SMP to Waterfront Strategies ($15.8MM), Women Vote! to Waterfront Strategies ($4.3MM), Priorities USA Action to Bully Pulpit Interactive ($3.7MM), and Majority Forward to Waterfront Strategies ($2.8MM). The largest IEs opposing McCaskill were: Senate Leadership Fund to Main Street Media Group ($16.1MM), NRSC to National Media Research Planning & Placement ($4.0MM), Americans for Prosperity to In Pursuit Of ($3.9MM), Senate Leadership Fund to Arena Online ($3.5MM), CFG Action Missouri (Club for Growth) to Ax Media ($2.9MM), America First Action, Inc. to Red Eagle Media Group ($2.2MM), NRSC to Cavalry ($1.1MM), and Missouri Rising Action to Strategic Media Services ($1.1MM).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 9 (R), we see that incumbent Claire McCaskill dominated in overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of specifics, McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit. (Note that many contributed $21,600, which in the code you can see is the sum of 8 one-time contributions, and that $2,700 x 8 = $21,600.) They include, but are not limited to:
+
+* Ellen Drew, Los Altos CA, homemaker, $37,800
+* John Drew, Los Altos CA, investor, $37,800
+* Deborah Simon, Carmel IN, retired, $31,2614
+* Thomas F Fay, Silver Spring MD, Fay Kaplan Law Partner, $29,125
+* James B Nutter, Kansas City MO, JB Nutter & Co President, $25,000
+* Jeannie Lavine, Lexington MA, homemaker, $24,300
+* Jonathan Lavine, Lexington MA, Bain Capital managing partner, $21,600
+* James J Ross, New York NY, investor, $24,300
+* Deborah Larkin, North Pownal VT, Women's Sports Foundation CEO, $24,100
+* Ward M Klein, Clayton MO, Energizer Holdings CEO, $23,700
+* Anne Gilchrist, New York NY, retired, $23,165
+* Robert R Dyson, Poughkeepsie NY, Patterson Planning and Services, Inc. executive, $22,600
+* Hong Sim, New York NY, Temasek International advisor, $21,800
+* Kathleen McGrath, Encino CA, Bad Robot CEO, $21,600
+* Thomas R Block, New York NY, Block Builders LLC President, $21,600
+* Jeffrey Abrams, Encino CA, Bad Robot Founder, $21,600
+* Marilyn Katzenberg, Los Angeles CA, homemaker, $21,600
+* Jeffrey Gural (written 'Jeffey'), New York NY, Newmark Family Properties, $21,600
+* Jeffrey Katzenberg, Los Angeles CA, Dreamworks SKG President/Founder, $21,600
+* Laura Ross, New York NY, Becker Ross Stoup attorney, $21,600
+* Kate Capshaw, Los Angeles CA, actress, $21,600
+* Steven Spielberg, Los Angeles CA, director, $21,600
+* Annabel Nutter, Kansas City MO, retired, $21,600
+* Gary C Robb, Kansas City MO, Robb & Robb attorney, $21,600
+* Sue Fischlowitz, Clayton MO, retired, $21,600
+* Grover Connell, Berkeley Heights NJ, The Connell Company CEO, $21,600
+* Anita C Robb, Kansas City MO, Robb & Robb attorney, $21,600
+* Thomas A McDonnell, Kansas City MO, retired, $21,600
+* Eric Schmidt, Mountain View CA, Alphabet Inc. exec chairman, $21,600
+* Jeffrey Weber, New York NY, York Capital Management president/COO, $21,600
+* Michael D Bills, Charlottesville VA, Bluestem Asset Management LLC founder/CEO, $21,600
+* Bernard Schwartz, New York NY, BLS Investments CEO, $21,600
+* Judith-Ann Corrente, New York NY, investor, $21,600
+* Frank Marshall, Santa Monica CA, Kennedy Marshall Company director, $21,600
+* Willem Kooyker, New York NY, Blenheim Capital Management LLC investor, $21,600
+* Peter J Werner, St Louis MO, non-profit consultant, $21,600
+* Mark Heising, San Francisco CA, Medley Partners managing director, $21,600
+* Martha S Samuelson, West Newton MA, Analyst Group president/CEO, $21,600
+* Reid G Hoffman, San Francisco CA, Greylock Partners partner, $21,600.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed nothing to his own campaign committee. About 6K individuals contributed to his principal campaign committee under the combined FEC limit. Those contributing over the limit include:
+
+* Larry Potterfield, Columbia MO, Midway USA CEO, $10,800
+* Paul Atkins, Arlington VA, Patomak Global Partners LLC consultant, $10,800
+* William H Darr, Springfield MO, ADF exec VP, $10,800
+* Harry M Cornell, Carthage MO, retired, $10,400
+* Sharon J Herschend, Branson MO, Herschend Family Entertainment CEO, $10,000
+* Lenora Pusta, Payson AZ, retired, $9,100
+* Peter Weldon, Winter Park FL, retired, $8,100
+* Stephen Sherrill, New York NY, retired, $8,100.
+
+
+**U.S. Senate, North Dakota**
+
+<div class="clearfix">
+  <div class="img-container2">
+    <span>Fig. 10 (L)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png">
+      <img alt="North Dakota Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container2">
+    <span>Fig. 10 (R)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png">
+      <img alt="North Dakota Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
 
 **U.S. Senate, Florida**
 
 <div class="clearfix">
   <div class="img-container2">
-    <span>Fig. 8 (L)</span>
+    <span>Fig. 9 (L)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png">
       <img alt="Florida Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
-    <span>Fig. 8 (R)</span>
+    <span>Fig. 9 (R)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png">
       <img alt="Florida Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png" style="width: 100%">
     </a>
@@ -235,35 +359,7 @@ _Example #4_<br/>
   </div>
 </div>
 
-**U.S. Senate, Missouri**
 
-<div class="clearfix">
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png">
-      <img alt="Missouri Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png">
-      <img alt="Missouri Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png" style="width: 100%">
-    </a>
-  </div>
-</div>
-
-**U.S. Senate, North Dakota**
-
-<div class="clearfix">
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png">
-      <img alt="North Dakota Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png">
-      <img alt="North Dakota Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png" style="width: 100%">
-    </a>
-  </div>
-</div>
 
 **U.S. Senate, New Jersey**
 
