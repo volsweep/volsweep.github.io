@@ -221,7 +221,7 @@ __Incumbent ahead in fundraising, won__ (most common scenario)
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As we see in the committee contributions plot (Fig. 8 (L)), the incumbent's candidate committee Mike Rogers for Congress raised money consistently throughout the election season starting in January 2017. The highest contributors &#x2014; each giving the maximum allowable $10K &#x2014; included PACs for Blue Cross Blue Shield, Northrop Grumman, Raytheon, Bechtel Group, General Atomics, General Dynamics, PeanutPAC, Harris Corp, and others. An $851 IE opposing Rogers was made by Everytown For Gun Safety Action Fund to SKDKnickerbocker.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 8 (L) shows the incumbent's candidate committee Mike Rogers for Congress raised money consistently throughout the election season starting in January 2017. The highest contributors &#x2014; giving $10,000 each &#x2014; included PACs for Blue Cross Blue Shield, Northrop Grumman, Raytheon, Bechtel Group, General Atomics, General Dynamics, PeanutPAC, Harris Corp, and others. An $851 IE opposing Rogers was made by Everytown For Gun Safety Action Fund to SKDKnickerbocker.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Challenger Mallory Hagan's fundraising started over a year later around March 2018. The campaign had an advocating IE from Vote Me Too PAC to Facebook for $39 and committee contributions (all under the maximum of $10K) from PACs for CWA-COPE, United Transportation Union, IBEW, End Citizens United, Seeking Justice, Brotherhood of Locomotive Engineers and Trainmen, and RWDSU COPE.
 
