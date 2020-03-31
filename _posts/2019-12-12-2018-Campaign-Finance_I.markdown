@@ -110,12 +110,12 @@ Notes on data cleaning:
 
 Footnotes
 
-[^1]: https://www.fec.gov/data/browse-data/?tab=bulk-data
-[^2]: https://ballotpedia.org/United_States_Congress_elections,_2018
+[^1]: [https://www.fec.gov/data/browse-data/?tab=bulk-data](https://www.fec.gov/data/browse-data/?tab=bulk-data)
+[^2]: [https://ballotpedia.org/United_States_Congress_elections,_2018](https://ballotpedia.org/United_States_Congress_elections,_2018)
 [^3]: "Open" means there was no incumbent on the ballot, which happens due to certain redistricting scenarios, retirement/resignation/death of the sitting elected official, etc. You can see a plot of 2018 open contests with more than one candidate &#8594;[here]({{ site.url }}/assets/FECpt1/open_seats_2018.png)&#8592;.
-[^4]: https://ballotpedia.org/Redistricting_in_Pennsylvania
-[^5]: https://ballotpedia.org/Primary_elections_in_Louisiana
-[^6]: https://ballotpedia.org/Primary_elections_in_California
+[^4]: [https://ballotpedia.org/Redistricting_in_Pennsylvania](https://ballotpedia.org/Redistricting_in_Pennsylvania)
+[^5]: [https://ballotpedia.org/Primary_elections_in_Louisiana](https://ballotpedia.org/Primary_elections_in_Louisiana)
+[^6]: [https://ballotpedia.org/Primary_elections_in_California](https://ballotpedia.org/Primary_elections_in_California)
 [^7]: Causality not implied.
-[^8]: https://ballotpedia.org/United_States_Senate_special_election_in_Minnesota,_2018
-[^9]: https://ballotpedia.org/North_Carolina%27s_9th_Congressional_District_election,_2018
+[^8]: [https://ballotpedia.org/United_States_Senate_special_election_in_Minnesota,_2018](https://ballotpedia.org/United_States_Senate_special_election_in_Minnesota,_2018)
+[^9]: [https://ballotpedia.org/North_Carolina%27s_9th_Congressional_District_election,_2018](https://ballotpedia.org/North_Carolina%27s_9th_Congressional_District_election,_2018)
