@@ -75,7 +75,6 @@ or
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So, what happened?
 
 * PA_08 &#8212; Democratic incumbent raised *less* and won;
-* MI_09 &#8212; Democratic incumbent raised *less* and won;
 * OK_05 &#8212; Democratic *challenger* raised more and won (but under $3MM);
 * IL_06 &#8212; Democratic *challenger* raised *less* and won;
 * VA_10 &#8212; Democratic *challenger* raised *less* and won;
