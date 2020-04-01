@@ -203,26 +203,28 @@ _Example #4_<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With last post in mind, let's go through some contests' committee & individual contributions plots to see what the fundraising landscape was like leading up to election day. We'll keep an eye out for things like who has more attack ad money spent against them, who has a higher in-state to out-of-state individual contributions ratio, etc. The statistical modeling in a future post will help us quantify the significance of these observations; right now, we're exploring the scene. As a refresher, see the Senate contest fundraising overview plot &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; and the House one (without contests where incumbents ahead in fundraising won) &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592;. Remember, we're only looking at contests with an incumbent running (i.e., not an open seat).
 
 
-_**Incumbent ahead in fundraising, won (common, one example shown)**_
+_**Incumbent ahead in fundraising, won**_
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As discussed in the previous FEC post, an incumbent ahead in fundraising who ends up winning is the most common scenario. We'll go over one example to start us off.
 
 **U.S. House, Alabama District 3**
 
 <div class="clearfix">
   <div class="img-container2">
-    <span>Fig. 8 (L)</span>
+    <span>Fig. 8 (L)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png">
       <img alt="Alabama district 3 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
-    <span>Fig. 8 (R)</span>
+    <span>Fig. 8 (R)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png">
       <img alt="Alabama district 3 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 8 (L) shows the incumbent's candidate committee, Mike Rogers for Congress, raised money consistently starting in January 2017. The highest contributors &#x2014; giving $10,000 each &#x2014; included PACs for Blue Cross Blue Shield, Northrop Grumman, Raytheon, Bechtel Group, General Atomics, General Dynamics, PeanutPAC, Harris Corp, and others. Everytown For Gun Safety Action Fund made an $851 IE to SKDKnickerbocker opposing Rogers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 8 (L) shows the incumbent's principal campaign committee, Mike Rogers for Congress, raised money consistently starting in January 2017. The highest contributors &#x2014; giving $10,000 each &#x2014; included PACs for Blue Cross Blue Shield, Northrop Grumman, Raytheon, Bechtel Group, General Atomics, General Dynamics, PeanutPAC, Harris Corp, and others. Everytown For Gun Safety Action Fund made an $851 IE to SKDKnickerbocker opposing Rogers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Challenger Mallory Hagan's fundraising started over a year later, around March 2018. The campaign had an advocating IE from Vote Me Too PAC to Facebook for $39 and committee contributions (all under the maximum of $10K) from PACs for CWA-COPE, United Transportation Union, IBEW, End Citizens United, Seeking Justice, Brotherhood of Locomotive Engineers and Trainmen, and RWDSU COPE.
 
