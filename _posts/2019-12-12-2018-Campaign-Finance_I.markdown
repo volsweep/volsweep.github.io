@@ -81,8 +81,7 @@ or
 * FL_26 &#8212; Democratic *challenger* raised *less* and won;
 * UT_04 &#8212; Democratic *challenger* raised *less* and won;
 * CA_21 &#8212; Democratic *challenger* raised *less* and won;
-* GA_06 &#8212; Democratic *challenger* raised *less* and won;
-* VA_11 &#8212; Republican *challenger* raised *less* and won (the only Republican House candidate who won beyond the scope of Hypotheses &#35;1 & &#35;2).
+* GA_06 &#8212; Democratic *challenger* raised *less* and won.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Again, future posts will discuss whether additional FEC data on funding sources can help improve our Congressional election predictive capacity beyond Hypotheses &#35;1 (that any incumbent ahead in funding will win) and &#35;2 (that House Republican incumbents with less funding are more likely to win than House Republican incumbents with more funding, with a $3-5MM cutoff threshold).
