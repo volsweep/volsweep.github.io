@@ -254,7 +254,7 @@ _**Incumbent ahead in fundraising, lost**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 9 (R), we see that incumbent Claire McCaskill dominated overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of specifics, McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt2/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of eight one-time contributions, and that $2,700 x 8 = $21,600.)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of specifics, McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of eight one-time contributions, and that $2,700 x 8 = $21,600.)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed no money to his own principal campaign committee while ~6,000 individuals did amounts totaling under the combined FEC limit. Individuals contributing total amounts over the limit include:
@@ -285,59 +285,7 @@ _**Incumbent ahead in fundraising, lost**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10 (L) shows that IEs opposing each candidate picked up around early summer 2018 and dwarfed any IEs advocating the candidates. Big spenders opposing incumbent Heidi Heitkamp were the Senate Leadership Fund to Main Street Media Group ($2.3MM) and NRSC to National Media Research Planning & Placement ($2.1MM). Big spenders opposing challenger Kevin Cramer were SMP to Waterfront Strategies ($2.7MM), DSCC to Great American Media ($2.0MM), and Majority Forward to Waterfront Strategies ($1.1MM).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent spent personal money on the campaigns. Heitkamp's principal campaign committee, Heidi for Senate, had around 19K individuals contributing below the combined $5,400 FEC limit. Individuals exceeding that limit include, but are not limited to:
-
-* Carol Lynton, New York NY, Dinex restaurateur, $21,600
-* David Cornfield, Seattle WA, retired, $16,200
-* Joshua Bekenstein, Wayland MA, Bain Capital managing director, $16,200
-* Jason Itkin, Houston TX, Arnold & Itkin LLP attorney, $16,200
-* Philip Munger, New York NY, investor, $16,198
-* Julia Calhoun, Seattle WA, not employed, $13,550
-* Greg Amadon, Seattle WA, not employed, $12,100
-* Richard Goldstein, Sagaponack NY, not employed, $12,024
-* Carol McErlean, Glencoe IL, not employed, $11,641
-* Steven Shafer, Menlo Park CA, Stanford University physician, $11,500
-* Roger Stettner, Santa Barbara CA, ASC physicist/CEO, $11,300
-* Patricia Walker, Dallas TX, not employed, $11,110
-* Merryl Tisch, New York NY, retired, $10,800
-* Thomas Roger Block, New York NY, Block Building LLC exec, $10,800
-* Sepas Ahdoot, Great Neck NY, consultant, $10,800
-* Lucy Calautti, Washington DC, Dakota Strategies consultant, $10,800
-* Joseph Rice, Mount Pleasant SC, Motley Rice LLC attorney, $10,800
-* Frank Brunckhorst, Sarasota FL, Delicatessen Services Co manager, $10,800
-* Thomas McInerney (written McLnerney), Henrico VA, Genworth CEO, $10,800
-* Stephen F Mandel, Greenwich CT, Lone Pine Capital Management analyst, $10,800
-* John D Arnold, Houston TX, retired, $10,800
-* Mary Jo Schuler, Oak Park IL, Wicklow Capital investment manager, $10,800
-* Marlene Hess, New York NY, retired, $10,800
-* Mikal Watts, San Antonio TX, Watts Law Firm attorney, $10,800
-* Laura Gore Ross, New York NY, attorney, $10,800
-* Ryan M Lance, Katy TX, ConocoPhillips CEO, $10,800
-* Paul Geller, Boca Raton FL, Robbins Geller Rudman & Dowd LLP attorney, $10,800
-* Laura E Arnold, Houston TX, retired, $10,800
-* Dennis Heitkamp, Fullerton CA, TRS engineer, $10,800
-* James Ross, New York NY, investor, $10,800
-* Anne Lovett, Holderness NH, philanthropist, $10,800.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cramer's principal campaign committee, Cramer for Senate, had about 2.5K individuals contributing under the combined $5,400 FEC limit. Individuals contributing over the limit include, but are not limited to:
-
-* James E Stephenson, Atlanta GA, Yancy Bros. Co. chairman/CEO, $21,600
-* Donna Stephenson, Atlanta GA, homemaker, $10,800
-* Marc Stern, Malibu CA, TCW Group chairman, $16,200
-* Andy Pitts, Cedar Park TX, MLS Direct Network CEO, $16,200
-* Matthew Rice, Harrisburg IL, Date Mining owner, $14,600
-* Randy Christianson, Fargo ND, Beverage Wholesalers Inc. president, $10,800
-* Jeffrey Silverman, Miami Beach FL, retired, $10,800
-* Don E Cardon, Chandler AZ, Cardon Global real estate exec, $10,800
-* Matthew Ramsey, Houston TX, Energy Transfer president/CEO, $10,800
-* James H Click, Tucson AZ, Jim Click Automotive Team president, $10,800
-* Gregory R Page, Wayzata MN, retired, $10,800
-* Richard Roeder, Los Angeles CA, Vance Street Capital managing partner, $10,800
-* Jody Burgum, Arthur ND, Arthur Companies Inc owner, $10,800
-* Stephen A Schwarzman, New York NY, The Blackstone Group chairman/CEO, $10,800
-* Richard McCormick, Denver CO, retired, $10,800
-* John Canning, Inverness IL, Madison Dearborn Partners chairman, $10,800
-* Steve Sherrill, New York NY, Bruckman Rosser Sherrill and Co. founding manager/director, $10,800.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent spent personal money on the campaigns. Heitkamp's principal campaign committee, Heidi for Senate, had around 19K individuals contributing below the combined $5,400 FEC limit. Individuals exceeding that limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heitkamp_bigdonors.png)&#8592;. Cramer's principal campaign committee, Cramer for Senate, had about 2.5K individuals contributing under the combined $5,400 FEC limit. Individuals contributing over the limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/cramer_bigdonors.png)&#8592;.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10 (R) shows that while Heitkamp and Cramer had about the same amount of in-state individual contribution dollars, out-of-state contributions made up a very high proportion of each (particularly for Heitkamp).
 
@@ -348,16 +296,23 @@ _**Incumbent behind in fundraising, won**_
 
 <div class="clearfix">
   <div class="img-container2">
+    <span>Fig. 11 (L)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png">
       <img alt="Texas Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
+    <span>Fig. 11 (R)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png">
       <img alt="Texas Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png" style="width: 100%">
     </a>
   </div>
 </div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11 (L) shows that IEs opposing challenger Beto O'Rourke began much earlier than and also dwarf those opposing incumbent Ted Cruz. Big spenders opposing O'Rourke were: Texans Are to Main Street Media Group ($4.7MM, also $250K to Cross Screen Media and $26K to Prime Media Partners), ESAFund to Del Cielo Media ($1.4MM, also $150K to CD, $102K to Wilson Research Strategies, and $35K to McCarthy Hennings Whalen), Club for Growth Action to Target Enterprises ($1.1MM, also $29K to Prime Media Partners). The biggest spender opposing Cruz was Texas Forever, which paid $2.3MM to Waterfront Strategies.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent contribution to the respective principal campaign committee. O'Rourke's, Beto for Texas, received contributions from about 70K individuals under the combined $5,400 FEC limit. Cruz's, Ted Cruz for Senate, received contributions from close to 40K individuals under the FEC limit. 
+
 
 **U.S. Senate, New Jersey**
 
