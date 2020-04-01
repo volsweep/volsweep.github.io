@@ -235,6 +235,8 @@ _**Incumbent ahead in fundraising, won**_
 
 _**Incumbent ahead in fundraising, lost**_
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The only two instances of this scenario in all of 2018's contests are the Missouri Senate contest where incumbent/leading fundraiser Claire McCaskill lost to challenger Joshua Hawley and the North Dakota Senate contest where incumbent/leading fundraiser Heidi Heitkamp lost to challenger Kevin Cramer.
+
 **U.S. Senate, Missouri**
 
 <div class="clearfix">
@@ -294,6 +296,8 @@ _**Incumbent ahead in fundraising, lost**_
 
 _**Incumbent behind in fundraising, won**_
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in the Senate contests are Texas incumbent Ted Cruz's win over challenger/leading funraiser Beto O'Rourke and New Jersey incumbent Bob Menendez's win over challenger/leading fundraiser Bob Hugin. The House contest in this scenario is Pennsylvania District 8, where incumbent Matt Cartwright beat challenger/leading fundraiser John Chrin.
+
 **U.S. Senate, Texas**
 
 <div class="clearfix">
@@ -320,31 +324,21 @@ _**Incumbent behind in fundraising, won**_
 
 <div class="clearfix">
   <div class="img-container2">
+    <span>Fig. 12 (L)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png">
       <img alt="New Jersey Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
+    <span>Fig. 12 (R)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png">
       <img alt="New Jersey Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-**U.S. House, Michigan District 9**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*NOTE: from these two plots it looks as though the incumbent leads in fundraising; check back &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; to see that the FEC lists the challenger as having almost $40MM (far more than the incumbent). We have one more data set to process which may explain where the rest of that money came from & will update as needed.*
 
-<div class="clearfix">
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png">
-      <img alt="Michigan District 09 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MI09_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container2">
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png">
-      <img alt="Michigan District 09 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MI09_individual.png" style="width: 100%">
-    </a>
-  </div>
-</div>
 
 **U.S. House, Pennsylvania District 8**
 
