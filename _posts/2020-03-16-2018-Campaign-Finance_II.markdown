@@ -287,7 +287,7 @@ _**Incumbent ahead in fundraising, lost**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent spent personal money on the campaigns. Heitkamp's principal campaign committee, Heidi for Senate, had around 19K individuals contributing below the combined $5,400 FEC limit. Individuals exceeding that limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heitkamp_bigdonors.png)&#8592;. Cramer's principal campaign committee, Cramer for Senate, had about 2.5K individuals contributing under the combined $5,400 FEC limit. Individuals contributing over the limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/cramer_bigdonors.png)&#8592;.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10 (R) shows that while Heitkamp and Cramer had about the same amount of in-state individual contribution dollars, out-of-state contributions made up a very high proportion of each (particularly for Heitkamp).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10 (R) shows that while Heitkamp and Cramer had about the same amount of in-state individual contribution dollars, out-of-state individual contributions made up a very high proportion of each (particularly for Heitkamp).
 
 
 _**Incumbent behind in fundraising, won**_
@@ -309,9 +309,9 @@ _**Incumbent behind in fundraising, won**_
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11 (L) shows that IEs opposing challenger Beto O'Rourke began much earlier than and also dwarf those opposing incumbent Ted Cruz. Big spenders opposing O'Rourke were: Texans Are to Main Street Media Group ($4.7MM, also $250K to Cross Screen Media and $26K to Prime Media Partners), ESAFund to Del Cielo Media ($1.4MM, also $150K to CD, $102K to Wilson Research Strategies, and $35K to McCarthy Hennings Whalen), Club for Growth Action to Target Enterprises ($1.1MM, also $29K to Prime Media Partners). The biggest spender opposing Cruz was Texas Forever, which paid $2.3MM to Waterfront Strategies.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11 (L) shows that IEs opposing challenger Beto O'Rourke began earlier than and also dwarf those opposing incumbent Ted Cruz. Big spenders opposing O'Rourke were: Texans Are to Main Street Media Group ($4.7MM, also $250K to Cross Screen Media and $26K to Prime Media Partners), ESAFund to Del Cielo Media ($1.4MM, also $150K to CD, $102K to Wilson Research Strategies, and $35K to McCarthy Hennings Whalen), Club for Growth Action to Target Enterprises ($1.1MM, also $29K to Prime Media Partners). The biggest spender opposing Cruz was Texas Forever, which paid $2.3MM to Waterfront Strategies.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent contribution to the respective principal campaign committee. O'Rourke's, Beto for Texas, received contributions from about 70K individuals under the combined $5,400 FEC limit. Cruz's, Ted Cruz for Senate, received contributions from close to 40K individuals under the FEC limit. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent personally contributed to the respective principal campaign committee. O'Rourke's, Beto for Texas, received contributions from about 70K individuals under the combined $5,400 FEC limit. Cruz's, Ted Cruz for Senate, received contributions from close to 40K individuals under the FEC limit.
 
 
 **U.S. Senate, New Jersey**
