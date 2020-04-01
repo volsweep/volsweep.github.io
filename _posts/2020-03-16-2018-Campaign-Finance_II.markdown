@@ -344,11 +344,13 @@ _**Incumbent behind in fundraising, won**_
 
 <div class="clearfix">
   <div class="img-container2">
+    <span>Fig. 13 (L)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png">
       <img alt="Pennsylvania District 08 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
+    <span>Fig. 13 (R)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png">
       <img alt="Pennsylvania District 08 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png" style="width: 100%">
     </a>
