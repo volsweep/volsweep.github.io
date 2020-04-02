@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Campaign Finance 2018, Part I: A retrospective"
+title: "2018 Campaign Finance, Part I: A retrospective"
 date: 2019-12-12 16:00:00 -0400
 comments: true
 category: blog
