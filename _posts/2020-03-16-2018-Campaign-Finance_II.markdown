@@ -203,7 +203,7 @@ _Example #4_<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With last post in mind, let's go through some contests' committee & individual contributions plots to see what the fundraising landscape was like leading up to election day. We'll keep an eye out for things like who has more attack ad money spent against them, who has a higher in-state to out-of-state individual contributions ratio, etc. The statistical modeling in a future post will help us quantify the significance of these observations; right now, we're exploring the scene. As a refresher, see the Senate contest fundraising overview plot &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; and the House one (without contests where incumbents ahead in fundraising won) &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592;. Remember, we're only looking at contests with an incumbent running (i.e., not open seats). The faint vertical lines that are the same in every plot are FEC filing deadlines and election day.
 
 
-_**<span style={'text-decoration':'underline'}>Scenario: incumbent ahead in fundraising who won</span>**_
+<span style={'text-decoration':'underline'}>_**Scenario: incumbent ahead in fundraising who won**_</span>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As discussed in the previous FEC post, the most common scenario is when an incumbent leads in fundraising and wins. We'll go over one example of this to start.
 
