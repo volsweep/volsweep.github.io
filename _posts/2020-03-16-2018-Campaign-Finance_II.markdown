@@ -45,7 +45,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ### Data set 3: "Committee master"
 > (notebook &#8594;[here](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/03a%20-%202018_CommitteeMaster_clean.ipynb)&#8592;)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplicating several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. (A reminder that this is the low end count because committees linked to candidates not appearing on final ballots were removed during cleaning.) Here are some examples (committee counts in parentheses, only treasurers with two or more associated committees shown):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one row per committee. After deduplicating several columns, we found there are some treasurers associated with large numbers of committees, and some addresses associated with large numbers of committees. (A reminder that this is the low end count because committees linked to candidates not appearing on final ballots were removed during cleaning.) Here are some examples (committee counts in parentheses; only treasurers with two or more associated committees shown):
 
 _Example #1_<br/>
 **Address:** 228 S Washington St, Alexandria, VA 22314 (156)<br/>
@@ -126,7 +126,7 @@ _Example #4_<br/>
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 4: Del Ray Media Group</span><br/>
+    <span>Fig. 4: Del Ray Media</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/ie_DelRay.png">
       <img alt="Del Ray Media Group" src="{{ site.url }}/assets/FECpt2/ie_DelRay.png" style="width: 100%">
     </a>
