@@ -337,6 +337,8 @@ _**Scenario: incumbent behind in fundraising who won**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent personally contributed to the respective principal campaign committee. O'Rourke's, Beto for Texas, received contributions from about 70K individuals under the combined $5,400 FEC limit. Cruz's, Ted Cruz for Senate, received contributions from close to 40K individuals under the FEC limit.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 
 **U.S. Senate, New Jersey**
 
@@ -398,19 +400,19 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 14(a)</span>
+    <span>Fig. 14(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png">
       <img alt="Florida Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 14(b)</span>
+    <span>Fig. 14(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png">
       <img alt="Florida Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 14(c)</span>
+    <span>Fig. 14(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_cm2cm.png">
       <img alt="Florida Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_cm2cm.png" style="width: 100%">
     </a>
@@ -423,19 +425,19 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 15(a)</span>
+    <span>Fig. 15(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png">
       <img alt="Indiana Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 15(b)</span>
+    <span>Fig. 15(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png">
       <img alt="Indiana Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 15(c)</span>
+    <span>Fig. 15(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_cm2cm.png">
       <img alt="Indiana Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_cm2cm.png" style="width: 100%">
     </a>
@@ -447,19 +449,19 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 16(a)</span>
+    <span>Fig. 16(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png">
       <img alt="Nevada Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 16(b)</span>
+    <span>Fig. 16(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png">
       <img alt="Nevada Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 16(c)</span>
+    <span>Fig. 16(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_cm2cm.png">
       <img alt="Nevada Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_cm2cm.png" style="width: 100%">
     </a>
@@ -471,13 +473,21 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 17(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png">
       <img alt="California district 21 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 17(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_individual.png">
       <img alt="California district 21 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_CA21_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 17(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_cm2cm.png">
+      <img alt="California district 21 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_CA21_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -486,13 +496,21 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 18(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png">
       <img alt="Florida district 26 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 18(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_individual.png">
       <img alt="Florida district 26 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_FL26_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 18(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_cm2cm.png">
+      <img alt="Florida district 26 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_FL26_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -501,13 +519,21 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 19(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png">
       <img alt="Georgia District 06 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 19(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_individual.png">
       <img alt="Georgia District 06 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_GA06_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 19(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_cm2cm.png">
+      <img alt="Georgia District 06 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_GA06_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -516,13 +542,21 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 20(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png">
       <img alt="Illinois District 06 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 20(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_individual.png">
       <img alt="Illinois District 06 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_IL06_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 20(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_cm2cm.png">
+      <img alt="Illinois District 06 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_IL06_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -532,14 +566,18 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 21(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png">
       <img alt="Oklahoma District 05 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 21(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_OK05_individual.png">
       <img alt="Oklahoma District 05 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_OK05_individual.png" style="width: 100%">
     </a>
+  </div>
+  <div class="img-container">
   </div>
 </div>
 
@@ -548,13 +586,21 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 22(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png">
       <img alt="Utah District 04 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 22(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_individual.png">
       <img alt="Utah District 04 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_UT04_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 22(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_cm2cm2.png">
+      <img alt="Utah District 04 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_UT04_cm2cm2.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -563,13 +609,21 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 23(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png">
       <img alt="Virginia District 10 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 23(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_individual.png">
       <img alt="Virginia District 10 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_VA10_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 23(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_cm2cm.png">
+      <img alt="Virginia District 10 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_VA10_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -578,13 +632,21 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
+    <span>Fig. 24(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png">
       <img alt="Wisconsin District 01 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
+    <span>Fig. 24(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png">
       <img alt="Wisconsin District 01 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 24(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_cm2cm.png">
+      <img alt="Wisconsin District 01 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_WI01_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
