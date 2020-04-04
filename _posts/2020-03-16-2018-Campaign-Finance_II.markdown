@@ -211,24 +211,24 @@ _**Scenario: incumbent ahead in fundraising who won**_
 
 <div class="clearfix">
   <div class="img-container2">
-    <span>Fig. 8 (L)</span><br/>
+    <span>Fig. 8(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png">
       <img alt="Alabama district 3 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container2">
-    <span>Fig. 8 (R)</span><br/>
+    <span>Fig. 8(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png">
       <img alt="Alabama district 3 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 8 (L) shows the incumbent's principal campaign committee, Mike Rogers for Congress, raised money consistently starting in January 2017. The highest contributors &#x2014; giving $10,000 each &#x2014; included PACs for Blue Cross Blue Shield, Northrop Grumman, Raytheon, Bechtel Group, General Atomics, General Dynamics, PeanutPAC, Harris Corp, and others. Everytown For Gun Safety Action Fund made an $851 IE to SKDKnickerbocker opposing Rogers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 8(a) shows the incumbent's principal campaign committee, Mike Rogers for Congress, raised money consistently starting in January 2017. The highest contributors &#x2014; giving $10,000 each &#x2014; included PACs for Blue Cross Blue Shield, Northrop Grumman, Raytheon, Bechtel Group, General Atomics, General Dynamics, PeanutPAC, Harris Corp, and others. Everytown For Gun Safety Action Fund made an $851 IE to SKDKnickerbocker opposing Rogers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Challenger Mallory Hagan's fundraising started over a year later, around March 2018. The campaign had an advocating IE from Vote Me Too PAC to Facebook for $39 and committee contributions (all under the maximum of $10K) from PACs for CWA-COPE, United Transportation Union, IBEW, End Citizens United, Seeking Justice, Brotherhood of Locomotive Engineers and Trainmen, and RWDSU COPE.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, looking at the individual contributions plot Fig. 8 (R), we see that the incumbent got a big boost shortly after the campaign started, and then again after what looks like the challenger's campaign launch. The incumbent's proportion of in-state individual contribution dollars to total individual contribution dollars is very high (i.e., dashed red line closely mirrors solid red line). We can see that the out-of-state individual contributions raised by the incumbent are almost equal to in-state individual contributions raised by the challenger.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, looking at the individual contributions plot Fig. 8(b), we see that the incumbent got a big boost shortly after the campaign started, and then again after what looks like the challenger's campaign launch. The incumbent's proportion of in-state individual contribution dollars to total individual contribution dollars is very high (i.e., dashed red line closely mirrors solid red line). We can see that the out-of-state individual contributions raised by the incumbent are almost equal to in-state individual contributions raised by the challenger.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That is a review of a typical contest where an incumbent ahead in fundraising defeated a challenger and not a lot of independent expenditures were made. If something isn't clear, let us know in the comments section at the bottom and we'll clarify. Now, let's look at some of the contests discussed in the previous post that had unexpected outcomes.
 
@@ -240,23 +240,29 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 **U.S. Senate, Missouri**
 
 <div class="clearfix">
-  <div class="img-container2">
-    <span>Fig. 9 (L)</span><br/>
+  <div class="img-container">
+    <span>Fig. 9(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png">
       <img alt="Missouri Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
-    <span>Fig. 9 (R)</span><br/>
+  <div class="img-container">
+    <span>Fig. 9(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png">
       <img alt="Missouri Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png" style="width: 100%">
     </a>
   </div>
+  <div class="img-container">
+    <span>Fig. 9(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_cm2cm.png">
+      <img alt="Missouri Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_cm2cm.png" style="width: 100%">
+    </a>
+  </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing we notice looking at the committee contributions in Fig. 9 (L) is that there were a _lot_ of IEs made to oppose candidates. IEs opposing challenger Joshua Hawley picked up pace around February 2018, while IEs opposing incumbent Claire McCaskill came in fast and strong around July 2018 and never let up. The largest IEs opposing Hawley were: SMP to Waterfront Strategies ($15.8MM), Women Vote! to Waterfront Strategies ($4.3MM), Priorities USA Action to Bully Pulpit Interactive ($3.7MM), and Majority Forward to Waterfront Strategies ($2.8MM). The largest IEs opposing McCaskill were: Senate Leadership Fund to Main Street Media Group ($16.1MM), NRSC to National Media Research Planning & Placement ($4.0MM), Americans for Prosperity to In Pursuit Of ($3.9MM), Senate Leadership Fund to Arena Online ($3.5MM), CFG Action Missouri (Club for Growth) to Ax Media ($2.9MM), America First Action, Inc. to Red Eagle Media Group ($2.2MM), NRSC to Cavalry ($1.1MM), and Missouri Rising Action to Strategic Media Services ($1.1MM).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing we notice looking at the committee contributions in Fig. 9(a) is that there were a _lot_ of IEs made to oppose candidates. IEs opposing challenger Joshua Hawley picked up pace around February 2018, while IEs opposing incumbent Claire McCaskill came in fast and strong around July 2018 and never let up. The largest IEs opposing Hawley were: SMP to Waterfront Strategies ($15.8MM), Women Vote! to Waterfront Strategies ($4.3MM), Priorities USA Action to Bully Pulpit Interactive ($3.7MM), and Majority Forward to Waterfront Strategies ($2.8MM). The largest IEs opposing McCaskill were: Senate Leadership Fund to Main Street Media Group ($16.1MM), NRSC to National Media Research Planning & Placement ($4.0MM), Americans for Prosperity to In Pursuit Of ($3.9MM), Senate Leadership Fund to Arena Online ($3.5MM), CFG Action Missouri (Club for Growth) to Ax Media ($2.9MM), America First Action, Inc. to Red Eagle Media Group ($2.2MM), NRSC to Cavalry ($1.1MM), and Missouri Rising Action to Strategic Media Services ($1.1MM).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 9 (R), we see that incumbent Claire McCaskill dominated overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 9(b), we see that incumbent Claire McCaskill dominated overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of eight one-time contributions, and that $2,700 x 8 = $21,600.)
 
@@ -273,25 +279,31 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 **U.S. Senate, North Dakota**
 
 <div class="clearfix">
-  <div class="img-container2">
-    <span>Fig. 10 (L)</span><br/>
+  <div class="img-container">
+    <span>Fig. 10(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png">
       <img alt="North Dakota Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
-    <span>Fig. 10 (R)</span><br/>
+  <div class="img-container">
+    <span>Fig. 10(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png">
       <img alt="North Dakota Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png" style="width: 100%">
     </a>
   </div>
+  <div class="img-container">
+    <span>Fig. 10(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_cm2cm.png">
+      <img alt="North Dakota Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_cm2cm.png" style="width: 100%">
+    </a>
+  </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10 (L) shows that IEs opposing each candidate picked up around early summer 2018 and dwarfed any IEs advocating the candidates. Big spenders opposing incumbent Heidi Heitkamp were the Senate Leadership Fund to Main Street Media Group ($2.3MM) and NRSC to National Media Research Planning & Placement ($2.1MM). Big spenders opposing challenger Kevin Cramer were SMP to Waterfront Strategies ($2.7MM), DSCC to Great American Media ($2.0MM), and Majority Forward to Waterfront Strategies ($1.1MM).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10(a) shows that IEs opposing each candidate picked up around early summer 2018 and dwarfed any IEs advocating the candidates. Big spenders opposing incumbent Heidi Heitkamp were the Senate Leadership Fund to Main Street Media Group ($2.3MM) and NRSC to National Media Research Planning & Placement ($2.1MM). Big spenders opposing challenger Kevin Cramer were SMP to Waterfront Strategies ($2.7MM), DSCC to Great American Media ($2.0MM), and Majority Forward to Waterfront Strategies ($1.1MM).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent spent personal money on the campaigns. Heitkamp's principal campaign committee, Heidi for Senate, had around 19K individuals contributing below the combined $5,400 FEC limit. Individuals exceeding that limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heitkamp_bigdonors.png)&#8592;. Cramer's principal campaign committee, Cramer for Senate, had about 2.5K individuals contributing under the combined $5,400 FEC limit. Individuals contributing over the limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/cramer_bigdonors.png)&#8592;.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10 (R) shows that the opponents had about the same amount of in-state individual contribution dollars, and that out-of-state individual contributions made up a very high proportion of each (particularly for Heitkamp).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10(b) shows that the opponents had about the same amount of in-state individual contribution dollars, and that out-of-state individual contributions made up a very high proportion of each (particularly for Heitkamp).
 
 
 _**Scenario: incumbent behind in fundraising who won**_
@@ -301,21 +313,27 @@ _**Scenario: incumbent behind in fundraising who won**_
 **U.S. Senate, Texas**
 
 <div class="clearfix">
-  <div class="img-container2">
-    <span>Fig. 11 (L)</span><br/>
+  <div class="img-container">
+    <span>Fig. 11(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png">
       <img alt="Texas Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
-    <span>Fig. 11 (R)</span><br/>
+  <div class="img-container">
+    <span>Fig. 11(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png">
       <img alt="Texas Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png" style="width: 100%">
     </a>
   </div>
+  <div class="img-container">
+    <span>Fig. 11(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_cm2cm.png">
+      <img alt="Texas Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_cm2cm.png" style="width: 100%">
+    </a>
+  </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11 (L) shows that IEs opposing challenger Beto O'Rourke began earlier than and also dwarf those opposing incumbent Ted Cruz. Big spenders opposing O'Rourke were: Texans Are to Main Street Media Group ($4.7MM, also $250K to Cross Screen Media and $26K to Prime Media Partners), ESAFund to Del Cielo Media ($1.4MM, also $150K to CD, $102K to Wilson Research Strategies, and $35K to McCarthy Hennings Whalen), Club for Growth Action to Target Enterprises ($1.1MM, also $29K to Prime Media Partners). The biggest spender opposing Cruz was Texas Forever, which paid $2.3MM to Waterfront Strategies.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11(a) shows that IEs opposing challenger Beto O'Rourke began earlier than and also dwarf those opposing incumbent Ted Cruz. Big spenders opposing O'Rourke were: Texans Are to Main Street Media Group ($4.7MM, also $250K to Cross Screen Media and $26K to Prime Media Partners), ESAFund to Del Cielo Media ($1.4MM, also $150K to CD, $102K to Wilson Research Strategies, and $35K to McCarthy Hennings Whalen), Club for Growth Action to Target Enterprises ($1.1MM, also $29K to Prime Media Partners). The biggest spender opposing Cruz was Texas Forever, which paid $2.3MM to Waterfront Strategies.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent personally contributed to the respective principal campaign committee. O'Rourke's, Beto for Texas, received contributions from about 70K individuals under the combined $5,400 FEC limit. Cruz's, Ted Cruz for Senate, received contributions from close to 40K individuals under the FEC limit.
 
@@ -323,16 +341,22 @@ _**Scenario: incumbent behind in fundraising who won**_
 **U.S. Senate, New Jersey**
 
 <div class="clearfix">
-  <div class="img-container2">
-    <span>Fig. 12 (L)</span><br/>
+  <div class="img-container">
+    <span>Fig. 12(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png">
       <img alt="New Jersey Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
-    <span>Fig. 12 (R)</span><br/>
+  <div class="img-container">
+    <span>Fig. 12(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png">
       <img alt="New Jersey Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 12(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_cm2cm.png">
+      <img alt="New Jersey Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -343,23 +367,29 @@ _**Scenario: incumbent behind in fundraising who won**_
 **U.S. House, Pennsylvania District 8**
 
 <div class="clearfix">
-  <div class="img-container2">
-    <span>Fig. 13 (L)</span><br/>
+  <div class="img-container">
+    <span>Fig. 13(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png">
       <img alt="Pennsylvania District 08 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
-    <span>Fig. 13 (R)</span><br/>
+  <div class="img-container">
+    <span>Fig. 13(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png">
       <img alt="Pennsylvania District 08 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png" style="width: 100%">
     </a>
   </div>
+  <div class="img-container">
+    <span>Fig. 13(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_cm2cm.png">
+      <img alt="Pennsylvania District 08 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_PA08_cm2cm.png" style="width: 100%">
+    </a>
+  </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This contest looks like we need to check the new data set, as well. Fig. 13 (L) shows that incumbent Matt Cartwright dominated in committee contributions to nonaffiliated committees (his being Cartwright for Congress); challenger John Chrin started raising in earnest around June 2018. IEs advocating Cartwright mirrored this with a delay and came mostly from SEIU COPE ($62.3K), and also from For Our Future, MoveOn.org Political Action, Communications Workers of America Working Voices, NEA Advocacy Fund, and Environment America Action Fund. The IEs opposing Cartwright were made by the NRCC ($375.9K to Del Ray Media, $144.7K to FP1 Strategies, and $35.8K to The Strategy Group) and Pennsylvania Pro-Life Federation PAC (<$100 each to Erdman Advertising Marketing and Design and SSS Printing).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This contest looks like we need to check the new data set, as well. Fig. 13(a) shows that incumbent Matt Cartwright dominated in committee contributions to nonaffiliated committees (his being Cartwright for Congress); challenger John Chrin started raising in earnest around June 2018. IEs advocating Cartwright mirrored this with a delay and came mostly from SEIU COPE ($62.3K), and also from For Our Future, MoveOn.org Political Action, Communications Workers of America Working Voices, NEA Advocacy Fund, and Environment America Action Fund. The IEs opposing Cartwright were made by the NRCC ($375.9K to Del Ray Media, $144.7K to FP1 Strategies, and $35.8K to The Strategy Group) and Pennsylvania Pro-Life Federation PAC (<$100 each to Erdman Advertising Marketing and Design and SSS Printing).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 13 (R) shows fairly competitive individual contribution fundraising. Cartwright spent no personal money on his campaign, and over 1,200 individuals contributed less than the combined FEC minimum (seven contributed over the minimum, anywhere from $5,450 to $8,100). Chrin contributed $521.8K to his own campaign committee, John Chrin for Congress, with fewer than 300 individuals contributing. We notice the large vertical jumps in John Chrin's solid red line, which suggests perhaps the number of individuals contributing in-state is lower than the number contributing in-state to Cartwright, even though Chrin's in-state dollar amount is larger. Cartwright seems to have gotten more out-of-state attention than Chrin.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 13(b) shows fairly competitive individual contribution fundraising. Cartwright spent no personal money on his campaign, and over 1,200 individuals contributed less than the combined FEC minimum (seven contributed over the minimum, anywhere from $5,450 to $8,100). Chrin contributed $521.8K to his own campaign committee, John Chrin for Congress, with fewer than 300 individuals contributing. We notice the large vertical jumps in John Chrin's solid red line, which suggests perhaps the number of individuals contributing in-state is lower than the number contributing in-state to Cartwright, even though Chrin's in-state dollar amount is larger. Cartwright seems to have gotten more out-of-state attention than Chrin.
 
 
 _**Scenario: incumbent behind in fundraising who lost**_
@@ -367,16 +397,22 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. Senate, Florida**
 
 <div class="clearfix">
-  <div class="img-container2">
-    <span>Fig. 14 (L)</span>
+  <div class="img-container">
+    <span>Fig. 14(a)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png">
       <img alt="Florida Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
-    <span>Fig. 14 (R)</span>
+  <div class="img-container">
+    <span>Fig. 14(b)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png">
       <img alt="Florida Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 14(c)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_cm2cm.png">
+      <img alt="Florida Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -386,14 +422,22 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. Senate, Indiana**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
+    <span>Fig. 15(a)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png">
       <img alt="Indiana Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
+    <span>Fig. 15(b)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png">
       <img alt="Indiana Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 15(c)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_cm2cm.png">
+      <img alt="Indiana Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -402,14 +446,22 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. Senate, Nevada**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
+    <span>Fig. 16(a)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png">
       <img alt="Nevada Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
+    <span>Fig. 16(b)</span>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png">
       <img alt="Nevada Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 16(c)</span>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_cm2cm.png">
+      <img alt="Nevada Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -418,12 +470,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, California District 21**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png">
       <img alt="California district 21 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_CA21_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_CA21_individual.png">
       <img alt="California district 21 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_CA21_individual.png" style="width: 100%">
     </a>
@@ -433,12 +485,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, Florida District 26**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png">
       <img alt="Florida district 26 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_FL26_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_FL26_individual.png">
       <img alt="Florida district 26 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_FL26_individual.png" style="width: 100%">
     </a>
@@ -448,12 +500,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, Georgia District 6**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png">
       <img alt="Georgia District 06 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_GA06_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_GA06_individual.png">
       <img alt="Georgia District 06 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_GA06_individual.png" style="width: 100%">
     </a>
@@ -463,12 +515,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, Illinois District 6**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png">
       <img alt="Illinois District 06 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_IL06_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_IL06_individual.png">
       <img alt="Illinois District 06 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_IL06_individual.png" style="width: 100%">
     </a>
@@ -479,12 +531,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, Oklahoma District 5**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png">
       <img alt="Oklahoma District 05 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_OK05_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_OK05_individual.png">
       <img alt="Oklahoma District 05 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_OK05_individual.png" style="width: 100%">
     </a>
@@ -495,12 +547,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, Utah District 4**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png">
       <img alt="Utah District 04 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_UT04_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_individual.png">
       <img alt="Utah District 04 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_UT04_individual.png" style="width: 100%">
     </a>
@@ -510,12 +562,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, Virginia District 10**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png">
       <img alt="Virginia District 10 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_VA10_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_VA10_individual.png">
       <img alt="Virginia District 10 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_VA10_individual.png" style="width: 100%">
     </a>
@@ -525,12 +577,12 @@ _**Scenario: incumbent behind in fundraising who lost**_
 **U.S. House, Wisconsin District 1**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png">
       <img alt="Wisconsin District 01 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png">
       <img alt="Wisconsin District 01 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png" style="width: 100%">
     </a>
