@@ -599,8 +599,8 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>
   <div class="img-container">
     <span>Fig. 22(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_cm2cm2.png">
-      <img alt="Utah District 04 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_UT04_cm2cm2.png" style="width: 100%">
+    <a href="{{ site.url }}/assets/FECpt2/contributions_UT04_cm2cm.png">
+      <img alt="Utah District 04 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_UT04_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
