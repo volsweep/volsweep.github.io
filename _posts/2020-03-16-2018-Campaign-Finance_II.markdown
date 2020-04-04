@@ -23,7 +23,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ### Data Set 1: "House/Senate current campaigns"
 > (notebook &#8594;[here](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018/01b%20-%202018_HouseSenateCurrentCampaigns_withwinners.ipynb)&#8592;)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one candidate ID per row. This is the one we used to construct the plots in the first post of this series, showing relative candidate fundraising status by contest. We know from this set the following breakdown of the top three contest "types" for each branch of Congress:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data set has one candidate ID per row. We used this data set to construct the plots in the first post of this series, where we showed candidate fundraising status by contest and compared opponents. We know from this set the following breakdown of the top three contest "types" for each branch of Congress (compared close to election day):
 
 *Senate contests*
 * 58.8% had a Democratic incumbent ahead in fundraising,
@@ -112,50 +112,46 @@ _Example #4_<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, let's look at where these IEs are going. Each plot below represents, per recipient (i.e., the 'to' in each plot title), IEs advocating and/or opposing candidates. Each plot symbol represents one candidate. It's not immediately apparent, but the plots are sorted in decreasing order of total IE dollars received, from upper left corner to lower right corner (we left some out, go to notebook for full list & plots). Discussion below.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig.s 2-7
-
 <div class="clearfix">
-
   <div class="img-container">
+    <span>Fig. 2: Waterfront Strategies</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png">
       <img alt="Waterfront Strategies" src="{{ site.url }}/assets/FECpt2/ie_WaterfrontStrategies.png" style="width: 100%">
     </a>
   </div>
-
   <div class="img-container">
+    <span>Fig. 3: Nebo Media</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/ie_NeboMedia.png">
       <img alt="Nebo Media" src="{{ site.url }}/assets/FECpt2/ie_NeboMedia.png" style="width: 100%">
     </a>
   </div>
-
   <div class="img-container">
+    <span>Fig. 4: Del Ray Media Group</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/ie_DelRay.png">
       <img alt="Del Ray Media Group" src="{{ site.url }}/assets/FECpt2/ie_DelRay.png" style="width: 100%">
     </a>
   </div>
-
 </div>
 
 <div class="clearfix">
-
   <div class="img-container">
+    <span>Fig. 5: Bully Pulpit Interactive</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png">
       <img alt="Bully Pulpit Interactive" src="{{ site.url }}/assets/FECpt2/ie_BullyPulpitInteractive.png" style="width: 100%">
     </a>
   </div>
-
   <div class="img-container">
+    <span>Fig. 6: SKDKnickerbocker</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/ie_SKDKnickerbocker.png">
       <img alt="SKDK" src="{{ site.url }}/assets/FECpt2/ie_SKDKnickerbocker.png" style="width: 100%">
     </a>
   </div>
-
   <div class="img-container">
+    <span>Fig. 7: Facebook</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/ie_Facebook.png">
       <img alt="Facebook" src="{{ site.url }}/assets/FECpt2/ie_Facebook.png" style="width: 100%">
     </a>
   </div>
-
 </div>
 
 
@@ -210,16 +206,22 @@ _**Scenario: incumbent ahead in fundraising who won**_
 **U.S. House, Alabama District 3**
 
 <div class="clearfix">
-  <div class="img-container2">
+  <div class="img-container">
     <span>Fig. 8(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png">
       <img alt="Alabama district 3 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_committee.png" style="width: 100%">
     </a>
   </div>  
-  <div class="img-container2">
+  <div class="img-container">
     <span>Fig. 8(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png">
       <img alt="Alabama district 3 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_AL03_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 8(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_AL03_cm2cm.png">
+      <img alt="Alabama district 3 transfer between committees" src="{{ site.url }}/assets/FECpt2/contributions_AL03_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
@@ -230,7 +232,9 @@ _**Scenario: incumbent ahead in fundraising who won**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, looking at the individual contributions plot Fig. 8(b), we see that the incumbent got a big boost shortly after the campaign started, and then again after what looks like the challenger's campaign launch. The incumbent's proportion of in-state individual contribution dollars to total individual contribution dollars is very high (i.e., dashed red line closely mirrors solid red line). We can see that the out-of-state individual contributions raised by the incumbent are almost equal to in-state individual contributions raised by the challenger.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That is a review of a typical contest where an incumbent ahead in fundraising defeated a challenger and not a lot of independent expenditures were made. If something isn't clear, let us know in the comments section at the bottom and we'll clarify. Now, let's look at some of the contests discussed in the previous post that had unexpected outcomes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 8(c) shows a $150K infusion from the National Republican Congressional Committee to Mike Rogers for Congress pretty close to election day.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So! That is a review of a typical contest where an incumbent ahead in fundraising defeated a challenger and not a lot of independent expenditures were made. If something isn't clear, let us know in the comments section at the bottom and we'll clarify. Now, let's look at some of the contests discussed in the previous post that had unexpected outcomes.
 
 
 _**Scenario: incumbent ahead in fundraising who lost**_
