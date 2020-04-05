@@ -382,11 +382,11 @@ _**Scenario: incumbent behind in fundraising who won**_
 * Lawrence B Rasky, Jamaica Plain MA, Rasky Baerlein Strategic Comm Inc. CEO, $10,800
 * John D Ek, San Pedro CA, self-employed consultant, $10,800.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hugin personally contributed $73,477 to his own principal campaign committee, Bob Hugin for Senate Inc. In addition, at least 1,500 individuals contributed less than the combined FEC maximum. Those exceeding $10,000 are &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hugin personally contributed $73,477 to his own principal campaign committee, Bob Hugin for Senate Inc. In addition, at least 1,500 individuals contributed less than the combined FEC maximum. Those exceeding $10,000 are &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 12(c) we see why Hugin appears so far ahead in fundraising from the plot in the previous blog post; he transferred $44MM across 24 instances to Bob Hugin for Senate Inc. New Jersey Republican State Committee also transferred $375K, and the Founders Committee transferred $26K. Menendez for Senate received $2.2MM from the Mendendez Victory Fund, and $38K from Blue Senate 2018.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All in all, the Fig. 12(a) & 12(b) resemble plots where the blue line is the incumbent and wins. Whatever financial edge Hugin shows in Fig. 12(c) does not appear to have been utilized to great effect.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All in all, Fig.s 12(a) & 12(b) resemble plots where the blue line is the incumbent and wins. Whatever financial edge Hugin shows in Fig. 12(c) was not utilized to sufficient effect.
 
 
 **U.S. House, Pennsylvania District 8**
@@ -450,7 +450,7 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The largest IEs opposing Scott were: SMP to Waterfront Strategies ($15.2MM), Priorities USA Action to Bully Pulpit Interactive ($5.4MM), Majority Forward to Waterfront Strategies ($4.5MM), VoteVets to Waterfront Strategies ($3.8MM), LCV Victory Fund to Waterfront Strategies ($1.8MM, also $500K to Bully Pulpit Interactive), Environmental Defense Action Fund to Waterfront Strategies ($757K), Giffords PAC to Deliver Strategies ($527K), Progressive Turnout Project to Deliver Strategies ($488K), and For Our Future to Deliver Strategies ($369K, also $324K to For Our Future Action Fund).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 14(b) we see that 1) Bill Nelson's fundraising from individuals was very smooth over the course of his term, 2) he raised about equally in-state vs out-of-state, 3) Scott raised fiercely starting around April 2018, and 4) most of his funds came from in-state (because, as we're about to see, they were mostly from himself). Scott contributed $27.1MM as an individual and $42.9MM as a candidate. Over 11,500 individuals contributed under the FEC maximum to his principal campaign committee, compared to approximately 22,000 under the maximum who contributed to Bill Nelson's.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 14(b) we see that 1) Bill Nelson's fundraising from individuals was very smooth over the course of his term, 2) he raised about equally in-state vs out-of-state, 3) Scott raised fiercely starting around April 2018, and 4) most of his funds came from in-state (because, as we're about to see, they were mostly from himself). Scott contributed $27.1MM as an individual and $42.9MM as a candidate to his principal campaign committee. Over 11,500 individuals contributed under the FEC maximum to his principal campaign committee, compared to approximately 22,000 under the maximum who contributed to Bill Nelson's.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 14(c) shows the following largest transfers to Bill Nelson for US Senate: $394K from Florida Senate 2018, $390K from Democratic Executive Committee of Florida, $148K from Florida Senate 2018 (Unitemized) (note: not clear what this distinction means), $99K from 2018 Senate Impact, and $91K from Senate 2018 Impact. Not clear without digging further whether "2018 Senate Impact" and "Senate 2018 Impact" are actually the same committee, but it seems likely. The largest transfers to Rick Scott for Florida were: $968K from Rick Scott Victory Fund, $16K from the Founders Committee, and $10K from Murray Energy PAC.
 
@@ -478,11 +478,14 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 15(a) shows a similar story to the senate contest in Florida, but here the IEs opposing incumbent Joe Donnelly started later. The largest of those were: Senate Leadership Fund to Main Street Media Group ($11.2MM, also $2.8MM to Cross Screen Media and $834K to Majority Strategies), NRSC to Del Ray Media ($2.9MM, also $1.3MM to Targeted Victory), America First Action Inc. to Red Eagle Media Group ($2.1MM), and National Rifle Association of America Political Victory Fund to Starboard Strategic ($1MM). The largest IEs advocating Donnelly were: SMP to Waterfront Strategies ($2.7MM, also $215K to Bully Pulpit Interactive and $105K to Shorr Johnson Magnus), Black Progressive Action Coalition to Revolution Field Strategies ($942K, also $233K to Resonance Campaigns), and Vote for Hoosier Values to JVA Campaigns ($723K).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The largest IEs opposing challenger Mike Braun were: SMP to Waterfront Strategies ($13.7MM, also $270K to Shorr Johnson Magnus), DSCC to Great American Media ($6.8MM), Majority Forward to Waterfront Strategies ($4.5MM), Priorities USA Action to Bully Pulpit Interactive ($3.5MM). The largest IEs advocating Braun were: Senate Leadership Fund to Main Street Media Group ($1.3MM, also $662K to Connection Strategy and $321K to Cross Screen Media), and NRSC to Del Ray Media ($191K).  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of individual contributions, Joe Donnelly contributed $15K to Donnelly for Indiana. Approximately 9,000 individuals contributed less than the combined FEC maximum; of those who contributed over the maximum, none contributed over $10K. Mike Braun for Indiana received contributions from approximately 4K individuals under the combined FEC maximum. While Donnelly raised more individually contributed dollars than Braun, we notice that Braun raised more in-state dollars than Donnelly. It follows that Braun's ratio of in-state to out-of-state was higher than Donnelly's.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 15(c) shows Braun way ahead of Donnelly in terms of transfers between committees. The largest transfers to Donnelly for Indiana were from Senate Impact 2018 ($492K), Donnelly Victory Fund ($342K), and Democrats for Opportunity Fund ($96K). The largest transfers to Mike Braun for Indiana were from Mike Braun ($15.1MM), Indiana Republican State Committee ($342K), Braun Victory Committee ($202K), Team Braun Committee ($130K), Keep the Senate Red 2018 ($126K), and Missouri for GOP Senate Majority ($111K).
+
 
 **U.S. Senate, Nevada**
 
