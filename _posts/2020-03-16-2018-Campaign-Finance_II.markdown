@@ -382,42 +382,7 @@ _**Scenario: incumbent behind in fundraising who won**_
 * Lawrence B Rasky, Jamaica Plain MA, Rasky Baerlein Strategic Comm Inc. CEO, $10,800
 * John D Ek, San Pedro CA, self-employed consultant, $10,800.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hugin personally contributed $73,477 to his own principal campaign committee, Bob Hugin for Senate Inc. In addition, at least 1,500 individuals contributed less than the combined FEC maximum. Those exceeding $10,000 include:
-
-* Robert Huffines, New York NY, JP Morgan banker, $10,800
-* Wayne G Holman, Miami Beach FL, retired, $10,800
-* James A Cooper, St Louis MO, TSCP finance, $10,800
-* Stacy W Cooper, St Louis MO, homemaker, $10,800
-* Howard W Lutnick, New York NY, Cantor Fitzgerald chairman/CEO, $10,800
-* Joe Cayre, New York NY, self-employed real estate, $10,800
-* Trina Cayre, Brooklyn NY, homemaker, $10,800
-* Thomas C MacArthur, Barnegat Light NJ, US House of Representatives congressman, $10,800
-* Deborah A MacArthur, Barnegat Light NJ, homemaker, $10,800
-* Susanne Ricca, Mendham NJ, homemaker, $10,800
-* John H Weiland, Bethlehem PA, retired, $10,800
-* Katherine J Weiland, Bethlehem PA, retired, $10,800
-* Helen Lucciola, Mantoloking NJ, Firefly Group consultant, $10,800
-* John F Crowley, Princeton NJ, Amicus Therapeutics chairman/CEO, $10,800
-* Blackford F Brauer, St Louis MO, Hunter Engineering Company VP, $10,800
-* Suzanne S Brauer, St Louis MO, homemaker, $10,800
-* Theodora C Deland, Jacksonville FL, homemaker, $10,800
-* Stanley I Chera, Brooklyn NY, Crown Acquisitions Inc real estate investor, $10,798
-* Stanley H Chera, New York NY, Crown Acquisitions Inc real estate, $10,800
-* Frieda Chera, New York NY, homemaker, $10,800
-* Jesse R Bodine, St Louis MO, retired, $10,800
-* Mary Jane Bodine, St Louis MO, retired, $10,800
-* Robert H Niehaus, New York NY, GCP Capital Partners LLC investment manager, $10,800
-* John K Hurley, San Francisco CA, Cavalry Asset Management investment manager, $10,800
-* Steven Witkoff, New York NY, Witkoff Group chairman/CEO, $10,800
-* Vladimir Coric, Madison CT, Biohaven physician, $10,800
-* Cynthia A Fisher, Newton MA, Waterrev LLC managing director, $10,800
-* David M Jacquin, Santa Rosa CA, North Point Advisors banker, $10,800
-* John W Childs, Vero Beach, JW Childs Associates chairman, $10,800
-* Marlene Childs, Vero Beach FL, homemaker, $10,800
-* Jeffrey L Fox, St Louis MO, Harbour Group CEO, $10,800
-* John A Overdeck, Short Hills NJ, Two Sigma Investments investment officer, $10,800
-* Howard M Lorber, New York NY, Vector Group Ltd president/CEO, $10,800
-* Andrew Sabin, East Hampton NY, Sabin Metal executive, $10,800.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hugin personally contributed $73,477 to his own principal campaign committee, Bob Hugin for Senate Inc. In addition, at least 1,500 individuals contributed less than the combined FEC maximum. Those exceeding $10,000 are &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 12(c) we see why Hugin appears so far ahead in fundraising from the plot in the previous blog post; he transferred $44MM across 24 instances to Bob Hugin for Senate Inc. New Jersey Republican State Committee also transferred $375K, and the Founders Committee transferred $26K. Menendez for Senate received $2.2MM from the Mendendez Victory Fund, and $38K from Blue Senate 2018.
 
@@ -513,6 +478,11 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **U.S. Senate, Nevada**
 
