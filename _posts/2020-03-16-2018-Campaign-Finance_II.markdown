@@ -519,7 +519,7 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 _**Back to the first scenario, this time House contests: incumbent ahead in fundraising who lost**_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For now, we're going to comment on each contest in this section based on the plots and what we've seen above, instead of specific information from the code notebooks.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For now, we're going to comment on each contest in this section based on the plots and what we've seen above, instead of _a priori_ knowledge from the code notebooks. This kind of thinking will be useful, for example, when looking at the contests currently taking place for 2020.
 
 
 **U.S. House, California District 21**
@@ -712,7 +712,7 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
 
 ### Conclusion
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post was long and varied. Thanks for sticking with us! We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts about what's here or suggests for further investigations, please let us know either in the comments below or at contact@volsweep.com. &#8212;_Team VolSweep_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post was long and varied. Thanks for sticking with us! We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts or insight about what's here, please let us know either in the comments below or at contact@volsweep.com. Thanks again for reading. &#8212;_Team VolSweep_
 
 
 _**Footnotes**_
