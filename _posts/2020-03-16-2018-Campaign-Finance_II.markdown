@@ -239,7 +239,7 @@ _**Scenario: incumbent ahead in fundraising who won**_
 
 _**Scenario: incumbent ahead in fundraising who lost**_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The only two instances of this scenario in all of 2018's contests are the Missouri Senate contest where incumbent/leading fundraiser Claire McCaskill lost to challenger Joshua Hawley and the North Dakota Senate contest where incumbent/leading fundraiser Heidi Heitkamp lost to challenger Kevin Cramer.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in Senate contests are the Missouri Senate contest where incumbent/leading fundraiser Claire McCaskill lost to challenger Joshua Hawley and the North Dakota Senate contest where incumbent/leading fundraiser Heidi Heitkamp lost to challenger Kevin Cramer. There are six instances of this scenario in House contests (all with Republican incumbents) and we will review them in the final section in a plot-reading exercise.
 
 **U.S. Senate, Missouri**
 
@@ -512,12 +512,15 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(a) shows that incumbent Dean Heller's fundraising was consistent throughout his term. Interestingly, unlike in other contests we've looked at, it appears that challenger Jacky Rosen started fundraising at the beginning of the incumbent's term. IEs opposing Heller began in earnest around June 2018 and continued strongly through the election. The largest of these were: SMP to Waterfront Strategies ($11.1MM, also $3MM to Blueprint Interactive), DSCC to Great American Media ($7.8MM), Majority Forward to Waterfront Strategies ($2.7MM), American Federation of State County and Municipal Employees PEOPLE to Waterfront Strategies ($1.5MM), and Women Vote! to Waterfront Strategies ($1.5MM). The largest IEs opposing Rosen were: Senate Leadership Fund to Main Street Media Group ($13.2MM, also $1.5MM to Arena Online, $852K to Arena Communications, $217K to DMM Media, $57K to Connection Strategy, and $33K to Richard Sales Media), NRSC to Flexpoint Media ($4.7MM, also $217K to OnMessage and $2,317 to i360).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of Rosen's campaign, Fig. 16(b) shows Rosen for Nevada received contributions from at least 19K individuals below the combined FEC maximum. Those contributing over the limit include, but are not limited to the ones shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/rosen_bigdonors.png)&#8592;.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of Rosen's campaign, Fig. 16(b) shows Rosen for Nevada received contributions from at least 19K individuals below the combined FEC maximum. Those contributing over the limit include, but are not limited to the ones shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/rosen_bigdonors.png)&#8592;. Heller for Senate received contributions from at least 5,600 individuals below the combined FEC maximum. Those contributing over the limit to Heller for Senate include, but are not limited to, those shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heller_bigdonors.png)&#8592;. Both opponents received more out-of-state dollars than in-state dollars from individual contributors.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heller for Senate received contributions from at least 5,600 individuals below the combined FEC maximum. Those contributing over the limit to Heller for Senate include, but are not limited to, those shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heller_bigdonors.png)&#8592;. Both opponents received more out-of-state dollars than in-state dollars from individual contributors, which means that since Heller's average dollar amount was higher than Rosen's since his in-state dollar is higher but
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(c) shows that Heller's campaign had transfers from other committees relatively consistently throughout his term, and Rosen's campaign had transfers starting around October 2017 that came in at a much higher rate. The largest ones to Rosen for Nevada were: $1MM from Rosen Victory Fund (also $34.5K from "Rosen Victory Fund (Unitemized)," not clear the distinction), $256K from Arizona Nevada Victory Fund, $185K from 2018 Senate Impact, and $94K from Nevada State Democratic Party. The largest transfers to Heller for Senate were: $153K from Heller Victory Committee, $101K from 2017 Senators Classic Committee, and $63K from 2018 Senators Classic Committee.
 
 
-_**Scenario: incumbent ahead in fundraising who lost**_
+_**Back to the first scenario, this time House contests: incumbent ahead in fundraising who lost**_
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For now, we're going to comment on each contest in this section based on the plots and what we've seen above, instead of specific information from the code notebooks.
+
 
 **U.S. House, California District 21**
 
@@ -542,6 +545,10 @@ _**Scenario: incumbent ahead in fundraising who lost**_
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the shape of the solid curves in Fig. 17(a) we could guess that the Republican is incumbent (since fundraising started at the beginning of the term). A large amount of opposing IE money was spent against the incumbent, and relatively little against the challenger. Fig. 17(b) shows that each opponent raised mostly from in-state individual contributors, and that the challenger had a nice rally starting around April 2018 through the election. Fig. 17(c) shows that no committees made transfers to the incumbent and that the challenger's principal campaign committee received about $800K.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: The incumbent was outspent in opposing IEs and no committees transferred in for assistance.
+
 **U.S. House, Florida District 26**
 
 <div class="clearfix">
@@ -564,6 +571,14 @@ _**Scenario: incumbent ahead in fundraising who lost**_
     </a>
   </div>
 </div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the shapes of the solid curves in Fig. 18(a), we would guess that the Republican is the incumbent. A lot of IEs opposing each candidate were made in this contest, with a larger dollar amount opposing the Democratic challenger. However, IEs advocating the challenger were almost as large and those advocating the incumbent were nowhere even close.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 18(b) shows that total individual contribution dollar amount was almost the same. It's interesting to note that around July 2018, the challenger's out-of-state individual contribution dollars overtook the in-state ones; the out-of-state dollars ended up almost matching the incumbent's in-state dollars. This is a fairly wide margin between opponents' in-state individual contribution dollars, which makes us wonder whether the incumbent's average in-state contribution total per individual is higher than the challenger's.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 18(c) shows some committee transfer kicking in to the incumbent's principal campaign committee at regular FEC deadline intervals. Transfers to the challenger's principal campaign committee began earnestlly around April 2018 and were relatively close to the incumbent's for how wide the starting margin was.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Aggressive spending on IEs advocating the challenger look like they must have helped; individual contributions in total look comparable but it's a bit surprising how wide the in-state dollar margin is. Uptick in interest from out-of-state starting around September 2018. Committee transfers comparable. Seems like there must be something else going on in this contest to explain the upset.
 
 **U.S. House, Georgia District 6**
 
@@ -588,6 +603,10 @@ _**Scenario: incumbent ahead in fundraising who lost**_
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the first contest we've looked at in this post where IEs started so early. Someone made some _very_ large, early IEs opposing the incumbent around April 2017. IEs advocating the incumbent seem to have picked up to compensate for the negative attention. IEs advocating the challenger started around May 2018 and spiked immediately prior to the election. Surprisingly small amount of opposing IE spending with respect to the challenger. Individual contributions nowhere close. About $100K transferred into the challenger's campaign close to election day.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Looks like some negative something going on around the incumbent unrelated to the challenger early on, with a nice infusion of IEs advocating the challenger near election day.
+
 **U.S. House, Illinois District 6**
 
 <div class="clearfix">
@@ -611,6 +630,7 @@ _**Scenario: incumbent ahead in fundraising who lost**_
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Lot of IEs opposing the incumbent; individual contributions really started taking off for the challenger around August 2018, with in-state dollars below that of incumbent but good out-of-state attention; much larger transfers from committees for the challenger than the incumbent.
 
 **U.S. House, Oklahoma District 5**
 
@@ -631,6 +651,9 @@ _**Scenario: incumbent ahead in fundraising who lost**_
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 21(c) is missing here because all amounts were zero.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Pretty clear here that a little bit of IEs advocating the challenger plus a runaway advantage in individual contributions starting June 2018 (especially in-state) helped the challenger.
 
 **U.S. House, Utah District 4**
 
@@ -655,6 +678,10 @@ _**Scenario: incumbent ahead in fundraising who lost**_
   </div>
 </div>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The IEs advocating the incumbent here are curious... haven't seen other contests where either type of IE was made over such an extended period of time. Seems like some kind of damage control. IEs opposing each candidate were about the same, which is interesting again in light of apparent damage control. In terms of individual contributions, these candidates are night and day. First of all, the challenger outraised overall in individual contributions, and secondly the challenger had almost as many in-state contribution dollars as the incumbent had overall dollars! Fig. 22(c) could've been expected to be a bit higher given what trouble the incumbent seemed to be in. The challenger didn't need any transfers based on how Fig. 22(b) was developing.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Fig. 22(b) shows you who will win. Plain as day.
+
 **U.S. House, Virginia District 10**
 
 <div class="clearfix">
@@ -678,33 +705,20 @@ _**Scenario: incumbent ahead in fundraising who lost**_
   </div>
 </div>
 
-**U.S. House, Wisconsin District 1**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 23(a) is an opposing IE battle to the end. Note that all if not most IEs advocating the incumbent were made around May 2018, whereas the ones advocating the challenger were made much close to election day. Fig. 23(b) is a very strong look for the challenger, who overtook the incumbent in July 2018 in overall individual contribution dollars and, perhaps more importantly, in in-state individual contributions. Fig. 23(c), like the previous contest we just reviewed, seems a little low for how strongly the challenger was performing in individual contributions received.
 
-<div class="clearfix">
-  <div class="img-container">
-    <span>Fig. 24(a)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png">
-      <img alt="Wisconsin District 01 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_WI01_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container">
-    <span>Fig. 24(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png">
-      <img alt="Wisconsin District 01 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_WI01_individual.png" style="width: 100%">
-    </a>
-  </div>
-  <div class="img-container">
-    <span>Fig. 24(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_WI01_cm2cm.png">
-      <img alt="Wisconsin District 01 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_WI01_cm2cm.png" style="width: 100%">
-    </a>
-  </div>
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Every candidate should want a strong in-state individual contributions surge like the challenger got in this contest.
+
+
+### Conclusion
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post was long and varied. Thanks for sticking with us! We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts about what's here or suggests for further investigations, please let us know either in the comments below or at contact@volsweep.com. &#8212;_Team VolSweep_
+
 
 _**Footnotes**_
 
 [^1]: Data sets analyzed in this post found here: [https://www.fec.gov/data/browse-data/?tab=bulk-data](https://www.fec.gov/data/browse-data/?tab=bulk-data)
-[^2]: Cleaning notes to consider: 1) all figures are rounded, please check the code notebooks for more precise values, 2) only data pertaining to candidates appearing on final ballots remain, 3) any candidate not affiliated with one of the two major parties has been categorized as, "Third party," 4) some entries in the state abbreviation column do not match those of U.S. states or territories, but we left them for now as they only constitute ~0.2% of total observations (the reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/IEs and out-of-state ones).
+[^2]: Cleaning notes to consider: 1) all figures are rounded, please check the code notebooks for more precise values, 2) only data pertaining to candidates appearing on final ballots remain, 3) any candidate not affiliated with one of the two major parties has been categorized as, "Third party," 4) some entries in the state abbreviation column do not match those of U.S. states or territories, but we left them for now as they only constitute ~0.2% of total observations (the reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/IEs and out-of-state ones), 5) employers and occupations have not been deduped yet.
 [^3]: Read more about independent expenditures: [https://ballotpedia.org/Independent_expenditure](https://ballotpedia.org/Independent_expenditure)
 [^4]: [https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/)
 [^5]: PDF of FEC limits (2017-18): [https://transition.fec.gov/info/contriblimitschart1718.pdf](https://transition.fec.gov/info/contriblimitschart1718.pdf)
