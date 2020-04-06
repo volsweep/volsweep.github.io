@@ -199,7 +199,7 @@ _Example #4_<br/>
 
 > *"An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^4][^5]*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC. These appear to be above the limits allowed by the FEC.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC have no associated donor name. These appear to be above the limits allowed by the FEC.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some individual contributors make many small contributions and others make a few extremely large ones. Here are the 40 donors with the highest contribution totals (in parentheses) and any summed amounts over $1MM shown itemized:
 
