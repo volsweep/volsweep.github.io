@@ -408,7 +408,7 @@ _Example #4_<br/>
 
 
 * Susan Z Mandel ($1.9MM)
-  * Planned Parenthood Votes &#8212; $1.3MM<br/>
+  * Planned Parenthood Votes &#8212; $1.3MM<br/><br/>
 
 * David Craig Humphreys ($1.2MM)
   * Missouri Rising Action &#8212; $1.2MM.<br/>
