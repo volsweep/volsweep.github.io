@@ -512,49 +512,9 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(a) shows that incumbent Dean Heller's fundraising was consistent throughout his term. Interestingly, unlike in other contests we've looked at, it appears that challenger Jacky Rosen started fundraising at the beginning of the incumbent's term. IEs opposing Heller began in earnest around June 2018 and continued strongly through the election. The largest of these were: SMP to Waterfront Strategies ($11.1MM, also $3MM to Blueprint Interactive), DSCC to Great American Media ($7.8MM), Majority Forward to Waterfront Strategies ($2.7MM), American Federation of State County and Municipal Employees PEOPLE to Waterfront Strategies ($1.5MM), and Women Vote! to Waterfront Strategies ($1.5MM). The largest IEs opposing Rosen were: Senate Leadership Fund to Main Street Media Group ($13.2MM, also $1.5MM to Arena Online, $852K to Arena Communications, $217K to DMM Media, $57K to Connection Strategy, and $33K to Richard Sales Media), NRSC to Flexpoint Media ($4.7MM, also $217K to OnMessage and $2,317 to i360).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of Rosen's campaign, Fig. 16(b) shows Rosen for Nevada received contributions from at least 19K individuals below the combined FEC maximum. Those contributing over the limit include, but are not limited to:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of Rosen's campaign, Fig. 16(b) shows Rosen for Nevada received contributions from at least 19K individuals below the combined FEC maximum. Those contributing over the limit include, but are not limited to the ones shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/rosen_bigdonors.png)&#8592;.
 
-* Thomas F Steyer, Redwood City CA, Farallon Capital Management LLC manager, $23,651
-* Dale Taylor, Chicago IL, Abelson Taylor CEO, $20,700
-* Richard I Goldstein, Sagaponack NY, retired, $19,554
-* Michael Hackman, Los Angeles CA, Hackman Capital Partners real estate investor, $18,900
-* David Reese, Glenbrook NV, retired, $15,650
-* Thomas Fortune Fay, Silver Spring MD & Washington DC, Fay Kaplan Law PA attorney, $14,500
-* Anthony Crabb, Healdsburg CA, Puma Springs Vineyards owner, $14,000
-* Henry D Lord, New Haven CT, investor, $13,731
-* Susan Blaustein, Chevy Case MD, Womenstrong International founder, $13,700
-* Michael D Bills, Charlottesville VA, Blumstem/Blustern Asset Management president, $13,500
-* Juliana Terian, New York NY, Rallye Motors philanthropist, $13,500
-* John Eddie Willams, Houston TX, Williams Kherkher managing partner, $13,500
-* Jessica O'Mary, New York NY, Ropes & Gray attorney, $13,500
-* Michael O'Mary, New York NY, D E Shaw & Co SVP, $13,500
-* David Billings, West Palm Beach FL, Affiliated Managers Group Inc attorney, $13,500
-* Jay Glazer, Mercer Island WA, retired, $13,500
-* Susan Orr, Stanford CA, Telosa Software owner, $13,500
-* Stephen Silberstein, Belvedere CA, retired, $13,500
-* Heather Keane, Boston MA, retired, $13,500
-* Andrew Golden, Princeton NJ, Princeton University endowment manager, $13,500
-* Ellen M Poss, Brookline MA, retired, $13,500
-* Mark Heising, Atherton CA, Medley Partners Management director, $13,500
-* Edrward E Barr, Shelter Island Heights NY, investor, $13,500
-* Alan G Rosenbloom, Bethesda MD, Senior Care Pharmacy Coalition executive, $13,500
-* Shannon Hunt-Scott, Los Gatos CA, The Scott Foundation president, $13,500
-* David Cornfield, Seattle WA, retired, $13,175
-* Stephen Wiel, Incline Village NV, retired, $12,700
-* Walter Gilbert, Cambridge MA, Bioventures Investors venture capitalist, $12,500
-* Timothy Guertin, Saratoga CA, Varian Medical Systems vice chairman, $12,100
-* John Sherman, Portland OR, Unit Crane asset manager, $12,000
-* Loren D Reichert, Las Vegas NV, retired, $11,950
-* Katherine Ferguson, Las Vegas NV, retired, $11,900
-* Thomas E Unterman, Pacific Palisades CA, Rustic Canyon Partners investor, $11,800
-* Bennet Yee, Mountain View CA, Google Inc engineer, $11,300
-* Edward Fishman, Wassaic NY, D E Shaw managing director, $11,200
-* Tariq Butt, Chicago IL, Access Community Health Network physician, $11,100
-* Leslie Lewis, New York NY, actor, $11,000
-* Lawrence Summers, Brookline MA, Harvard University professor, $11,000
-* Diane Wohl, Mill Neck NY, retired, $11,000.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heller for Senate received contributions from at least 5,600 individuals below the combined FEC maximum. Those contributing over the limit to Heller for Senate include, but are not limited to, those shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heller_bigdonors.png)&#8592;.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heller for Senate received contributions from at least 5,600 individuals below the combined FEC maximum. Those contributing over the limit to Heller for Senate include, but are not limited to, those shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heller_bigdonors.png)&#8592;. Both opponents received more out-of-state dollars than in-state dollars from individual contributors, which means that since Heller's average dollar amount was higher than Rosen's since his in-state dollar is higher but
 
 
 _**Scenario: incumbent ahead in fundraising who lost**_
