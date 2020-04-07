@@ -1006,13 +1006,13 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 * many, many committees use the same treasurers;<br/>
 
-* Facebook received the most independent expenditures advocating & opposing the same Democratic and Republican candidates (other recipients received more partisan expenditures);<br/>
+* Facebook received the most independent expenditures advocating & opposing the same Democratic and Republican candidates (other recipients received more globally partisan expenditures);<br/>
 
 * exceeding the combined primary/general FEC individual contribution limit of $5,400 seems very common;<br/>
 
 * independent expenditures opposing candidates appear to be effective;<br/>
 
-* total in-state individual contribution dollars are do not appear to be as good a predictor of election outcome as (approximate) total in-state individual contributors (deduplication done on first name/last name/employer).<br/>
+* total in-state individual contribution dollars do not appear to be as good a predictor of election outcome as (approximate) total in-state individual contributors (deduplication done on first name/last name/employer).<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts or insight about what's here, please let us know either in the comments below or at contact@volsweep.com. Thanks again for reading. &#8212;_Team VolSweep_
 
