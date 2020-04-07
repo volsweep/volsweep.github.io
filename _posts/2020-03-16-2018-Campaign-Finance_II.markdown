@@ -458,7 +458,7 @@ _**Scenario: incumbent ahead in fundraising who won**_
 
 _**Scenario: incumbent behind in fundraising who won**_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in the Senate contests are Texas incumbent Ted Cruz's win over challenger/leading fundraiser Beto O'Rourke and New Jersey incumbent Bob Menendez's win over challenger/leading fundraiser Bob Hugin. The House contest satisfying this scenario is Pennsylvania District 8, where incumbent Matt Cartwright beat challenger/leading fundraiser John Chrin.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in the Senate contests are Texas incumbent Ted Cruz's win over challenger/leading fundraiser Beto O'Rourke and New Jersey incumbent Bob Menendez's win over challenger/leading fundraiser Bob Hugin. There are many House contests with Republican incumbents satisfying this scenario; the only one with a Democratic incumbent is Pennsylvania District 8, where incumbent Matt Cartwright beat challenger/leading fundraiser John Chrin. The ones with Republican incumbents will be included in the appendix.
 
 **U.S. Senate, Texas**
 
@@ -562,6 +562,8 @@ _**Scenario: incumbent behind in fundraising who won**_
 
 
 _**Scenario: incumbent behind in fundraising who lost**_
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are many House contests with Republican incumbents that satisfy this scenario; they will be included in the appendix. Aside from those, there are the three Senate contests below.
 
 **U.S. Senate, Florida**
 
@@ -1024,3 +1026,77 @@ _**Footnotes**_
 [^3]: Read more about independent expenditures: [https://ballotpedia.org/Independent_expenditure](https://ballotpedia.org/Independent_expenditure)
 [^4]: [https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/)
 [^5]: PDF of FEC limits (2017-18): [https://transition.fec.gov/info/contriblimitschart1718.pdf](https://transition.fec.gov/info/contriblimitschart1718.pdf)
+
+
+### Appendix
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you remember from &#8594;[this]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; plot in the previous FEC blog post, there is some pattern going on where Democratic challengers in House contests seem to win when the incumbent's funding is over $3-5MM, and lose when the incumbent's funding is below that. We're going to display ten instances where the incumbent was behind and lost and ten where the incumbent was behind and won.
+
+**U.S. House, New York District 19**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 24(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19a.png">
+      <img alt="NY_19 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 24(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19a.png">
+      <img alt="NY_19 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 24(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19a.png">
+      <img alt="NY_19 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, California District 25**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 25(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25a.png">
+      <img alt="CA_25 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 25(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25a.png">
+      <img alt="CA_25 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 25(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25a.png">
+      <img alt="CA_25 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, California District 10**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 10(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
+      <img alt="CA_10 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 10(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
+      <img alt="CA_10 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 10(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
+      <img alt="CA_10 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
