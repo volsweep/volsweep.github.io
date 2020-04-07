@@ -1019,15 +1019,6 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts or insight about what's here, please let us know either in the comments below or at contact@volsweep.com. Thanks again for reading. &#8212;_Team VolSweep_
 
 
-_**Footnotes**_
-
-[^1]: Data sets analyzed in this post found here: [https://www.fec.gov/data/browse-data/?tab=bulk-data](https://www.fec.gov/data/browse-data/?tab=bulk-data)
-[^2]: Cleaning notes to consider: 1) all figures are rounded, please check the code notebooks for more precise values, 2) only data pertaining to candidates appearing on final ballots remain, 3) any candidate not affiliated with one of the two major parties has been categorized as, "Third party," 4) some entries in the state abbreviation column do not match those of U.S. states or territories, but we left them for now as they only constitute ~0.2% of total observations (the reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/IEs and out-of-state ones), 5) employers and occupations have not been deduped yet.
-[^3]: Read more about independent expenditures: [https://ballotpedia.org/Independent_expenditure](https://ballotpedia.org/Independent_expenditure)
-[^4]: [https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/)
-[^5]: PDF of FEC limits (2017-18): [https://transition.fec.gov/info/contriblimitschart1718.pdf](https://transition.fec.gov/info/contriblimitschart1718.pdf)
-
-
 ### Appendix
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you remember from &#8594;[this]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; plot in the previous FEC blog post, there is some pattern going on where Democratic challengers in House contests seem to win when the incumbent's funding is over $3-5MM, and lose when the incumbent's funding is below that. We're going to display ten instances where the incumbent was behind and lost and ten where the incumbent was behind and won.
@@ -1100,3 +1091,149 @@ _**Footnotes**_
     </a>
   </div>
 </div>
+
+**U.S. House, Michigan District 08**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 26(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
+      <img alt="MI_08 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 26(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
+      <img alt="MI_08 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 26(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
+      <img alt="MI_08 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Virginia District 07**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 27(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
+      <img alt="VA_07 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 27(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
+      <img alt="VA_07 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 27(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
+      <img alt="VA_07 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, California District 45**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 28(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
+      <img alt="CA_45 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 28(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
+      <img alt="CA_45 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 28(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
+      <img alt="CA_45 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, New Jersey District 03**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 29(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
+      <img alt="NJ_03 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 29(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
+      <img alt="NJ_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 29(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
+      <img alt="NJ_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Minnesota District 03**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 30(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
+      <img alt="MN_03 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 30(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
+      <img alt="MN_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 30(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
+      <img alt="MN_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, New Jersey District 07**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 31(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
+      <img alt="NJ_07 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 31(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
+      <img alt="NJ_07 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 31(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
+      <img alt="NJ_07 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+_**Footnotes**_
+
+[^1]: Data sets analyzed in this post found here: [https://www.fec.gov/data/browse-data/?tab=bulk-data](https://www.fec.gov/data/browse-data/?tab=bulk-data)
+[^2]: Cleaning notes to consider: 1) all figures are rounded, please check the code notebooks for more precise values, 2) only data pertaining to candidates appearing on final ballots remain, 3) any candidate not affiliated with one of the two major parties has been categorized as, "Third party," 4) some entries in the state abbreviation column do not match those of U.S. states or territories, but we left them for now as they only constitute ~0.2% of total observations (the reason why the state abbreviation per observation is important is that we want to distinguish between in-state contributions/IEs and out-of-state ones), 5) employers and occupations have not been deduped yet.
+[^3]: Read more about independent expenditures: [https://ballotpedia.org/Independent_expenditure](https://ballotpedia.org/Independent_expenditure)
+[^4]: [https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/)
+[^5]: PDF of FEC limits (2017-18): [https://transition.fec.gov/info/contriblimitschart1718.pdf](https://transition.fec.gov/info/contriblimitschart1718.pdf)
