@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2018 Campaign Finance, Part II: A closer look"
+title: "2018 Campaign Finance, Part II: Deep dive"
 date: 2020-03-16 16:00:00 -0400
 comments: true
 category: blog
@@ -10,7 +10,7 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 
 * *treasurers associated with very large numbers of committees,*
 * *individuals contributing very large amounts of money to (super-)PACs,*
-* *individuals appearing to exceed maximum FEC limits,*
+* *individuals appearing to exceed maximum FEC limits to principal campaign committees,*
 * *committees making highest total independent expenditures,*
 * *who's receiving the independent expenditures and for what,*
 * *visual representation of finances for opposing candidates, including...*
