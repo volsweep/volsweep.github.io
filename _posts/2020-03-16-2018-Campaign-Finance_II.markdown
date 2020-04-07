@@ -200,9 +200,9 @@ _Example #4_<br/>
 
 > *"An anonymous contribution of cash is limited to $50. Any amount in excess of $50 must be promptly disposed of and may be used for any lawful purpose unrelated to any federal election, campaign or candidate." [^4][^5]*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC have no associated donor name. These appear to be above the limits allowed by the FEC.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This doesn't seem to be the case, as $246,892 total across two contributions to Composition Roofers Local Union #30 PAC and $54,458 total across two contributions to Association for Firefighters PAC have no associated donor name(s). These appear to be above the limits allowed by the FEC.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some individual contributors make many small contributions and others make a few extremely large ones. Here are the 40 donors with the highest contribution totals (in parentheses) and any summed amounts over $1MM shown itemized:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of known individual contributors, some make many small contributions and others make a few extremely large ones. Here are the 40 donors with the highest contribution totals (in parentheses) and any itemized totals over $1MM displayed:
 
 * Michael R Bloomberg ($85.9MM)
   * Independence USA PAC &#8212; $54.3MM
@@ -456,83 +456,6 @@ _**Scenario: incumbent ahead in fundraising who won**_
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So! That is a review of a typical contest where an incumbent ahead in fundraising defeated a challenger and not a lot of independent expenditures were made. If something isn't clear, let us know in the comments section at the bottom and we'll clarify. Now, let's look at some of the contests discussed in the previous post that had unexpected outcomes.
 
 
-_**Scenario: incumbent ahead in fundraising who lost**_
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in Senate contests are the Missouri Senate contest where incumbent/leading fundraiser Claire McCaskill lost to challenger Joshua Hawley and the North Dakota Senate contest where incumbent/leading fundraiser Heidi Heitkamp lost to challenger Kevin Cramer. There are six instances of this scenario in House contests (all with Republican incumbents) and we will review them in the final section in a plot-reading exercise.
-
-**U.S. Senate, Missouri**
-
-<div class="clearfix">
-  <div class="img-container">
-    <span>Fig. 9(a)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png">
-      <img alt="Missouri Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container">
-    <span>Fig. 9(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png">
-      <img alt="Missouri Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png" style="width: 100%">
-    </a>
-  </div>
-  <div class="img-container">
-    <span>Fig. 9(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_cm2cm.png">
-      <img alt="Missouri Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_cm2cm.png" style="width: 100%">
-    </a>
-  </div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing we notice looking at the committee contributions in Fig. 9(a) is that there were a _lot_ of IEs made to oppose candidates. IEs opposing challenger Joshua Hawley picked up pace around February 2018, while IEs opposing incumbent Claire McCaskill came in fast and strong around July 2018 and never let up. The largest IEs opposing Hawley were: SMP to Waterfront Strategies ($15.8MM), Women Vote! to Waterfront Strategies ($4.3MM), Priorities USA Action to Bully Pulpit Interactive ($3.7MM), and Majority Forward to Waterfront Strategies ($2.8MM). The largest IEs opposing McCaskill were: Senate Leadership Fund to Main Street Media Group ($16.1MM), NRSC to National Media Research Planning & Placement ($4.0MM), Americans for Prosperity to In Pursuit Of ($3.9MM), Senate Leadership Fund to Arena Online ($3.5MM), CFG Action Missouri (Club for Growth) to Ax Media ($2.9MM), America First Action, Inc. to Red Eagle Media Group ($2.2MM), NRSC to Cavalry ($1.1MM), and Missouri Rising Action to Strategic Media Services ($1.1MM).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 9(b), we see that incumbent Claire McCaskill dominated overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of eight one-time contributions, and that $2,700 x 8 = $21,600.)
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed no money to his own principal campaign committee while ~6,000 individuals did amounts totaling under the combined FEC limit. Individuals contributing total amounts over the limit include:
-
-* Larry Potterfield, Columbia MO, Midway USA CEO, $10,800
-* Paul Atkins, Arlington VA, Patomak Global Partners LLC consultant, $10,800
-* William H Darr, Springfield MO, ADF exec VP, $10,800
-* Harry M Cornell, Carthage MO, retired, $10,400
-* Sharon J Herschend, Branson MO, Herschend Family Entertainment CEO, $10,000.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main committee transfers to McCaskill for Missouri in Fig. 9(c) were $1.7MM total from McCaskill Victory Fund, $900K total from Missouri Democratic State Committee, $176K total from McCaskill 2018 Victory, $167K total from Justice 2018, and $116K total from Senate 2018 Impact. The main committee transfers to Josh Hawley for Senate were $805K total from Hawley Victory Committee, $181K total from Hawley Win Fund, $72K total from Indiana/Missouri Victory Committee, $49K total from Protecting the Majority Committee, and $46K total from Strengthen the Senate Majority 2018.
-
-
-**U.S. Senate, North Dakota**
-
-<div class="clearfix">
-  <div class="img-container">
-    <span>Fig. 10(a)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png">
-      <img alt="North Dakota Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png" style="width: 100%">
-    </a>
-  </div>  
-  <div class="img-container">
-    <span>Fig. 10(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png">
-      <img alt="North Dakota Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png" style="width: 100%">
-    </a>
-  </div>
-  <div class="img-container">
-    <span>Fig. 10(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_cm2cm.png">
-      <img alt="North Dakota Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_cm2cm.png" style="width: 100%">
-    </a>
-  </div>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10(a) shows that IEs opposing each candidate picked up around early summer 2018 and dwarfed any IEs advocating the candidates. Big spenders opposing incumbent Heidi Heitkamp were the Senate Leadership Fund to Main Street Media Group ($2.3MM) and NRSC to National Media Research Planning & Placement ($2.1MM). Big spenders opposing challenger Kevin Cramer were SMP to Waterfront Strategies ($2.7MM), DSCC to Great American Media ($2.0MM), and Majority Forward to Waterfront Strategies ($1.1MM).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent spent personal money on the campaigns. Heitkamp's principal campaign committee, Heidi for Senate, had around 19K individuals contributing below the combined $5,400 FEC limit. Individuals exceeding that limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heitkamp_bigdonors.png)&#8592;. Cramer's principal campaign committee, Cramer for Senate, had about 2.5K individuals contributing under the combined $5,400 FEC limit. Individuals contributing over the limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/cramer_bigdonors.png)&#8592;.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10(b) shows that the opponents had about the same amount of in-state individual contribution dollars, and that out-of-state individual contributions made up a very high proportion of each (particularly for Heitkamp).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10(c) shows committee transfers totals including North Dakota Democratic NLP Party's $3.2MM across 20 instances to Heidi for Senate; also included in that curve are Minnesota Democratic-Farmer-Labor Party ($500K), Heidi Victory Fund ($381K), Missouri Democratic State Committee ($200K), Indiana Democratic Congressional Victory Committee ($200K), and others. Cramer for Senate received $397K from Cramer Victory Fund, $118K from Keep the Senate Red 2018, and others <$100K each.
-
-
 _**Scenario: incumbent behind in fundraising who won**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in the Senate contests are Texas incumbent Ted Cruz's win over challenger/leading fundraiser Beto O'Rourke and New Jersey incumbent Bob Menendez's win over challenger/leading fundraiser Bob Hugin. The House contest satisfying this scenario is Pennsylvania District 8, where incumbent Matt Cartwright beat challenger/leading fundraiser John Chrin.
@@ -541,56 +464,56 @@ _**Scenario: incumbent behind in fundraising who won**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 11(a)</span><br/>
+    <span>Fig. 9(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png">
       <img alt="Texas Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 11(b)</span><br/>
+    <span>Fig. 9(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png">
       <img alt="Texas Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 11(c)</span><br/>
+    <span>Fig. 9(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_TXsenate_cm2cm.png">
       <img alt="Texas Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_TXsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11(a) shows that IEs opposing challenger Beto O'Rourke began earlier than and also dwarf those opposing incumbent Ted Cruz. Big spenders opposing O'Rourke were: Texans Are to Main Street Media Group ($4.7MM, also $250K to Cross Screen Media and $26K to Prime Media Partners), ESAFund to Del Cielo Media ($1.4MM, also $150K to CD, $102K to Wilson Research Strategies, and $35K to McCarthy Hennings Whalen), Club for Growth Action to Target Enterprises ($1.1MM, also $29K to Prime Media Partners). The biggest spender opposing Cruz was Texas Forever, which paid $2.3MM to Waterfront Strategies.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 9(a) shows that IEs opposing challenger Beto O'Rourke began earlier than and also dwarf those opposing incumbent Ted Cruz. Big spenders opposing O'Rourke were: Texans Are to Main Street Media Group ($4.7MM, also $250K to Cross Screen Media and $26K to Prime Media Partners), ESAFund to Del Cielo Media ($1.4MM, also $150K to CD, $102K to Wilson Research Strategies, and $35K to McCarthy Hennings Whalen), Club for Growth Action to Target Enterprises ($1.1MM, also $29K to Prime Media Partners). The biggest spender opposing Cruz was Texas Forever, which paid $2.3MM to Waterfront Strategies.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent personally contributed to the respective principal campaign committee. O'Rourke's, Beto for Texas, received contributions from about 70K individuals under the combined $5,400 FEC limit. Cruz's, Ted Cruz for Senate, received contributions from close to 40K individuals under the FEC limit.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11(c) shows committee transfer totals to Beto for Texas including $4.6MM from the Texas Democratic Party, $36.9K from 2018 Senate Impact, and $16.8K from O'Rourke Washington Democratic Victory Fund. Transfers to Ted Cruz for Senate include $3.9MM from Ted Cruz Victory Committee, $260K from Cruz himself, $200K from Republican Party of Texas, $129K from 2018 Senators Classic Committee, and $124K from Cruz for President.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 9(c) shows committee transfer totals to Beto for Texas including $4.6MM from the Texas Democratic Party, $36.9K from 2018 Senate Impact, and $16.8K from O'Rourke Washington Democratic Victory Fund. Transfers to Ted Cruz for Senate include $3.9MM from Ted Cruz Victory Committee, $260K from Cruz himself, $200K from Republican Party of Texas, $129K from 2018 Senators Classic Committee, and $124K from Cruz for President.
 
 
 **U.S. Senate, New Jersey**
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 12(a)</span><br/>
+    <span>Fig. 10(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png">
       <img alt="New Jersey Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 12(b)</span><br/>
+    <span>Fig. 10(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png">
       <img alt="New Jersey Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 12(c)</span><br/>
+    <span>Fig. 10(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NJsenate_cm2cm.png">
       <img alt="New Jersey Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NJsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 12(a) shows that incumbent Mendendez raised contributions to nonaffiliated committees consistently across his term, while challenger Hugin started around February 2018. The IEs opposing Hugin took off in July 2018 and were from SMP to Waterfront Strategies ($7.6MM, also $50K to SCN Strategies), Patients for Affordable Drugs Action to Pier 91 Media ($2.4MM, also $853K to Trilogy Interactive and smaller amounts to Patients for Affordable Drugs Now, Politico, Sea of Reeds, and Insider NJ), Leadership Alliance to Ethica Media ($1.2MM), and Committee to Build the Economy to Switchboard Communications ($25K, also $2K to MMA Consultants). IEs opposing Menendez began later and came mostly from Integrity NJ ($5.7MM to Pinpoint Media, $370K to Advictory, $268K to Mottola Consulting, $156K to US Postmaster, and $100K to Red Maverick Media); also included are $158K from Americas PAC to Statenet, and smaller amounts from Citizens for a Stronger New Jersey to Majority Strategies and Tar Heel Targeting.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 10(a) shows that incumbent Mendendez raised contributions to nonaffiliated committees consistently across his term, while challenger Hugin started around February 2018. The IEs opposing Hugin took off in July 2018 and were from SMP to Waterfront Strategies ($7.6MM, also $50K to SCN Strategies), Patients for Affordable Drugs Action to Pier 91 Media ($2.4MM, also $853K to Trilogy Interactive and smaller amounts to Patients for Affordable Drugs Now, Politico, Sea of Reeds, and Insider NJ), Leadership Alliance to Ethica Media ($1.2MM), and Committee to Build the Economy to Switchboard Communications ($25K, also $2K to MMA Consultants). IEs opposing Menendez began later and came mostly from Integrity NJ ($5.7MM to Pinpoint Media, $370K to Advictory, $268K to Mottola Consulting, $156K to US Postmaster, and $100K to Red Maverick Media); also included are $158K from Americas PAC to Statenet, and smaller amounts from Citizens for a Stronger New Jersey to Majority Strategies and Tar Heel Targeting.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Menendez's principal campaign committee, Menendez for Senate, received contributions from approximately 5,000 individuals giving less than the combined FEC maximum of $5,400. Of those who exceeded, the ones contributing a total above $10,000 include:
 
@@ -603,37 +526,37 @@ _**Scenario: incumbent behind in fundraising who won**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hugin personally contributed $73,477 to his own principal campaign committee, Bob Hugin for Senate Inc. In addition, at least 1,500 individuals contributed less than the combined FEC maximum. Those exceeding $10,000 are &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 12(c) we see why Hugin appears so far ahead in fundraising from the plot in the previous blog post; he transferred $44MM across 24 instances to Bob Hugin for Senate Inc. New Jersey Republican State Committee also transferred $375K, and the Founders Committee transferred $26K. Menendez for Senate received $2.2MM from the Mendendez Victory Fund, and $38K from Blue Senate 2018.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 10(c) we see why Hugin appears so far ahead in fundraising from the plot in the previous blog post; he transferred $44MM across 24 instances to Bob Hugin for Senate Inc. New Jersey Republican State Committee also transferred $375K, and the Founders Committee transferred $26K. Menendez for Senate received $2.2MM from the Mendendez Victory Fund, and $38K from Blue Senate 2018.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All in all, Fig.s 12(a) & 12(b) resemble plots where the blue line is the incumbent and wins. Whatever financial edge Hugin shows in Fig. 12(c) was not utilized to sufficient effect.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All in all, Fig.s 10(a) & 10(b) resemble plots where the blue line is the incumbent and wins. Whatever financial edge Hugin shows in Fig. 10(c) was not utilized to sufficient effect.
 
 
 **U.S. House, Pennsylvania District 8**
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 13(a)</span><br/>
+    <span>Fig. 11(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png">
       <img alt="Pennsylvania District 08 committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 13(b)</span><br/>
+    <span>Fig. 11(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png">
       <img alt="Pennsylvania District 08 individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_PA08_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 13(c)</span><br/>
+    <span>Fig. 11(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_PA08_cm2cm.png">
       <img alt="Pennsylvania District 08 transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_PA08_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 13(a) shows that incumbent Matt Cartwright dominated in committee contributions to nonaffiliated committees (the solid line); challenger John Chrin started raising in earnest around June 2018. IEs advocating Cartwright mirrored this with a delay and came mostly from SEIU COPE ($62.3K), and also from For Our Future, MoveOn.org Political Action, Communications Workers of America Working Voices, NEA Advocacy Fund, and Environment America Action Fund. The IEs opposing Cartwright were made by the NRCC ($375.9K to Del Ray Media, $144.7K to FP1 Strategies, and $35.8K to The Strategy Group) and Pennsylvania Pro-Life Federation PAC (<$100 each to Erdman Advertising Marketing and Design and SSS Printing).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11(a) shows that incumbent Matt Cartwright dominated in committee contributions to nonaffiliated committees (the solid line); challenger John Chrin started raising in earnest around June 2018. IEs advocating Cartwright mirrored this with a delay and came mostly from SEIU COPE ($62.3K), and also from For Our Future, MoveOn.org Political Action, Communications Workers of America Working Voices, NEA Advocacy Fund, and Environment America Action Fund. The IEs opposing Cartwright were made by the NRCC ($375.9K to Del Ray Media, $144.7K to FP1 Strategies, and $35.8K to The Strategy Group) and Pennsylvania Pro-Life Federation PAC (<$100 each to Erdman Advertising Marketing and Design and SSS Printing).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 13(b) shows fairly competitive individual contribution fundraising. Cartwright spent no personal money on his campaign, and over 1,200 individuals contributed less than the combined FEC minimum (seven contributed over the minimum, anywhere from $5,450 to $8,100). Chrin contributed $521.8K to his own campaign committee, John Chrin for Congress, with fewer than 300 individuals contributing. We notice the large vertical jumps in John Chrin's solid red line, which suggests perhaps the number of individuals contributing in-state is lower than the number contributing in-state to Cartwright, even though Chrin's in-state dollar amount is larger. Cartwright seems to have gotten more out-of-state attention than Chrin.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 11(b) shows fairly competitive individual contribution fundraising. Cartwright spent no personal money on his campaign, and over 1,200 individuals contributed less than the combined FEC minimum (seven contributed over the minimum, anywhere from $5,450 to $8,100). Chrin contributed $521.8K to his own campaign committee, John Chrin for Congress, with fewer than 300 individuals contributing. We notice the large vertical jumps in John Chrin's solid red line, which suggests perhaps the number of individuals contributing in-state is lower than the number contributing in-state to Cartwright, even though Chrin's in-state dollar amount is larger. Cartwright seems to have gotten more out-of-state attention than Chrin.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Similarly to the Senate contest in New Jersey, Chrin as challenger made a relatively large transfer to his principal campaign committee ($1.87MM across 18 instances). The Republican Federal Committee of Pennsylvania also transferred $100K. In comparison, Cartwright transferred $140K to Cartwright for Congress. Again, this large transfer does not appear to have helped Chrin.
 
@@ -644,19 +567,19 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 14(a)</span><br/>
+    <span>Fig. 12(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png">
       <img alt="Florida Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 14(b)</span><br/>
+    <span>Fig. 12(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png">
       <img alt="Florida Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 14(c)</span><br/>
+    <span>Fig. 12(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_FLsenate_cm2cm.png">
       <img alt="Florida Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_FLsenate_cm2cm.png" style="width: 100%">
     </a>
@@ -665,80 +588,152 @@ _**Scenario: incumbent behind in fundraising who lost**_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First of all, it's important to note that Rick Scott was Governor of Florida for the duration of this contest. Unlike many challengers, he did not have to overcome the hurdle of name recognition.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 14(a) shows incumbent Bill Nelson's fundraising for his campaign committee, Bill Nelson for U.S. Senate, grew at a pretty constant rate through election day. As soon as Rick Scott's fundraising appears around April 2018, the IEs with respect to Nelson take off. Top advocating expenditures include SMP to Waterfront Strategies ($6.0MM), Priorities USA Action to Bully Pulpit Interactive ($4.1MM), and Win Justice to Hard Knocks Field ($1.2MM). Top opposing expenditures include New Republican PAC to Matson Media ($29.3MM, also $191K to SRCP Media and $70K to Strategic Direction Com) and Americans for Prosperity Action Inc. (AFP Action) to In Pursuit Of ($1.1MM, also $227K to USPS and $130K to Presstige Printing). Nelson received contributions to nonaffiliated committees at a pretty constant rate from January 2017 through election day 2018. About $40K came from an entity/ies with a null name value; beyond that, $15K each came from M-PAC, Narragansett Bay PAC, American Federation of Teachers/AFL-CIO Committee on Political Education, Fearless for the People PAC, America Works Federal PAC, Impact, Forward Together PAC, MurphPAC, End Citizens United, and Narragansett Bay PAC.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 12(a) shows incumbent Bill Nelson's fundraising for his campaign committee, Bill Nelson for U.S. Senate, grew at a pretty constant rate through election day. As soon as Rick Scott's fundraising appears around April 2018, the IEs with respect to Nelson take off. Top advocating expenditures include SMP to Waterfront Strategies ($6.0MM), Priorities USA Action to Bully Pulpit Interactive ($4.1MM), and Win Justice to Hard Knocks Field ($1.2MM). Top opposing expenditures include New Republican PAC to Matson Media ($29.3MM, also $191K to SRCP Media and $70K to Strategic Direction Com) and Americans for Prosperity Action Inc. (AFP Action) to In Pursuit Of ($1.1MM, also $227K to USPS and $130K to Presstige Printing). Nelson received contributions to nonaffiliated committees at a pretty constant rate from January 2017 through election day 2018. About $40K came from an entity/ies with a null name value; beyond that, $15K each came from M-PAC, Narragansett Bay PAC, American Federation of Teachers/AFL-CIO Committee on Political Education, Fearless for the People PAC, America Works Federal PAC, Impact, Forward Together PAC, MurphPAC, End Citizens United, and Narragansett Bay PAC.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The largest IEs opposing Scott were: SMP to Waterfront Strategies ($15.2MM), Priorities USA Action to Bully Pulpit Interactive ($5.4MM), Majority Forward to Waterfront Strategies ($4.5MM), VoteVets to Waterfront Strategies ($3.8MM), LCV Victory Fund to Waterfront Strategies ($1.8MM, also $500K to Bully Pulpit Interactive), Environmental Defense Action Fund to Waterfront Strategies ($757K), Giffords PAC to Deliver Strategies ($527K), Progressive Turnout Project to Deliver Strategies ($488K), and For Our Future to Deliver Strategies ($369K, also $324K to For Our Future Action Fund).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 14(b) we see that 1) Bill Nelson's fundraising from individuals was very smooth over the course of his term, 2) he raised about equally in-state vs out-of-state, 3) Scott raised fiercely starting around April 2018, and 4) most of his funds came from in-state (because, as we're about to see, they were mostly from himself). Scott contributed $27.1MM as an individual and $42.9MM as a candidate to his principal campaign committee. Over 11,500 individuals contributed under the FEC maximum to his principal campaign committee, compared to approximately 22,000 under the maximum who contributed to Bill Nelson's.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 12(b) we see that 1) Bill Nelson's fundraising from individuals was very smooth over the course of his term, 2) he raised about equally in-state vs out-of-state, 3) Scott raised fiercely starting around April 2018, and 4) most of his funds came from in-state (because, as we're about to see, they were mostly from himself). Scott contributed $27.1MM as an individual and $42.9MM as a candidate to his principal campaign committee. Over 11,500 individuals contributed under the FEC maximum to his principal campaign committee, compared to approximately 22,000 under the maximum who contributed to Bill Nelson's.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 14(c) shows the following largest transfers to Bill Nelson for US Senate: $394K from Florida Senate 2018, $390K from Democratic Executive Committee of Florida, $148K from Florida Senate 2018 (Unitemized) (note: not clear what this distinction means), $99K from 2018 Senate Impact, and $91K from Senate 2018 Impact. Not clear without digging further whether "2018 Senate Impact" and "Senate 2018 Impact" are actually the same committee, but it seems likely. The largest transfers to Rick Scott for Florida were: $968K from Rick Scott Victory Fund, $16K from the Founders Committee, and $10K from Murray Energy PAC.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 12(c) shows the following largest transfers to Bill Nelson for US Senate: $394K from Florida Senate 2018, $390K from Democratic Executive Committee of Florida, $148K from Florida Senate 2018 (Unitemized) (note: not clear what this distinction means), $99K from 2018 Senate Impact, and $91K from Senate 2018 Impact. Not clear without digging further whether "2018 Senate Impact" and "Senate 2018 Impact" are actually the same committee, but it seems likely. The largest transfers to Rick Scott for Florida were: $968K from Rick Scott Victory Fund, $16K from the Founders Committee, and $10K from Murray Energy PAC.
 
 
 **U.S. Senate, Indiana**
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 15(a)</span><br/>
+    <span>Fig. 13(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png">
       <img alt="Indiana Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 15(b)</span><br/>
+    <span>Fig. 13(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png">
       <img alt="Indiana Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 15(c)</span><br/>
+    <span>Fig. 13(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_INsenate_cm2cm.png">
       <img alt="Indiana Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_INsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 15(a) shows a similar story to the senate contest in Florida, but here the IEs opposing incumbent Joe Donnelly started later. The largest of those were: Senate Leadership Fund to Main Street Media Group ($11.2MM, also $2.8MM to Cross Screen Media and $834K to Majority Strategies), NRSC to Del Ray Media ($2.9MM, also $1.3MM to Targeted Victory), America First Action Inc. to Red Eagle Media Group ($2.1MM), and National Rifle Association of America Political Victory Fund to Starboard Strategic ($1MM). The largest IEs advocating Donnelly were: SMP to Waterfront Strategies ($2.7MM, also $215K to Bully Pulpit Interactive and $105K to Shorr Johnson Magnus), Black Progressive Action Coalition to Revolution Field Strategies ($942K, also $233K to Resonance Campaigns), and Vote for Hoosier Values to JVA Campaigns ($723K).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 13(a) shows a similar story to the senate contest in Florida, but here the IEs opposing incumbent Joe Donnelly started later. The largest of those were: Senate Leadership Fund to Main Street Media Group ($11.2MM, also $2.8MM to Cross Screen Media and $834K to Majority Strategies), NRSC to Del Ray Media ($2.9MM, also $1.3MM to Targeted Victory), America First Action Inc. to Red Eagle Media Group ($2.1MM), and National Rifle Association of America Political Victory Fund to Starboard Strategic ($1MM). The largest IEs advocating Donnelly were: SMP to Waterfront Strategies ($2.7MM, also $215K to Bully Pulpit Interactive and $105K to Shorr Johnson Magnus), Black Progressive Action Coalition to Revolution Field Strategies ($942K, also $233K to Resonance Campaigns), and Vote for Hoosier Values to JVA Campaigns ($723K).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The largest IEs opposing challenger Mike Braun were: SMP to Waterfront Strategies ($13.7MM, also $270K to Shorr Johnson Magnus), DSCC to Great American Media ($6.8MM), Majority Forward to Waterfront Strategies ($4.5MM), Priorities USA Action to Bully Pulpit Interactive ($3.5MM). The largest IEs advocating Braun were: Senate Leadership Fund to Main Street Media Group ($1.3MM, also $662K to Connection Strategy and $321K to Cross Screen Media), and NRSC to Del Ray Media ($191K).  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of individual contributions, Joe Donnelly contributed $15K to Donnelly for Indiana. Approximately 9,000 individuals contributed less than the combined FEC maximum; of those who contributed over the maximum, none contributed over $10K. Mike Braun for Indiana received contributions from approximately 4K individuals under the combined FEC maximum. While Donnelly raised more individually contributed dollars than Braun, we notice that Braun raised more in-state dollars than Donnelly. It follows that Braun's ratio of in-state to out-of-state was higher than Donnelly's.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 15(c) shows Braun way ahead of Donnelly in terms of transfers between committees. The largest transfers to Donnelly for Indiana were from Senate Impact 2018 ($492K), Donnelly Victory Fund ($342K), and Democrats for Opportunity Fund ($96K). The largest transfers to Mike Braun for Indiana were from Mike Braun ($15.1MM), Indiana Republican State Committee ($342K), Braun Victory Committee ($202K), Team Braun Committee ($130K), Keep the Senate Red 2018 ($126K), and Missouri for GOP Senate Majority ($111K).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 13(c) shows Braun way ahead of Donnelly in terms of transfers between committees. The largest transfers to Donnelly for Indiana were from Senate Impact 2018 ($492K), Donnelly Victory Fund ($342K), and Democrats for Opportunity Fund ($96K). The largest transfers to Mike Braun for Indiana were from Mike Braun ($15.1MM), Indiana Republican State Committee ($342K), Braun Victory Committee ($202K), Team Braun Committee ($130K), Keep the Senate Red 2018 ($126K), and Missouri for GOP Senate Majority ($111K).
 
 
 **U.S. Senate, Nevada**
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 16(a)</span><br/>
+    <span>Fig. 14(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png">
       <img alt="Nevada Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_committee.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 16(b)</span><br/>
+    <span>Fig. 14(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png">
       <img alt="Nevada Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_individual.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 16(c)</span><br/>
+    <span>Fig. 14(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/contributions_NVsenate_cm2cm.png">
       <img alt="Nevada Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NVsenate_cm2cm.png" style="width: 100%">
     </a>
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(a) shows that incumbent Dean Heller's fundraising was consistent throughout his term. Interestingly, unlike in other contests we've looked at, it appears that challenger Jacky Rosen started fundraising at the beginning of the incumbent's term. IEs opposing Heller began in earnest around June 2018 and continued strongly through the election. The largest of these were: SMP to Waterfront Strategies ($11.1MM, also $3MM to Blueprint Interactive), DSCC to Great American Media ($7.8MM), Majority Forward to Waterfront Strategies ($2.7MM), American Federation of State County and Municipal Employees PEOPLE to Waterfront Strategies ($1.5MM), and Women Vote! to Waterfront Strategies ($1.5MM). The largest IEs opposing Rosen were: Senate Leadership Fund to Main Street Media Group ($13.2MM, also $1.5MM to Arena Online, $852K to Arena Communications, $217K to DMM Media, $57K to Connection Strategy, and $33K to Richard Sales Media), NRSC to Flexpoint Media ($4.7MM, also $217K to OnMessage and $2,317 to i360).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 14(a) shows that incumbent Dean Heller's fundraising was consistent throughout his term. Interestingly, unlike in other contests we've looked at, it appears that challenger Jacky Rosen started fundraising at the beginning of the incumbent's term. IEs opposing Heller began in earnest around June 2018 and continued strongly through the election. The largest of these were: SMP to Waterfront Strategies ($11.1MM, also $3MM to Blueprint Interactive), DSCC to Great American Media ($7.8MM), Majority Forward to Waterfront Strategies ($2.7MM), American Federation of State County and Municipal Employees PEOPLE to Waterfront Strategies ($1.5MM), and Women Vote! to Waterfront Strategies ($1.5MM). The largest IEs opposing Rosen were: Senate Leadership Fund to Main Street Media Group ($13.2MM, also $1.5MM to Arena Online, $852K to Arena Communications, $217K to DMM Media, $57K to Connection Strategy, and $33K to Richard Sales Media), NRSC to Flexpoint Media ($4.7MM, also $217K to OnMessage and $2,317 to i360).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of Rosen's campaign, Fig. 16(b) shows Rosen for Nevada received contributions from at least 19K individuals below the combined FEC maximum. Those contributing over the limit include, but are not limited to the ones shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/rosen_bigdonors.png)&#8592;. Heller for Senate received contributions from at least 5,600 individuals below the combined FEC maximum. Those contributing over the limit to Heller for Senate include, but are not limited to, those shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heller_bigdonors.png)&#8592;. Both opponents received more out-of-state dollars than in-state dollars from individual contributors.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of Rosen's campaign, Fig. 14(b) shows Rosen for Nevada received contributions from at least 19K individuals below the combined FEC maximum. Those contributing over the limit include, but are not limited to the ones shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/rosen_bigdonors.png)&#8592;. Heller for Senate received contributions from at least 5,600 individuals below the combined FEC maximum. Those contributing over the limit to Heller for Senate include, but are not limited to, those shown &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heller_bigdonors.png)&#8592;. Both opponents received more out-of-state dollars than in-state dollars from individual contributors.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(c) shows that Heller's campaign had transfers from other committees relatively consistently throughout his term, and Rosen's campaign had transfers starting around October 2017 that came in at a much higher rate. The largest ones to Rosen for Nevada were: $1MM from Rosen Victory Fund (also $34.5K from "Rosen Victory Fund (Unitemized)," not clear the distinction), $256K from Arizona Nevada Victory Fund, $185K from 2018 Senate Impact, and $94K from Nevada State Democratic Party. The largest transfers to Heller for Senate were: $153K from Heller Victory Committee, $101K from 2017 Senators Classic Committee, and $63K from 2018 Senators Classic Committee.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 14(c) shows that Heller's campaign had transfers from other committees relatively consistently throughout his term, and Rosen's campaign had transfers starting around October 2017 that came in at a much higher rate. The largest ones to Rosen for Nevada were: $1MM from Rosen Victory Fund (also $34.5K from "Rosen Victory Fund (Unitemized)," not clear the distinction), $256K from Arizona Nevada Victory Fund, $185K from 2018 Senate Impact, and $94K from Nevada State Democratic Party. The largest transfers to Heller for Senate were: $153K from Heller Victory Committee, $101K from 2017 Senators Classic Committee, and $63K from 2018 Senators Classic Committee.
 
 
-_**Back to the first scenario, this time House contests: incumbent ahead in fundraising who lost**_
+_**Scenario: incumbent ahead in fundraising who lost**_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For now, we're going to comment on each contest in this section based on the plots and what we've seen above, instead of _a priori_ knowledge from the code notebooks. This kind of thinking will be useful, for example, when looking at the contests currently taking place for 2020.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in Senate contests are the Missouri Senate contest where incumbent/leading fundraiser Claire McCaskill lost to challenger Joshua Hawley and the North Dakota Senate contest where incumbent/leading fundraiser Heidi Heitkamp lost to challenger Kevin Cramer. There are six instances of this scenario in House contests (all with Republican incumbents) and we will review them in the final section in a plot-reading exercise.
+
+**U.S. Senate, Missouri**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 15(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png">
+      <img alt="Missouri Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 15(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png">
+      <img alt="Missouri Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 15(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_MOsenate_cm2cm.png">
+      <img alt="Missouri Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_MOsenate_cm2cm.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing we notice looking at the committee contributions in Fig. 15(a) is that there were a _lot_ of IEs made to oppose candidates. IEs opposing challenger Joshua Hawley picked up pace around February 2018, while IEs opposing incumbent Claire McCaskill came in fast and strong around July 2018 and never let up. The largest IEs opposing Hawley were: SMP to Waterfront Strategies ($15.8MM), Women Vote! to Waterfront Strategies ($4.3MM), Priorities USA Action to Bully Pulpit Interactive ($3.7MM), and Majority Forward to Waterfront Strategies ($2.8MM). The largest IEs opposing McCaskill were: Senate Leadership Fund to Main Street Media Group ($16.1MM), NRSC to National Media Research Planning & Placement ($4.0MM), Americans for Prosperity to In Pursuit Of ($3.9MM), Senate Leadership Fund to Arena Online ($3.5MM), CFG Action Missouri (Club for Growth) to Ax Media ($2.9MM), America First Action, Inc. to Red Eagle Media Group ($2.2MM), NRSC to Cavalry ($1.1MM), and Missouri Rising Action to Strategic Media Services ($1.1MM).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at the individual contributions in Fig. 15(b), we see that incumbent Claire McCaskill dominated overall; however, notice that her campaign has far more out-of-state dollars than in-state, and that Hawley's total individual contributions almost equal McCaskill's in-state contributions. Since the vast majority of out-of-state contributors won't participate in an election for a Congressperson in the end, one wonders whether in-state contributions are a better proxy for support at the polls than overall contributions.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;McCaskill as a candidate contributed $41K. As an individual she contributed $134K. About 28K individuals contributed under the FEC combined limit of $5,400 ($2,700 (primary) + $2,700 (general) = $5,400). More than a few others contributed over the FEC limit; see some of them &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/mccaskill_bigdonors.png)&#8592;. (Note that many contributed $21,600, which in the code you can see is the sum of eight one-time contributions, and that $2,700 x 8 = $21,600.)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hawley contributed no money to his own principal campaign committee while ~6,000 individuals did amounts totaling under the combined FEC limit. Individuals contributing total amounts over the limit include:
+
+* Larry Potterfield, Columbia MO, Midway USA CEO, $10,800
+* Paul Atkins, Arlington VA, Patomak Global Partners LLC consultant, $10,800
+* William H Darr, Springfield MO, ADF exec VP, $10,800
+* Harry M Cornell, Carthage MO, retired, $10,400
+* Sharon J Herschend, Branson MO, Herschend Family Entertainment CEO, $10,000.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main committee transfers to McCaskill for Missouri in Fig. 15(c) were $1.7MM total from McCaskill Victory Fund, $900K total from Missouri Democratic State Committee, $176K total from McCaskill 2018 Victory, $167K total from Justice 2018, and $116K total from Senate 2018 Impact. The main committee transfers to Josh Hawley for Senate were $805K total from Hawley Victory Committee, $181K total from Hawley Win Fund, $72K total from Indiana/Missouri Victory Committee, $49K total from Protecting the Majority Committee, and $46K total from Strengthen the Senate Majority 2018.
+
+
+**U.S. Senate, North Dakota**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 16(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png">
+      <img alt="North Dakota Senate committee contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_committee.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 16(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png">
+      <img alt="North Dakota Senate individual contributions" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_individual.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 16(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/contributions_NDsenate_cm2cm.png">
+      <img alt="North Dakota Senate transfers between committees" src="{{ site.url }}/assets/FECpt2/contributions_NDsenate_cm2cm.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(a) shows that IEs opposing each candidate picked up around early summer 2018 and dwarfed any IEs advocating the candidates. Big spenders opposing incumbent Heidi Heitkamp were the Senate Leadership Fund to Main Street Media Group ($2.3MM) and NRSC to National Media Research Planning & Placement ($2.1MM). Big spenders opposing challenger Kevin Cramer were SMP to Waterfront Strategies ($2.7MM), DSCC to Great American Media ($2.0MM), and Majority Forward to Waterfront Strategies ($1.1MM).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither opponent spent personal money on the campaigns. Heitkamp's principal campaign committee, Heidi for Senate, had around 19K individuals contributing below the combined $5,400 FEC limit. Individuals exceeding that limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/heitkamp_bigdonors.png)&#8592;. Cramer's principal campaign committee, Cramer for Senate, had about 2.5K individuals contributing under the combined $5,400 FEC limit. Individuals contributing over the limit include, but are not limited to those listed &#8594;[here]({{ site.url }}/assets/FECpt2/bigdonors/cramer_bigdonors.png)&#8592;.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(b) shows that the opponents had about the same amount of in-state individual contribution dollars, and that out-of-state individual contributions made up a very high proportion of each (particularly for Heitkamp).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 16(c) shows committee transfers totals including North Dakota Democratic NLP Party's $3.2MM across 20 instances to Heidi for Senate; also included in that curve are Minnesota Democratic-Farmer-Labor Party ($500K), Heidi Victory Fund ($381K), Missouri Democratic State Committee ($200K), Indiana Democratic Congressional Victory Committee ($200K), and others. Cramer for Senate received $397K from Cramer Victory Fund, $118K from Keep the Senate Red 2018, and others <$100K each.
 
 
 **U.S. House, California District 21**
@@ -764,9 +759,16 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the shape of the solid curves in Fig. 17(a) we could guess that the Republican is incumbent (since fundraising started at the beginning of the term). A large amount of opposing IE money was spent against the incumbent, and relatively little against the challenger. Fig. 17(b) shows that each opponent raised mostly from in-state individual contributors, and that the challenger had a nice rally starting around April 2018 through the election. Fig. 17(c) shows that no committees made transfers to the incumbent and that the challenger's principal campaign committee received about $800K.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 17(a) shows incumbent David Valadao had a sizeable lead in contributions to nonaffiliated committees. IEs opposing him started a tiny bit in June 2017 and then shot up starting around September 2018. The largest ones were: Protect Our Kids and Our Healthcare PAC to AKPD Message and Media ($333K, also $216K to the Strategy Group and $34K to David Binder Research), House Majority PAC to Waterfront Strategies ($267K), and Red to Blue CA to Mission Control ($117K). Not many IEs against challenger TJ Cox: NRCC to Del Ray Media ($332K) and two <$200 from National Rifle Association of America Political Victory Fund to Master Print and the Herald Group.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: The incumbent was outspent in opposing IEs and no committees transferred in for assistance.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cox personally contributed $8K to his campaign. Fig. 17(b) shows Cox's individual contributions really start to take off around April 2018. Both opponents had a high proportion of in-state dollars; Cox's were slightly lower but as we are about to see, dollars are not directly proportional to individuals. Approximately 2K individuals contributed to TJ Cox for Congress under the FEC maximum, with another seven individuals contributing from $5,598 to $9,400. Valadao for Congress had just over 1K individual contributors under the FEC maximum, with another thirteen over it including five at $10K and then the highest:
+
+* William Lazzerini, Bakersfield CA, Advance Beverage Company principal, $38,000
+* Robert Smittcamp, Fresno CA, Lyon Magnus president, $25,400
+* Edward M Kashian, Fresno CA, Lance Kashian Enterprises partner, $25,000.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 17(c) shows no committees transferred in assistance for the incumbent. TJ Cox transferred $150K one-time as "Terrence J Cox" and another $65K across seven instances as "Terrance J Cox". California Candidates Victory Fund transferred $133K. All other transfers were under $100K. This contest looks like effective IEs opposing the incumbent were made while no committees transferred in to assist, and likely more individuals contributed to the challenger.
+
 
 **U.S. House, Florida District 26**
 
@@ -791,13 +793,23 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the shapes of the solid curves in Fig. 18(a), we would guess that the Republican is the incumbent. A lot of IEs opposing each candidate were made in this contest, with a larger dollar amount opposing the Democratic challenger. However, IEs advocating the challenger were almost as large and those advocating the incumbent were nowhere even close.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 18(a) shows IEs in this contest started off with some advocating incumbent Carlos Curbelo and then a whole lot more both advocating and opposing challenger Debbie Mucarsel-Powell. Advocating Mucarsel-Powell were: DCCC to Visionary Strategy and Insights ($4.1MM, also $120K to Trilogy Interactive and $57K to 4C Partners), and others under $1MM. The largest opposing Mucarsel-Powell were: Congressional Leadership Fund to Nebo Media ($2.8MM) and NRCC to Del Ray Media ($2.3MM, also $295K to National Media Digital, $79K to SRCP Media, $21K to the Factor, and $4.8K to IMGE).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 18(b) shows that total individual contribution dollar amount was almost the same. It's interesting to note that around July 2018, the challenger's out-of-state individual contribution dollars overtook the in-state ones; the out-of-state dollars ended up almost matching the incumbent's in-state dollars. This is a fairly wide margin between opponents' in-state individual contribution dollars, which makes us wonder whether the incumbent's average in-state contribution total per individual is higher than the challenger's.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mucarsel-Powell contributed $1K as a candidate to Debbie for Congress. Her campaign had about 1,000 in-state and just over 1,500 out-of-state individuals contributing. Eleven individuals contributed over the combined FEC maximum; those contributing over $10K were:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 18(c) shows some committee transfer kicking in to the incumbent's principal campaign committee at regular FEC deadline intervals. Transfers to the challenger's principal campaign committee began earnestlly around April 2018 and were relatively close to the incumbent's for how wide the starting margin was.  
+* Nelson Helm, Louisville KY, retired, $11,300
+* Darielle Linehan, Towson MD, not employed, $10,800
+* Judy Blume, Key West FL, writer, $10,000.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Aggressive spending on IEs advocating the challenger look like they must have helped; individual contributions in total look comparable but it's a bit surprising how wide the in-state dollar margin is. Uptick in interest from out-of-state starting around September 2018. Committee transfers comparable. Seems like there must be something else going on in this contest to explain the upset.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Approximately 800 in-state and 700 out-of-state individuals contributed to Curbelo for Congress. Fourteen contributed over the FEC maximum; those contributing over $10K were:
+
+* Armando Codina, Coral Gables FL, The Codina Group chairman, $20,800
+* David L Flory, Miami Beach FL, retired, $20,000
+* Edward E Haddock, Winter Park FL, Full Sail University CEO, $15,000
+* Christina Leyva, Coral Gables FL, Garcia & Garcia CPA, $10,800.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These individual contribution figures are interesting, as in the previous contest we looked at, because although the challenger's in-state individual contributions dollars are lower than the incumbent's, we see that the incumbent's average contribution must have been higher because there are actually more in-state individuals contributing to the challenger. She also appears to have gotten out-of-state attention starting in April 2018 which rode through to election day.
+
 
 **U.S. House, Georgia District 6**
 
@@ -822,9 +834,27 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the first contest we've looked at in this post where IEs started so early. Someone made some _very_ large, early IEs opposing the incumbent around April 2017. IEs advocating the incumbent seem to have picked up to compensate for the negative attention. IEs advocating the challenger started around May 2018 and spiked immediately prior to the election. Surprisingly small amount of opposing IE spending with respect to the challenger. Individual contributions nowhere close. About $100K transferred into the challenger's campaign close to election day.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These plots don't look like any we've seen so far! The major IEs opposing the incumbent, Karen Handel, were from DCCC to the following: Screen Strategies Media ($4.4MM), Left Hook Communications ($547K), and Sage Media Planning and Placement ($134MM). The major IEs advocating Handel were from Ending Spending Inc to Mentzer Media Services ($1.1MM, also $106K to DDC and $76K to Nasica Tactical), US Chamber of Commerce to Revolution Media Group ($650K), and NRCC both to Red Eagle Media Group ($426K) and to FP1 Strategies ($270K). The largest IEs advocating the challenger, Lucia McBath, were mostly from Everytown for Gun Safety Victory Fund ($2.1MM to Canal Partners Media, $705K to Bully Pulpit Interactive, $317K to the Pivot Group) and Everytown for Gun Safety Action Fund ($660K to Waterfront Strategies, $285K to Bully Pulpit Interactive, and $268K to Mission Control).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Looks like some negative something going on around the incumbent unrelated to the challenger early on, with a nice infusion of IEs advocating the challenger near election day.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;McBath contributed $25 as a candidate to Friends of Lucy McBath Inc. The committee had a little over 600 in-state and about 1,000 out-of-state individual contributors. Eleven contributed over the combined FEC maximum, all of whom contributed less than $10K. Handel for Congress Inc. had about 2,300 in-state and over 3,000 out-of-state individual contributors, many of whom contributed over the combined FEC maximum (40+). Those contributing over $10K were:
+
+* Clay Newman, Richmond Hill GA, Integrated Power Solutions CEO, $16,000
+* Patricia Terwilliger, Atlanta GA, photographer, $13,500
+* Bart Whitaker, Mabelton GA, Whitaker Oil Company owner, $10,800
+* Gary W Rollins, Atlanta GA, Rollins Inc. CEO, $10,800
+* Kathleen Rollins, Atlanta GA, homemaker, $10,800
+* Patria Henssler, Kennesaw GA, G W Henssler & Associates LTD CPA, $10,800
+* Steve Chaudoin, Atlanta GA, retired, $10,800
+* Karen Wright, Mount Vernon OH, Ariel Corporation president/CEO, $10,800
+* James Van Epps, Roswell GA, Van Epps LLC, $10,800
+* William Lako, Kennesaw GA, Henssler Financial adviser, $10,800
+* David Hanna, Atlanta GA, Atlanticus Holdings CEO, $10,800
+* G Niles Bolton, Atlanta GA, Niles Bolton Associates Inc architect, $10,600
+* Roger Santi, Alpharetta GA, Santi & Associates PC CPA, $10,093
+* David N Farr, St Louis MO, Emerson Electric Co executive, $10,000.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something strange is going on here with the difference in number of in-state contributors. It does look like the challenger had momentum going into election day, but the disparity was still the biggest we've seen so far. In terms of the committee transfers to Friends of Lucia McBath Inc. in Fig. 19(c), those were mostly $40K from Battleground Victory Fund 2018 and $11K from Lucy McBath.
+
 
 **U.S. House, Illinois District 6**
 
@@ -849,7 +879,25 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Lot of IEs opposing the incumbent; individual contributions really started taking off for the challenger around August 2018, with in-state dollars below that of incumbent but good out-of-state attention; much larger transfers from committees for the challenger than the incumbent.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here, we see the IEs opposing the challenger, Sean Casten, began earlier but ended up totaling significantly less than those opposing incumbent Peter Roskam. The largest ones opposing Casten were Congressional Leadership Fund to Nebo Media ($2.75MM) and the New Prosperity Foundation to XPS Professional Services ($435K). The largest ones opposing Roskam were DCCC to Sage Media Planning and Placement ($1.98MM) and House Majority PAC to Waterfront Strategies ($1.9MM).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 20(b) shows Casten got a bigger boost from out-of-state individual contributions starting around August 2018. Casten for Congress had about 3K in-state and over 1,500 out-of-state individual contributors, which leads us to believe that the out-of-state average was higher since the total dollars look about equal for in-state and out-of-state. In-state contributor employers include the University of Chicago, Northwestern University, Kirkland & Ellis LLP, and Argonne National Laboratory. Out-of-state contributor employers include Google, Stanford University, Harvard Univerity, and Dartmouth College. Eighteen individuals contributed over the combined FEC maximum; those contributing over $10K were:
+
+* Mary Jo G Schuler, Oak Park IL, not employed, $13,500
+* Frederick Andreae, Bentonville VA, self-employed architect, $11,300
+* Anthony R Rossi, Hinsdale IL, RMK Management Corp president, $10,800.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roskam for Congress Committee had just over 2K in-state and just over 1K out-of-state. In-state contributor employers include Northwestern Mutual, Madison Dearborn Partners, DuPage Medical Group, Wheaton Eye Clinic, and Associated Urological Specialists LLC. Out-of-state contributor employers include The Hartford, Podesta Group, Capitol Counsel LLC, Neurological Surgery PC, Venn Strategies, and Breakthru Beverage Group. Twenty-three individuals contributed over the combined FEC maximum; those contributing over $10K were:
+
+* David W Grainger, Lake Forest IL, W W Grainger Inc. chairman, $16,200
+* Erik Fyrwald, Hinsdale IL, Syngenta CEO, $16,200
+* Oswaldo Palomo, Fairfield CT, Public Sphere Inc principal, $10,800
+* James E Bramsen, Barrington IL, Spraying Systems Co CEO, $10,800
+* Thomas M Sodeika, Oakbrook Terrace IL, Precision Payroll of America president/CEO, $10,800
+* Charles W Pollard, Carol Stream IL, retired, $10,000.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 20(c) shows significantly more dollars transferred to the challenger's committee than the incumbent's. By far the largest transfer to Casten was $1.1MM from Casten himself, across eleven instances. The largest to Roskam were far smaller: $81K from Roskam Victory Committee and $45K from GOP Majority Victory Fund.
+
 
 **U.S. House, Oklahoma District 5**
 
@@ -870,9 +918,14 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 21(c) is missing here because all amounts were zero.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Fig. 21(a) We see a last-minute injection of IE advocating the challenger, Kendra Horn, which was $452K from Independence USA PAC to SKDKnickerbocker. IEs advocating incumbent Steven Russell were mostly from With Honor Fund Inc.: $94K to Red Eagle Media Group and $18.5K to Poolhouse.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Pretty clear here that a little bit of IEs advocating the challenger plus a runaway advantage in individual contributions starting June 2018 (especially in-state) helped the challenger.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Horn blew away Russell in overall individual contribution dollars, and in particular in-state ones. Kendra Horn for Congress had approximately 1K in-state and just over 300 out-of-state individual contributors. In-state contributor employers include Phillips Murrah, Oklahoma City University, Crowe & Dunlevy, and Oklahoma Heart Hospital; out-of-state contributor employers include Keller Williams, Cultural Heritage Partners, Ploughshares Fund, and Sony Pictures Television. Fourteen individuals contributed over the combined FEC maximum in totals ranging from $5,425 to $8,100; all were in-state.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steve Russell for Congress had around 250 in-state and 100 out-of-state individual contributors. In-state contributor employers include OGE Energy, "Indian Tribe," Devon Energy, and Love's Travel Stops. Out-of-state contributor employers include the Lanier Law Firm, "Indian Tribe," and Cornerstone Government Affairs. Two individuals contributed over the combined FEC maximum; both $8,100, one in-state and one out-of-state.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note that Fig. 21(c) isn't shown because no transfers were recorded.
+
 
 **U.S. House, Utah District 4**
 
@@ -897,9 +950,16 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The IEs advocating the incumbent here are curious... haven't seen other contests where either type of IE was made over such an extended period of time. Seems like some kind of damage control. IEs opposing each candidate were about the same, which is interesting again in light of apparent damage control. In terms of individual contributions, these candidates are night and day. First of all, the challenger outraised overall in individual contributions, and secondly the challenger had almost as many in-state contribution dollars as the incumbent had overall dollars! Fig. 22(c) could've been expected to be a bit higher given what trouble the incumbent seemed to be in. The challenger didn't need any transfers based on how Fig. 22(b) was developing.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 22(a) shows something we haven't seen yet; IEs advocating the incumbent increasingly steadily across the term (and then faster closer to election day). These IEs advocating incumbent Mia Love were mostly from VIGOP (Virgin Islands Republican Party), including: $386K to Consolidated Mailing Services, $252K to Forthright Strategies, $152K to Direct Support Services, $44K to Legacy List Management, $38K to Integram, $28K to DSSI, and $14K to Magic Box Group. Another large one was from Congressional Leadership Fund to Nebo Media ($344K).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Fig. 22(b) shows you who will win. Plain as day.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The IEs opposing the candidates were all made starting in October 2018. The largest ones opposing Love were: Patriot Majority USA to Waterfront Strategies ($668K, also $8.8K to Three Point Media), DCCC to Amplify Media ($200K, also $13K to Murphy Vogel Askew Reilly), and LCV Victory Fund to Deliver Strategies ($19K). The IEs opposing challenger Ben McAdams were: Congressional Leadership Fund both to Nebo Media ($801K) and Ascent Media ($35K), and National Rifle Association of America Political Victory Fund to Prolist ($5K).
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 22(b) shows McAdams with a solid margin over Love starting from February 2018 in total individual contribution dollars. His lead over her in in-state individual contribution dollars is gigantic. Friends of Ben McAdams had about 1,600 in-state and 600 out-of-state individual contributors. In-state contributor employers include University of Utah, Salt Lake County, Intermountain Healthcare, and Parsons Behle & Latimer. Out-of-state contributor employers include Williams & Connolly LLP, Google, Subject Matter, Miller & Chevalier, and Akin Gump. Five individuals exceeded the combined FEC maximum in amounts ranging from $5,500 to $8,100.
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friends of Mia Love had at least 325 in-state and over 4,100 out-of-state individual contributors. In-state contributor employers include Doterra, Enerbank USA, Symphony Homes, and 4Life Research. Out-of-state contributors were mostly not employed/retired/self-employed. Seven individuals exceeded the combined FEC maximum in amounts ranging from $7,402 to $8,100.
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 22(c) shows no transfers to McAdams's committee. Friends of Mia Love received large transfers from Utah Republican Party ($123K) and Love Victory Committee ($112K).
+
 
 **U.S. House, Virginia District 10**
 
@@ -924,14 +984,37 @@ _**Back to the first scenario, this time House contests: incumbent ahead in fund
   </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 23(a) is an opposing IE battle to the end. Note that all if not most IEs advocating the incumbent were made around May 2018, whereas the ones advocating the challenger were made much close to election day. Fig. 23(b) is a very strong look for the challenger, who overtook the incumbent in July 2018 in overall individual contribution dollars and, perhaps more importantly, in in-state individual contributions. Fig. 23(c), like the previous contest we just reviewed, seems a little low for how strongly the challenger was performing in individual contributions received.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 23(a) shows there was a battle of opposing IEs starting around August 2018. The largest IE opposing challenger Jennifer Wexton by far was NRCC to Del Ray Media ($4.4M); NRCC also spent $490K to National Media Digital, $110K to Prime Media Partners, and $35K to IMGE. The large IEs opposing incumbent Barbara Comstock were: DCCC to Amplify Media ($2.6MM, also $276K to GPS Impact and $32K to Murphy Vogel Askew Reilly), Independence USA PAC to SKDKnickerbocker ($1.2MM), and Giffords PAC to the Campaign Group ($980K).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-expert diagnosis: Every candidate should want a strong in-state individual contributions surge like the challenger got in this contest.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. 23(b) is another case where the challenger's total (and in-state, specifically) individual contribution dollars gained momentum toward the end of the summer and continued through election day. Wexton for Congress's in-state dollars alone are essentially equal to Comstock's total dollars. Wexton had approximately 3,200 in-state and 2,000 out-of-state individual contributors. Nine of them contributed over the combined FEC maximum in amounts ranging from $5,800 to $9,400. The out-of-state curve also shows that she was getting attention outside of Virginia.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comstock for Congress had about 2,000 in-state and over 1,000 out-of-state individual contributors. Ten of them contributed over the combined FEC maximum; the ones contributing over $10K were:
+
+* Ann Holtzman, Mount Jackson VA, Holtzman Oil Co. executive, $14,600
+* Pamela F Bayliss, Winchester VA, homemaker, $10,800
+* Tatnall Lea Hillman, Aspen CO, retired, $10,800
+* Michael Dendy Young, Delaplane VA, McLean Capital partner, $10,800.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The largest transfers to Comstock for Congress shown in Fig. 23(c) are: Comstock Victory Fund ($349K), Protect the House ($93K), and Winning Women Victory 2018 ($72K). The largest of the tiny ones to Wexton are Digidems Committee ($23K) and Virginia House Victory Fund ($5K).
 
 
 ### Conclusion
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post was long and varied. Thanks for sticking with us! We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts or insight about what's here, please let us know either in the comments below or at contact@volsweep.com. Thanks again for reading. &#8212;_Team VolSweep_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post was long and varied. Thanks for sticking with it! The main takeaways are:
+
+* there is a relatively small number of individuals contributing disproportionately large amounts of money into elections;<br/>
+
+* many, many committees use the same treasurers;<br/>
+
+* Facebook received the most independent expenditures advocating & opposing the same Democratic and Republican candidates (other recipients received more partisan expenditures);<br/>
+
+* exceeding the combined primary/general FEC individual contribution limit of $5,400 seems very common;<br/>
+
+* independent expenditures opposing candidates appear to be effective;<br/>
+
+* total in-state individual contribution dollars are do not appear to be as good a predictor of election outcome as (approximate) total in-state individual contributors (deduplication done on first name/last name/employer).<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts or insight about what's here, please let us know either in the comments below or at contact@volsweep.com. Thanks again for reading. &#8212;_Team VolSweep_
 
 
 _**Footnotes**_
