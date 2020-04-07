@@ -8,11 +8,13 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*TL;DR We continue our investigation of FEC campaign finance data. Observations & analyses in this post include:*
 
-* *candidates linked to more committees than average,*
 * *treasurers associated with very large numbers of committees,*
+* *individuals contributing very large amounts of money to (super-)PACs,*
+* *individuals appearing to exceed maximum FEC limits,*
 * *committees making highest total independent expenditures,*
 * *who's receiving the independent expenditures and for what,*
-* *visual representation of finances for opposing candidates, and more.*
+* *visual representation of finances for opposing candidates, including...*
+* *evidence that number of in-state individual contributors may be useful in predicting election outcome.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Do you have domain knowledge of campaign finance regulations? I don't and would love to discuss. Please email contact@volsweep.com. General comments section at the bottom. See notebook links for full outputs too long to include here. Cheers, thanks for reading! &#8212;Rebecca*
 
@@ -1006,7 +1008,7 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 * there is a relatively small number of individuals contributing disproportionately large amounts of money into elections;<br/>
 
-* many, many committees use the same treasurers;<br/>
+* many, many committees use the same treasurers (whatever the significance);<br/>
 
 * Facebook received the most independent expenditures advocating & opposing the same Democratic and Republican candidates (other recipients received more globally partisan expenditures);<br/>
 
@@ -1014,9 +1016,9 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 * independent expenditures opposing candidates appear to be effective;<br/>
 
-* total in-state individual contribution dollars do not appear to be as good a predictor of election outcome as (approximate) total in-state individual contributors (deduplication done on first name/last name/employer).<br/>
+* total in-state individual contributors (approximate) appears to be a better predictor of election outcome than total in-state individual dollars contributed (deduplication of contributors done on first name/last name/employer).<br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts or insight about what's here, please let us know either in the comments below or at contact@volsweep.com. Thanks again for reading. &#8212;_Team VolSweep_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to take the info from here and add it to the models we've started building to predict election outcome. There will also be a post, possibly sooner than the prediction one, on the current state of finances in 2020 contests. If you have any thoughts or insight about what's here, please let us know either in the comments below or at contact@volsweep.com. Reminder that every calculation mentioned here is shown in the code notebooks, plus many more not mentioned. Thanks again for reading. &#8212;_Team VolSweep_
 
 
 ### Appendix
