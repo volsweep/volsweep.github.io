@@ -1021,7 +1021,7 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 ### Appendix
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you remember from &#8594;[this]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; plot in the previous FEC blog post, there is some pattern going on where Democratic challengers in House contests seem to win when the incumbent's funding is over $3-5MM, and lose when the incumbent's funding is below that. We're going to display ten instances where the incumbent was behind and lost and ten where the incumbent was behind and won. Each section is sorted in decreasing order of winner's total funds raised.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you remember from &#8594;[this]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; plot in the previous FEC blog post, there is some pattern going on where Democratic challengers in House contests seem to win when the incumbent's funding is over ~$3MM, and lose when the incumbent's funding is below that. We're going to display ten instances where the incumbent was behind and lost and ten where the incumbent was behind and won. Each section is sorted in decreasing order of winner's total funds raised.
 
 _**Scenario: incumbent behind in fundraising who lost**_
 
