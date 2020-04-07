@@ -1021,7 +1021,9 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 ### Appendix
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you remember from &#8594;[this]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; plot in the previous FEC blog post, there is some pattern going on where Democratic challengers in House contests seem to win when the incumbent's funding is over $3-5MM, and lose when the incumbent's funding is below that. We're going to display ten instances where the incumbent was behind and lost and ten where the incumbent was behind and won.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you remember from &#8594;[this]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592; plot in the previous FEC blog post, there is some pattern going on where Democratic challengers in House contests seem to win when the incumbent's funding is over $3-5MM, and lose when the incumbent's funding is below that. We're going to display ten instances where the incumbent was behind and lost and ten where the incumbent was behind and won. Each section is sorted in decreasing order of winner's total funds raised.
+
+_**Scenario: incumbent behind in fundraising who lost**_
 
 **U.S. House, New York District 19**
 
@@ -1073,19 +1075,19 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 10(a)</span><br/>
+    <span>Fig. 26(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
       <img alt="CA_10 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 10(b)</span><br/>
+    <span>Fig. 26(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
       <img alt="CA_10 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 10(c)</span><br/>
+    <span>Fig. 26(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
       <img alt="CA_10 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10c.png" style="width: 100%">
     </a>
@@ -1096,19 +1098,19 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 26(a)</span><br/>
+    <span>Fig. 27(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
       <img alt="MI_08 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 26(b)</span><br/>
+    <span>Fig. 27(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
       <img alt="MI_08 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 26(c)</span><br/>
+    <span>Fig. 27(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
       <img alt="MI_08 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08c.png" style="width: 100%">
     </a>
@@ -1119,19 +1121,19 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 27(a)</span><br/>
+    <span>Fig. 28(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
       <img alt="VA_07 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 27(b)</span><br/>
+    <span>Fig. 28(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
       <img alt="VA_07 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 27(c)</span><br/>
+    <span>Fig. 28(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
       <img alt="VA_07 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07c.png" style="width: 100%">
     </a>
@@ -1142,19 +1144,19 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 28(a)</span><br/>
+    <span>Fig. 29(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
       <img alt="CA_45 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 28(b)</span><br/>
+    <span>Fig. 29(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
       <img alt="CA_45 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 28(c)</span><br/>
+    <span>Fig. 29(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
       <img alt="CA_45 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45c.png" style="width: 100%">
     </a>
@@ -1165,19 +1167,19 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 29(a)</span><br/>
+    <span>Fig. 30(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
       <img alt="NJ_03 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 29(b)</span><br/>
+    <span>Fig. 30(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
       <img alt="NJ_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 29(c)</span><br/>
+    <span>Fig. 30(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
       <img alt="NJ_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03c.png" style="width: 100%">
     </a>
@@ -1188,19 +1190,19 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 30(a)</span><br/>
+    <span>Fig. 31(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
       <img alt="MN_03 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 30(b)</span><br/>
+    <span>Fig. 31(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
       <img alt="MN_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 30(c)</span><br/>
+    <span>Fig. 31(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
       <img alt="MN_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03c.png" style="width: 100%">
     </a>
@@ -1211,21 +1213,254 @@ _**Scenario: incumbent ahead in fundraising who lost**_
 
 <div class="clearfix">
   <div class="img-container">
-    <span>Fig. 31(a)</span><br/>
+    <span>Fig. 32(a)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
       <img alt="NJ_07 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png" style="width: 100%">
     </a>
   </div>  
   <div class="img-container">
-    <span>Fig. 31(b)</span><br/>
+    <span>Fig. 32(b)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
       <img alt="NJ_07 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
-    <span>Fig. 31(c)</span><br/>
+    <span>Fig. 32(c)</span><br/>
     <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
       <img alt="NJ_07 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+
+_**Scenario: incumbent behind in fundraising who won**_
+
+**U.S. House, Kentucky District 06**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 33(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06a.png">
+      <img alt="KY_06 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 33(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06a.png">
+      <img alt="KY_06 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 33(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06a.png">
+      <img alt="KY_06 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Texas District 23**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 34(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23a.png">
+      <img alt="TX_23 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 34(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23a.png">
+      <img alt="TX_23 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 34(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23a.png">
+      <img alt="TX_23 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, New York District 01**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 35(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01a.png">
+      <img alt="NY_01 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 35(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01a.png">
+      <img alt="NY_01 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 35(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01a.png">
+      <img alt="NY_01 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Illinois District 13**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 36(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13a.png">
+      <img alt="IL_13 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 36(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13a.png">
+      <img alt="IL_13 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 36(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13a.png">
+      <img alt="IL_13 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Pennsylvania District 01**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 37(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01a.png">
+      <img alt="PA_01 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 37(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01a.png">
+      <img alt="PA_01 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 37(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01a.png">
+      <img alt="PA_01 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Indiana District 02**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 38(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02a.png">
+      <img alt="IN_02 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 38(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02a.png">
+      <img alt="IN_02 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 38(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02a.png">
+      <img alt="IN_02 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Illinois District 12**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 39(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/ILcumbentwon/IL12a.png">
+      <img alt="IL_12 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL12a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 39(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/ILcumbentwon/IL12a.png">
+      <img alt="IL_12 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL12b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 39(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/ILcumbentwon/IL12a.png">
+      <img alt="IL_12 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL12c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Washington District 03**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 40(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03a.png">
+      <img alt="WA_03 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 40(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03a.png">
+      <img alt="WA_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 40(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03a.png">
+      <img alt="WA_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Nebraska District 02**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 41(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02a.png">
+      <img alt="NE_02 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 41(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02a.png">
+      <img alt="NE_02 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 41(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02a.png">
+      <img alt="NE_02 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02c.png" style="width: 100%">
+    </a>
+  </div>
+</div>
+
+**U.S. House, Ohio District 12**
+
+<div class="clearfix">
+  <div class="img-container">
+    <span>Fig. 42(a)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12a.png">
+      <img alt="OH_12 committee contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12a.png" style="width: 100%">
+    </a>
+  </div>  
+  <div class="img-container">
+    <span>Fig. 42(b)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12a.png">
+      <img alt="OH_12 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12b.png" style="width: 100%">
+    </a>
+  </div>
+  <div class="img-container">
+    <span>Fig. 42(c)</span><br/>
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12a.png">
+      <img alt="OH_12 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12c.png" style="width: 100%">
     </a>
   </div>
 </div>
