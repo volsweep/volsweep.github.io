@@ -16,10 +16,10 @@ tags: ["FEC", "campaign finance", "2018 elections", "data science", "EDA"]
 * *visual representation of finances for opposing candidates, including...*
 * *evidence that number of in-state individual contributors may be useful in predicting election outcome.*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Do you have domain knowledge of campaign finance regulations? I don't and would love to discuss. Please email contact@volsweep.com. General comments section at the bottom. See notebook links for full outputs too long to include here. Cheers, thanks for reading! &#8212;Rebecca*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Do you have domain knowledge of campaign finance regulations? I don't and would love to discuss. Please email contact@volsweep.com. General comments section at the bottom. Cheers, thanks for reading! &#8212;Rebecca*
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. (Recap: incumbents usually lead in fundraising and win. There appear to be some patterns in the exceptions.) This post will be a more in-depth look at the full set of data that the FEC publishes.[^1] As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^2]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &#8594;[first post](https://blog.volsweep.com/blog/2019/12/12/2018-Campaign-Finance_I.html)&#8592; in this series was an overview of trends and exceptions in Congressional midterm contests with respect to party affiliation, incumbency status, and relative funding status. (Recap: incumbents usually lead in fundraising and win. There appear to be some patterns in the exceptions.) This post will be a more in-depth look at the full set of data that the FEC publishes.[^1] As before, all relevant code is in &#8594;[this](https://github.com/volsweep/volsweep.github.io/tree/master/projects/FEC/2018)&#8592; GitHub repo.[^2] See notebook links for full outputs too long to include here. Documentation will improve in the future! Please ask any/all question until then (and after, too).
 
 
 ### Data Set 1: "House/Senate current campaigns"
