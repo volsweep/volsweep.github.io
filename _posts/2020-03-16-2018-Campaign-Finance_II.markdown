@@ -417,7 +417,7 @@ _Example #4_<br/>
   * Missouri Rising Action &#8212; $1.2MM.<br/><br/>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the previous FEC blog post in mind, let's go through some contests' cumulative financial plots to see what the fundraising landscape was like leading up to election day. We'll keep an eye out for things like who has more opposition money spent against them (usually in the form of attack ads), who has a higher in-state to out-of-state individual contributions ratio, etc. The statistical modeling in a future post will help us quantify the significance of these observations; right now, we're exploring the scene. As a refresher, see the Senate contest fundraising overview plot &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; and the House one (without contests where incumbents ahead in fundraising won) &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592;. Remember, we're only looking at contests with an incumbent running (i.e., not open seats). The faint vertical lines that are the same in every plot are FEC filing deadlines and election day.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the previous FEC blog post in mind, let's go through some contests' cumulative financial plots to see what the fundraising landscape was like leading up to election day. We'll keep an eye out for things like who has more opposition money spent against them (usually in the form of attack ads), who has a higher in-state to out-of-state individual contributions ratio, etc. The statistical modeling in a future post will help us quantify the significance of these observations; right now, we're exploring the scene. As a refresher, see the Senate contest fundraising overview plot &#8594;[here]({{ site.url }}/assets/FECpt1/senate_2018.png)&#8592; and the House one (without contests where incumbents ahead in fundraising won) &#8594;[here]({{ site.url }}/assets/FECpt1/house_2018_unexpecteds.png)&#8592;. Remember, we're only looking at contests with one incumbent running (i.e., no open seats, no unopposed incumbents, and no contests with more than one incumbent (it did happen once in 2018 due to redistricting)). The faint vertical lines that are the same in every plot are FEC filing deadlines and election day.
 
 
 _**Scenario: incumbent ahead in fundraising who won**_
@@ -460,7 +460,7 @@ _**Scenario: incumbent ahead in fundraising who won**_
 
 _**Scenario: incumbent behind in fundraising who won**_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in the Senate contests are Texas incumbent Ted Cruz's win over challenger/leading fundraiser Beto O'Rourke and New Jersey incumbent Bob Menendez's win over challenger/leading fundraiser Bob Hugin. There are many House contests with Republican incumbents satisfying this scenario; the only one with a Democratic incumbent is Pennsylvania District 8, where incumbent Matt Cartwright beat challenger/leading fundraiser John Chrin. The ones with Republican incumbents will be included in the appendix.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two instances of this scenario in the Senate contests are Texas incumbent Ted Cruz's win over challenger/leading fundraiser Beto O'Rourke and New Jersey incumbent Bob Menendez's win over challenger/leading fundraiser Bob Hugin. There are many House contests with Republican incumbents satisfying this scenario; the only one with a Democratic incumbent is Pennsylvania District 8, where incumbent Matt Cartwright beat challenger/leading fundraiser John Chrin. The ones with Republican incumbents will appear in the appendix.
 
 **U.S. Senate, Texas**
 
@@ -1038,13 +1038,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 24(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19b.png">
       <img alt="NY_19 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 24(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19c.png">
       <img alt="NY_19 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NY19c.png" style="width: 100%">
     </a>
   </div>
@@ -1061,13 +1061,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 25(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25b.png">
       <img alt="CA_25 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 25(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25c.png">
       <img alt="CA_25 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA25c.png" style="width: 100%">
     </a>
   </div>
@@ -1084,13 +1084,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 26(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10b.png">
       <img alt="CA_10 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 26(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10c.png">
       <img alt="CA_10 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA10c.png" style="width: 100%">
     </a>
   </div>
@@ -1107,13 +1107,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 27(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08b.png">
       <img alt="MI_08 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 27(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08c.png">
       <img alt="MI_08 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MI08c.png" style="width: 100%">
     </a>
   </div>
@@ -1130,13 +1130,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 28(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07b.png">
       <img alt="VA_07 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 28(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07c.png">
       <img alt="VA_07 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/VA07c.png" style="width: 100%">
     </a>
   </div>
@@ -1153,13 +1153,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 29(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45b.png">
       <img alt="CA_45 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 29(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45c.png">
       <img alt="CA_45 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/CA45c.png" style="width: 100%">
     </a>
   </div>
@@ -1176,13 +1176,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 30(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03b.png">
       <img alt="NJ_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 30(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03c.png">
       <img alt="NJ_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ03c.png" style="width: 100%">
     </a>
   </div>
@@ -1199,13 +1199,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 31(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03b.png">
       <img alt="MN_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 31(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03c.png">
       <img alt="MN_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/MN03c.png" style="width: 100%">
     </a>
   </div>
@@ -1222,13 +1222,13 @@ _**Scenario: incumbent behind in fundraising who lost**_
   </div>  
   <div class="img-container">
     <span>Fig. 32(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07b.png">
       <img alt="NJ_07 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 32(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07c.png">
       <img alt="NJ_07 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentlost/NJ07c.png" style="width: 100%">
     </a>
   </div>
@@ -1248,13 +1248,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 33(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06b.png">
       <img alt="KY_06 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 33(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06c.png">
       <img alt="KY_06 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/KY06c.png" style="width: 100%">
     </a>
   </div>
@@ -1271,13 +1271,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 34(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23b.png">
       <img alt="TX_23 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 34(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23c.png">
       <img alt="TX_23 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/TX23c.png" style="width: 100%">
     </a>
   </div>
@@ -1294,13 +1294,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 35(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01b.png">
       <img alt="NY_01 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 35(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01c.png">
       <img alt="NY_01 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NY01c.png" style="width: 100%">
     </a>
   </div>
@@ -1317,13 +1317,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 36(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13b.png">
       <img alt="IL_13 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 36(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13c.png">
       <img alt="IL_13 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL13c.png" style="width: 100%">
     </a>
   </div>
@@ -1340,13 +1340,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 37(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01b.png">
       <img alt="PA_01 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 37(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01c.png">
       <img alt="PA_01 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/PA01c.png" style="width: 100%">
     </a>
   </div>
@@ -1363,13 +1363,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 38(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02b.png">
       <img alt="IN_02 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 38(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02c.png">
       <img alt="IN_02 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IN02c.png" style="width: 100%">
     </a>
   </div>
@@ -1386,13 +1386,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 39(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/ILcumbentwon/IL12a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/ILcumbentwon/IL12b.png">
       <img alt="IL_12 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL12b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 39(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/ILcumbentwon/IL12a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/ILcumbentwon/IL12c.png">
       <img alt="IL_12 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/IL12c.png" style="width: 100%">
     </a>
   </div>
@@ -1409,13 +1409,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 40(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03b.png">
       <img alt="WA_03 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 40(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03c.png">
       <img alt="WA_03 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/WA03c.png" style="width: 100%">
     </a>
   </div>
@@ -1432,13 +1432,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 41(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02b.png">
       <img alt="NE_02 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 41(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02c.png">
       <img alt="NE_02 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/NE02c.png" style="width: 100%">
     </a>
   </div>
@@ -1455,13 +1455,13 @@ _**Scenario: incumbent behind in fundraising who won**_
   </div>  
   <div class="img-container">
     <span>Fig. 42(b)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12b.png">
       <img alt="OH_12 individual contributions" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12b.png" style="width: 100%">
     </a>
   </div>
   <div class="img-container">
     <span>Fig. 42(c)</span><br/>
-    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12a.png">
+    <a href="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12c.png">
       <img alt="OH_12 transfers between committees" src="{{ site.url }}/assets/FECpt2/appendix/incumbentwon/OH12c.png" style="width: 100%">
     </a>
   </div>
